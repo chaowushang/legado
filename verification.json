@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-09-24",
+  "scope": "HTTP + HTML/JSON extraction; not executed by Android Legado",
+  "sources": [
+    {
+      "name": "速读谷",
+      "searchResults": 25,
+      "sampleBook": "苟在两界修仙",
+      "chapterCount": 757,
+      "chapterPageTextLengths": [
+        745,
+        928,
+        977,
+        128
+      ],
+      "nextPageStopsAtChapterEnd": true,
+      "additionalChecks": {
+        "discoveryResults": 20,
+        "searchFirstResultTocPage1": 1000,
+        "tocPage2Count": 1000,
+        "searchFirstResultContentPassed": true
+      }
+    },
+    {
+      "name": "话本",
+      "searchPages": [
+        1,
+        2
+      ],
+      "resultsPerPage": [
+        10,
+        10
+      ],
+      "sampleBook": "穿越魔道之改命",
+      "chapterCount": 1175,
+      "testedChapterType": "FREE",
+      "contentLength": 1377
+    }
+  ]
+}

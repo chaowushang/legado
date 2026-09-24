@@ -1,0 +1,92 @@
+[
+  {
+    "bookSourceType": 0,
+    "bookSourceGroup": "精选·2026-09实测",
+    "enabled": true,
+    "enabledCookieJar": false,
+    "concurrentRate": "1500",
+    "lastUpdateTime": 1790259194647,
+    "weight": 0,
+    "bookSourceName": "速读谷·新版",
+    "bookSourceUrl": "https://www.sudugu.cc",
+    "customOrder": 0,
+    "enabledExplore": true,
+    "bookSourceComment": "2026-09-24：修正旧 .co 域名及搜索结构，网页样本验证搜索、目录和正文四页拼接；尚未在手机 Legado 内实测。网站搜索不提供分页。",
+    "searchUrl": "/modules/article/search.php,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&action=login&searchtype=all&submit=\"}",
+    "exploreUrl": "最近更新::/top/lastupdate/{{page}}.html",
+    "ruleSearch": {
+      "bookList": ".item",
+      "name": "h3 a@text",
+      "bookUrl": "h3 a@href",
+      "author": "li.0@text##^作者：",
+      "intro": ".itemtxt p@text##^简介：",
+      "lastChapter": "li a@text",
+      "checkKeyWord": "修仙"
+    },
+    "ruleBookInfo": {
+      "name": ".item h1 a@text",
+      "author": ".itemtxt p.1 a@text##^作者：",
+      "coverUrl": ".item img@src",
+      "intro": ".des@text",
+      "kind": ".itemtxt p.0@text",
+      "lastChapter": ".itemtxt li.0 a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "@css:#pages .gr:not([href=\"#\"])@href"
+    },
+    "ruleContent": {
+      "content": ".con@html",
+      "nextContentUrl": "//div[@class='prenext']/span/a[text()='下一页']/@href"
+    },
+    "ruleExplore": {
+      "bookList": ".item",
+      "name": "img@alt",
+      "bookUrl": "a.0@href",
+      "author": ".itemtxt p.1 a@text##^作者：",
+      "coverUrl": "img@src",
+      "lastChapter": ".itemtxt li.0 a@text"
+    }
+  },
+  {
+    "bookSourceType": 0,
+    "bookSourceGroup": "精选·2026-09实测",
+    "enabled": true,
+    "enabledCookieJar": false,
+    "concurrentRate": "1500",
+    "lastUpdateTime": 1790259194647,
+    "weight": 0,
+    "bookSourceName": "话本·公开章节",
+    "bookSourceUrl": "https://www.ihuaben.com",
+    "customOrder": 1,
+    "enabledExplore": false,
+    "bookSourceComment": "基于用户原书源更新：搜索支持 page 翻页，封面改用 HTTPS，保留公开章节接口。2026-09-24 搜索两页、目录及首个 FREE 正文验证通过；付费章节不保证可读，尚未在手机 Legado 内实测。",
+    "searchUrl": "https://www.ihuaben.com/app/search?indexName=book&keyword={{key}}&page={{page}}",
+    "ruleSearch": {
+      "bookList": "$.pageUtil.pageList",
+      "name": "$.bookname",
+      "author": "$.authorname",
+      "bookUrl": "https://cdncn.ihuaben.com/cdn/chapters/{{$.bookid}}/{{$.updatetime}}000",
+      "coverUrl": "https://piccn.ihuaben.com/{{$.bookpic}}",
+      "intro": "$.bookinfo",
+      "kind": "$.bookmarks",
+      "lastChapter": "$.lastchaptertitle",
+      "wordCount": "$.wordcount",
+      "checkKeyWord": "穿越"
+    },
+    "ruleBookInfo": {},
+    "ruleToc": {
+      "chapterList": "$.modelData.chapters",
+      "chapterName": "$.title",
+      "chapterUrl": "https://cdncn.ihuaben.com/cdn/chapter/{{$.bookId}}/{{$.chapterId}}/{{$.updateTime}}",
+      "isVip": "$.chapterType@js:result != \"FREE\"",
+      "updateTime": "{{$.wordCount}}字"
+    },
+    "ruleContent": {
+      "content": "$.modelData.content",
+      "replaceRegex": "##\\[img:(.*?)\\]##<img src=\"https://piccn.ihuaben.com/$1\">"
+    }
+  }
+]
