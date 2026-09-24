@@ -1,0 +1,923 @@
+{
+  "originalCount": 90,
+  "generatedAt": "2026-09-24T15:07:05.314Z",
+  "sources": [
+    {
+      "index": 0,
+      "name": "全本同人小说网",
+      "url": "https://www.qbtr.org",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:00.379Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 1,
+      "name": "七猫小说",
+      "url": "https://api-bc.wtzw.com",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:00.383Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 2,
+      "name": "4电子书",
+      "url": "http://m.4020xs.com",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:45:46.676Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 3,
+      "name": "🎃淘小说吧🎃",
+      "url": "https://tybook.taoyuewenhua.net#🎃",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:00.408Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 4,
+      "name": "松鹤阅读",
+      "url": "DQuestQBall",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:00.410Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 5,
+      "name": "⭐ 酷我小说",
+      "url": "http://appi.kuwo.cn",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:00.410Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 6,
+      "name": "错层小说",
+      "url": "https://m.cuoceng.com/",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:00.668Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 7,
+      "name": "话本",
+      "url": "https://www.ihuaben.com#🎃",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "保留或合并同站规则",
+      "replacement": "https://www.ihuaben.com",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:33:01.362Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 8,
+      "name": "🎉 独步小说",
+      "url": "https://www.dbxsn.com",
+      "originalGroup": "🎉 精选",
+      "disposition": "保留或合并同站规则",
+      "replacement": "https://www.dbxsn.com",
+      "lastEngineStatus": "anonymous_candidate",
+      "checkedAt": "2026-09-24T14:33:01.567Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 9,
+      "name": "笔趣阁11",
+      "url": "http://www.bbiquge8.net",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:02.268Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 10,
+      "name": "⭐️ 企鹅阅读",
+      "url": "https://bookshelf.html5.qq.com",
+      "originalGroup": "💠 综合",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:02.268Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 11,
+      "name": "文桑小说（优）",
+      "url": "http://www.wensang.net",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://www.wensang.net",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:45:46.752Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 12,
+      "name": "盗版顶点",
+      "url": "http://api.daislou.com/novel",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:03.098Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 13,
+      "name": "QQ浏览器",
+      "url": "https://so.html5.qq.com#🎃",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:03.098Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 14,
+      "name": "💰 起点中文",
+      "url": "https://www.qidian.com",
+      "originalGroup": "💰 正版",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:03.392Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 15,
+      "name": "🎉 独步小说",
+      "url": "https://www.dbxsd.com",
+      "originalGroup": "💠 综合",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "anonymous_candidate",
+      "checkedAt": "2026-09-24T14:33:03.607Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 16,
+      "name": "手机版平板电子书网",
+      "url": "http://wap.qiqixs.info",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:03.797Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 17,
+      "name": "森林文学",
+      "url": "http://23.224.242.55/",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:45:46.818Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 18,
+      "name": "文桑小说",
+      "url": "http://www.wensang.net#🎃",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://www.wensang.net",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:45:46.881Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 19,
+      "name": "㊣梧桐中文 #一程1201",
+      "url": "https://www.wtzw.com#yc1101",
+      "originalGroup": "💠 综合",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:11.800Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 20,
+      "name": "🎉 狗狗书籍",
+      "url": "http://www.qiushu.info",
+      "originalGroup": "💠 综合",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://www.qiushu.info",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:46:14.425Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 21,
+      "name": "悠久小说",
+      "url": "http://wap.ujxsw.org/##@鱼",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:13.313Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 22,
+      "name": "猫眼看书",
+      "url": "http://api.myweipin.com",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:14.560Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 23,
+      "name": "阿巴小说",
+      "url": "http://xiaoshuo.uc.cn",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:14.560Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 24,
+      "name": "滋滋读书",
+      "url": "http://www.zzdushu.com#🎃",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:14.975Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 25,
+      "name": "阅读书库",
+      "url": "http://www.yeudusk.com/",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:46:15.005Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 26,
+      "name": "起点(部分可看)",
+      "url": "https://m.qidian.com##限免部分书",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:15.870Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 27,
+      "name": "就去看-97k[仅发现]",
+      "url": "https://www.97k.cc",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:15.871Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 28,
+      "name": "️读书网",
+      "url": "https://www.dushu.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:33:15.872Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 29,
+      "name": "捆绑小说",
+      "url": "http://www.uuwx.la",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://www.uuwx.la",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:46:16.622Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 30,
+      "name": "️连城读书 API",
+      "url": "http://h5.lc1001.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:18.359Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 31,
+      "name": "书法小说（优+）",
+      "url": "http://www.sfwx.com/",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:19.929Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 32,
+      "name": "鬼吹灯#3",
+      "url": "http://www.cxzz.com#🎃",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://www.cxzz.com#🎃",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:46:27.930Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 33,
+      "name": "酷书阁小说网",
+      "url": "https://www.kushuge.com",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "保留或合并同站规则",
+      "replacement": "https://www.kushuge.com",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:33:21.473Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 34,
+      "name": "阅友小说[si]",
+      "url": "http://m.suixkan.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:26.893Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 35,
+      "name": "🎉 阅友小说",
+      "url": "https://sma.yueyouxs.com",
+      "originalGroup": "💠 综合",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:27.376Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 36,
+      "name": "顾淮小说",
+      "url": "https://read.xiaoshuo1-sm.com",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:28.122Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 37,
+      "name": "小说阅读网",
+      "url": "https://novel.cooks.tw#🎃",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:28.122Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 38,
+      "name": "奈奈COS",
+      "url": "https://www.nncos.com/",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "非本次文字小说范围",
+      "lastEngineStatus": "excluded",
+      "checkedAt": "2026-09-24T14:33:28.123Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 39,
+      "name": "💐 言情小说",
+      "url": "https://www.yqk.net",
+      "originalGroup": "💐 女频",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:28.123Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 40,
+      "name": "️咪咕阅读",
+      "url": "https://n.cmread.com/r/p/zonghesywap.jsp",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:29.662Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 41,
+      "name": "精华书阁",
+      "url": "https://m.jhsssd.com/",
+      "originalGroup": "💠 综合",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:29.663Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 42,
+      "name": "香书小说",
+      "url": "https://www.ibiquges.com/",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:29.816Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 43,
+      "name": "笔趣阁#86",
+      "url": "http://www.miaobige.cc#🎃",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:30.475Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 44,
+      "name": "️苦瓜书盘（导）",
+      "url": "https://kgbook.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:33.405Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 45,
+      "name": "猫眼看书（优++）",
+      "url": "http://api.lfdapengu.com",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:33.406Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 46,
+      "name": "️笔尚小说",
+      "url": "https://www.bsxiaoshuo.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:33.407Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 47,
+      "name": "笔趣阁小说网",
+      "url": "https://www.biqu5200.com/",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:33.407Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 48,
+      "name": "️安之原创 一程",
+      "url": "http://www.azycjd.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://www.azycjd.com",
+      "lastEngineStatus": "anonymous_candidate",
+      "checkedAt": "2026-09-24T14:33:34.389Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 49,
+      "name": "17k小说◎辞晨◎",
+      "url": "https://www.171k.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "保留或合并同站规则",
+      "replacement": "https://www.171k.com",
+      "lastEngineStatus": "anonymous_candidate",
+      "checkedAt": "2026-09-24T14:33:38.194Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 50,
+      "name": "多看阅读",
+      "url": "https://www.dkmi.com",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:41.026Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 51,
+      "name": "思路客#",
+      "url": "http://www.silukezw.com#🎃",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:41.027Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 52,
+      "name": "九九藏书网",
+      "url": "https://www.sangshixs.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:43.543Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 53,
+      "name": "涩涩俱乐部",
+      "url": "https://seseclub.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "excluded",
+      "checkedAt": "2026-09-24T14:33:43.544Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 54,
+      "name": "搜读小说网",
+      "url": "http://www.sdxs.cc",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:43.544Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 55,
+      "name": "耽美小说",
+      "url": "https://www.dmwx.org/",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:45.774Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 56,
+      "name": "紫云宫ᵃ",
+      "url": "https://www.ziyungong.cc",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:46:34.668Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 57,
+      "name": "大灰狼小说5能看番茄",
+      "url": "https://v10.czyl.cf#小说/",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:51.102Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 58,
+      "name": "亲亲小说网",
+      "url": "http://www.qq787.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:51.103Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 59,
+      "name": "茶马小说",
+      "url": "https://www.chamabooks.net",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:51.354Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 60,
+      "name": "品书小说网8",
+      "url": "http://www.pinshu8.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:33:51.355Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 61,
+      "name": "乡土小说",
+      "url": "https://www.xiangtxsw.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "保留或合并同站规则",
+      "replacement": "https://www.xiangtxsw.com",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:33:54.049Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 62,
+      "name": "久久小说（下载源）",
+      "url": "http://m.9191net.com/",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:33:54.723Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 63,
+      "name": "红牛资源",
+      "url": "https://hongniuziyuan.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "非本次文字小说范围",
+      "lastEngineStatus": "excluded",
+      "checkedAt": "2026-09-24T14:33:55.825Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 64,
+      "name": "松鹤庭沐（优）",
+      "url": "https://so.html5.qq.com",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:55.825Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 65,
+      "name": "️修真堂吧",
+      "url": "https://www.xiuzhent.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:56.484Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 66,
+      "name": "️看点中文网",
+      "url": "https://www.kandzww.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:58.887Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 67,
+      "name": "📚 中华典藏",
+      "url": "https://www.diancang.xyz",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:33:58.888Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 68,
+      "name": "️海棠书屋",
+      "url": "https://234.234516.xyz",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "excluded",
+      "checkedAt": "2026-09-24T14:33:58.889Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 69,
+      "name": "轻说百科",
+      "url": "https://lnovel.tw",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "保留或合并同站规则",
+      "replacement": "https://lnovel.tw",
+      "lastEngineStatus": "anonymous_candidate",
+      "checkedAt": "2026-09-24T14:33:58.889Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 70,
+      "name": "平板电子书网",
+      "url": "http://wap.qiqixs.info/",
+      "originalGroup": "💠 综合",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:33:59.755Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 71,
+      "name": "恩京书房",
+      "url": "https://www.enjing.net#🎃",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "error",
+      "checkedAt": "2026-09-24T14:34:04.124Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 72,
+      "name": "十八书屋",
+      "url": "https://www.shibashuwu.net/",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "excluded",
+      "checkedAt": "2026-09-24T14:34:07.144Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 73,
+      "name": "总裁小说",
+      "url": "https://www.zongcaixiaoshuow.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:34:07.145Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 74,
+      "name": "QQ阅读",
+      "url": "https://book.qq.com/##闫",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:34:07.145Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 75,
+      "name": "顶点小说⑤",
+      "url": "http://www.23us.tw/",
+      "originalGroup": "💠 综合",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://www.23us.tw/",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:46:36.996Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 76,
+      "name": "️w黑岩小说",
+      "url": "https://w.heiyan.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:34:08.223Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 77,
+      "name": "南极",
+      "url": "🐧",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:34:08.224Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 78,
+      "name": "文学吧",
+      "url": "https://www.wenxue88.com#",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:34:09.580Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 79,
+      "name": "️逐浪小说",
+      "url": "https://m.zhulang.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "保留或合并同站规则",
+      "replacement": "https://m.zhulang.com",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:34:09.581Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 80,
+      "name": "企鹅浏览",
+      "url": "https://novel.html5.qq.com",
+      "originalGroup": "儒雅,🎉 精选",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:34:12.516Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 81,
+      "name": "阅友小说",
+      "url": "http://m.yueyouxs.com",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://m.yueyouxs.com",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:34:13.155Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 82,
+      "name": "云起书院",
+      "url": "https://yunqi.qq.com#🎃",
+      "originalGroup": "🎉 精选,0723",
+      "disposition": "保留或合并同站规则",
+      "replacement": "https://yunqi.qq.com#🎃",
+      "lastEngineStatus": "anonymous_candidate",
+      "checkedAt": "2026-09-24T14:34:14.380Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 83,
+      "name": "猫眼看书",
+      "url": "http://api.jmlldsc.com##@曦灵",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "failed",
+      "checkedAt": "2026-09-24T14:46:48.267Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 84,
+      "name": "未来天王",
+      "url": "http://www.weilaitianwang.info#🎃",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:46:49.826Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 85,
+      "name": "梦想家文学",
+      "url": "http://www.mxjtedu.com/",
+      "originalGroup": "⭐️ API",
+      "disposition": "保留或合并同站规则",
+      "replacement": "http://www.mxjtedu.com/",
+      "lastEngineStatus": "passed",
+      "checkedAt": "2026-09-24T14:46:52.301Z",
+      "note": "以 verification.json 最终复测为准"
+    },
+    {
+      "index": 86,
+      "name": "🔞搬山人小说网",
+      "url": "https://www.banshanren.com/",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "excluded",
+      "checkedAt": "2026-09-24T14:34:19.051Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 87,
+      "name": "🌸爱丽丝书屋(免翻)",
+      "url": "https://xn--vcsx64d.alicesw12.xyz/",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "excluded",
+      "checkedAt": "2026-09-24T14:34:19.052Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 88,
+      "name": "月亮小说",
+      "url": "https://ylxs.de/",
+      "originalGroup": "⭐️ API",
+      "disposition": "未入选，需复核或有更合适替代",
+      "lastEngineStatus": "needs_app_review",
+      "checkedAt": "2026-09-24T14:34:19.052Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    },
+    {
+      "index": 89,
+      "name": "Hentai Cosplay",
+      "url": "https://hentai-cosplay-xxx.com/",
+      "originalGroup": "⭐️ API",
+      "disposition": "非本次文字小说范围",
+      "lastEngineStatus": "excluded",
+      "checkedAt": "2026-09-24T14:34:19.053Z",
+      "note": "早期检测受压缩/引擎兼容影响；未入选不等于永久失效"
+    }
+  ]
+}

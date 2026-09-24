@@ -1,0 +1,564 @@
+{
+  "generatedAt": "2026-09-24T15:07:05.314Z",
+  "notice": "规则来源与原作者归属保留于原链接。本仓库整理与修订规则，不收录小说正文，不对第三方规则授予新许可。",
+  "sources": [
+    {
+      "name": "速读谷·新版",
+      "url": "https://www.sudugu.cc",
+      "origin": "local",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 0,
+      "originalRuleId": "5e29a409d65608f9",
+      "active": true
+    },
+    {
+      "name": "话本·公开章节",
+      "url": "https://www.ihuaben.com",
+      "origin": "local",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 1,
+      "originalRuleId": "8a989c9589ffab95",
+      "active": true
+    },
+    {
+      "name": "阅友小说",
+      "url": "http://m.yueyouxs.com",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 81,
+      "originalRuleId": "71aa9bd9c16b935b",
+      "active": true
+    },
+    {
+      "name": "逐浪小说",
+      "url": "https://m.zhulang.com",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 79,
+      "originalRuleId": "0984a1e53dd38253",
+      "active": true
+    },
+    {
+      "name": "文桑小说",
+      "url": "http://www.wensang.net",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 11,
+      "originalRuleId": "9f85e20a3b787a74",
+      "active": true
+    },
+    {
+      "name": "狗狗书籍",
+      "url": "http://www.qiushu.info",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 20,
+      "originalRuleId": "628c25d44484deda",
+      "active": true
+    },
+    {
+      "name": "独步小说",
+      "url": "https://www.dbxsn.com",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 8,
+      "originalRuleId": "b08871db5dfc5fa3",
+      "active": true
+    },
+    {
+      "name": "捆绑小说",
+      "url": "http://www.uuwx.la",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 29,
+      "originalRuleId": "7a2447c22074feea",
+      "active": true
+    },
+    {
+      "name": "乡土小说",
+      "url": "https://www.xiangtxsw.com",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 61,
+      "originalRuleId": "6a58d3a8d7d31b0e",
+      "active": true
+    },
+    {
+      "name": "鬼吹灯",
+      "url": "http://www.cxzz.com#🎃",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 32,
+      "originalRuleId": "7fa2654cb6475eb8",
+      "active": true
+    },
+    {
+      "name": "梦想家文学",
+      "url": "http://www.mxjtedu.com/",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 85,
+      "originalRuleId": "72dc4d77472c75f2",
+      "active": true
+    },
+    {
+      "name": "顶点小说",
+      "url": "http://www.23us.tw/",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 75,
+      "originalRuleId": "e3dc9124792681bc",
+      "active": true
+    },
+    {
+      "name": "云起书院",
+      "url": "https://yunqi.qq.com#🎃",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 82,
+      "originalRuleId": "d2fb19d9df5fa18c",
+      "active": true
+    },
+    {
+      "name": "安之原创",
+      "url": "http://www.azycjd.com",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 48,
+      "originalRuleId": "fc177c038ac943d0",
+      "active": true
+    },
+    {
+      "name": "轻说百科",
+      "url": "https://lnovel.tw",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 69,
+      "originalRuleId": "3546c2bce6ef0183",
+      "active": true
+    },
+    {
+      "name": "酷书阁小说网",
+      "url": "https://www.kushuge.com",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 33,
+      "originalRuleId": "d7e0575cfbb96268",
+      "active": true
+    },
+    {
+      "name": "17k小说（171k.com）",
+      "url": "https://www.171k.com",
+      "origin": "original",
+      "upstream": "https://shuyuan.mgz6.com/shuyuan/60ad700d9db9869ecc372392ac2d3c40.json",
+      "originalCandidateIndex": 49,
+      "originalRuleId": "c35d147382992211",
+      "active": true
+    },
+    {
+      "name": "笔趣阁（biquge7.xyz）",
+      "url": "https://www.biquge7.xyz#",
+      "origin": "yck-1277",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1277.html",
+      "originalCandidateIndex": 69,
+      "originalRuleId": "0ccecdb591e7e4f4",
+      "active": true
+    },
+    {
+      "name": "泡书吧",
+      "url": "http://www.paoshu8.com",
+      "origin": "yck-1277",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1277.html",
+      "originalCandidateIndex": 35,
+      "originalRuleId": "017fc2bcf19292fa",
+      "active": true
+    },
+    {
+      "name": "夜伴书屋",
+      "url": "https://www.yybsw.com#🎃",
+      "origin": "yck-1292",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1292.html",
+      "originalCandidateIndex": 5,
+      "originalRuleId": "ef19170d980684a1",
+      "active": true
+    },
+    {
+      "name": "稻草书屋",
+      "url": "https://www.dcrbk.com",
+      "origin": "yck-1277",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1277.html",
+      "originalCandidateIndex": 46,
+      "originalRuleId": "80de7d9b111862d9",
+      "active": true
+    },
+    {
+      "name": "笔趣阁（bqquge.org）",
+      "url": "https://www.bqquge.org",
+      "origin": "yck-1292",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1292.html",
+      "originalCandidateIndex": 25,
+      "originalRuleId": "7e0d9e05602d87e3",
+      "active": true
+    },
+    {
+      "name": "奇书网包",
+      "url": "http://www.xqishuta.com#",
+      "origin": "yck-1277",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1277.html",
+      "originalCandidateIndex": 54,
+      "originalRuleId": "b8a67cb1f06879ec",
+      "active": true
+    },
+    {
+      "name": "爱看小说",
+      "url": "http://m.2kk.la#",
+      "origin": "yck-1277",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1277.html",
+      "originalCandidateIndex": 119,
+      "originalRuleId": "fa29dc48993516d3",
+      "active": true
+    },
+    {
+      "name": "衍墨轩",
+      "url": "https://www.ymxshuwu.com#🎃",
+      "origin": "yck-1292",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1292.html",
+      "originalCandidateIndex": 19,
+      "originalRuleId": "bb02319d4a83830f",
+      "active": true
+    },
+    {
+      "name": "无错",
+      "url": "https://www.wcshuba.com",
+      "origin": "yck-1292",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1292.html",
+      "originalCandidateIndex": 1,
+      "originalRuleId": "26ee563efea38d18",
+      "active": true
+    },
+    {
+      "name": "得奇小说网",
+      "url": "https://www.deqixs.org",
+      "origin": "yck-1286",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1286.html",
+      "originalCandidateIndex": 5,
+      "originalRuleId": "21fe4e52b21c68b9",
+      "active": true
+    },
+    {
+      "name": "无极书院",
+      "url": "http://m.wjzxchina.com",
+      "origin": "yck-1286",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1286.html",
+      "originalCandidateIndex": 31,
+      "originalRuleId": "ba3aad3756bacce2",
+      "active": true
+    },
+    {
+      "name": "思兔阅读",
+      "url": "https://www.sto66.com",
+      "origin": "yck-1292",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1292.html",
+      "originalCandidateIndex": 22,
+      "originalRuleId": "c92c6f6c975d768f",
+      "active": true
+    },
+    {
+      "name": "星星小说网",
+      "url": "https://m.xiifan.com/",
+      "origin": "yck-1292",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1292.html",
+      "originalCandidateIndex": 13,
+      "originalRuleId": "63612aa8731e867d",
+      "active": true
+    },
+    {
+      "name": "瀚海书阁",
+      "url": "https://www.ingml.cc",
+      "origin": "yck-1286",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1286.html",
+      "originalCandidateIndex": 11,
+      "originalRuleId": "cbd33a7633f918d0",
+      "active": true
+    },
+    {
+      "name": "18笔趣阁",
+      "url": "https://www.bqgns.com",
+      "origin": "yck-1277",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1277.html",
+      "originalCandidateIndex": 144,
+      "originalRuleId": "d77b7f94ecb0859e",
+      "active": true
+    },
+    {
+      "name": "爱下电子（繁）",
+      "url": "https://ixdzs.tw/",
+      "origin": "yck-1277",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1277.html",
+      "originalCandidateIndex": 40,
+      "originalRuleId": "cb20815b88fad826",
+      "active": true
+    },
+    {
+      "name": "云中书库",
+      "url": "http://m.yunxs.info",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 725,
+      "originalRuleId": "ba9a3b3fbfcdf933",
+      "active": true
+    },
+    {
+      "name": "蚂蚁阅读",
+      "url": "http://www.xmayitxt.com/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 163,
+      "originalRuleId": "eba17dbb5b81e8af",
+      "active": true
+    },
+    {
+      "name": "必去书库",
+      "url": "https://www.biqusk.com/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 180,
+      "originalRuleId": "b727c838d114923a",
+      "active": true
+    },
+    {
+      "name": "无极小说",
+      "url": "https://wujixsw.info/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 182,
+      "originalRuleId": "1bebb3f556c41995",
+      "active": true
+    },
+    {
+      "name": "笔趣阁（biquge99.cc）",
+      "url": "https://www.biquge99.cc/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 138,
+      "originalRuleId": "81e2fec683418084",
+      "active": true
+    },
+    {
+      "name": "77读书",
+      "url": "http://www.77shuku.net/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 198,
+      "originalRuleId": "77da8fc31273bdd0",
+      "active": true
+    },
+    {
+      "name": "2K小说",
+      "url": "https://www.2kxs.info",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 243,
+      "originalRuleId": "a3a3e504368978e1",
+      "active": true
+    },
+    {
+      "name": "56书库",
+      "url": "http://m.pingshuku.com",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 316,
+      "originalRuleId": "2d8c0f458332ddaa",
+      "active": true
+    },
+    {
+      "name": "零零小说",
+      "url": "https://www.00shu.la/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 172,
+      "originalRuleId": "a5d3f373914f050d",
+      "active": true
+    },
+    {
+      "name": "全本小说5200",
+      "url": "http://www.xs5200.com/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 328,
+      "originalRuleId": "14ef4172400baade",
+      "active": true
+    },
+    {
+      "name": "玄幻阁",
+      "url": "http://www.xuanhuange.net",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 337,
+      "originalRuleId": "b6a8ae81b1d8eeef",
+      "active": true
+    },
+    {
+      "name": "飞速小说网",
+      "url": "http://www.feisuwx.org",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 335,
+      "originalRuleId": "10dec6b49bbdca1c",
+      "active": true
+    },
+    {
+      "name": "平凡文学",
+      "url": "http://www.pfwx.com",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 343,
+      "originalRuleId": "655f7dd709b3a709",
+      "active": true
+    },
+    {
+      "name": "唐三中文",
+      "url": "http://www.xtangsanshu.com",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 383,
+      "originalRuleId": "9923e46917116472",
+      "active": true
+    },
+    {
+      "name": "蚂蚁文学2",
+      "url": "https://www.mayiwxw.com#仅搜索",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 426,
+      "originalRuleId": "761288d9bfdd53d4",
+      "active": true
+    },
+    {
+      "name": "九五书包",
+      "url": "http://www.95shubao.la",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 421,
+      "originalRuleId": "5e2a8469f4551f5a",
+      "active": true
+    },
+    {
+      "name": "七七读书",
+      "url": "http://www.77dushu.com#未月十八repair",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 536,
+      "originalRuleId": "389960c1ed350ef7",
+      "active": true
+    },
+    {
+      "name": "笔趣阁（xbiquwx.la）",
+      "url": "https://www.xbiquwx.la/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 513,
+      "originalRuleId": "e1fbe128a234e257",
+      "active": true
+    },
+    {
+      "name": "悠久小说",
+      "url": "http://www.ujxs.com",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 561,
+      "originalRuleId": "a4f1ed14742d36be",
+      "active": true
+    },
+    {
+      "name": "九五小说",
+      "url": "http://www.jwdushu.com",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 596,
+      "originalRuleId": "58df9fe0c8ade680",
+      "active": true
+    },
+    {
+      "name": "笔趣阁loubiqu",
+      "url": "http://www.loubiqu.com",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 550,
+      "originalRuleId": "fe1ed571de9991d0",
+      "active": true
+    },
+    {
+      "name": "笔趣阁A18",
+      "url": "http://www.yingsx.com/#",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 418,
+      "originalRuleId": "b4a277bb0bbee364",
+      "active": true
+    },
+    {
+      "name": "txt小说j",
+      "url": "http://www.aixiatxt.com",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 545,
+      "originalRuleId": "6a1a5548e5686f9e",
+      "active": true
+    },
+    {
+      "name": "若雨中文",
+      "url": "http://www.3yt.la",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 565,
+      "originalRuleId": "80a3be4f1a457fb5",
+      "active": true
+    },
+    {
+      "name": "笔趣阁A17",
+      "url": "https://www.biqusa.com/#",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 510,
+      "originalRuleId": "c55f000e72b3b597",
+      "active": true
+    },
+    {
+      "name": "优四小说网",
+      "url": "http://www.xyusk.com",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 597,
+      "originalRuleId": "58bd90753e7eb908",
+      "active": true
+    },
+    {
+      "name": "棉花糖小说",
+      "url": "http://www.mhtwx.la/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 601,
+      "originalRuleId": "456b708785194818",
+      "active": true
+    },
+    {
+      "name": "求书网",
+      "url": "http://www.xqiushu.com/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 607,
+      "originalRuleId": "bb8eb1086191e6c1",
+      "active": false
+    },
+    {
+      "name": "爱下书小说网",
+      "url": "https://www.aixiawx.com/",
+      "origin": "candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "originalCandidateIndex": 628,
+      "originalRuleId": "92b18f2b28b69781",
+      "active": false
+    }
+  ]
+}

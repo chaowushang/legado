@@ -1,0 +1,85 @@
+[
+  {
+    "bookSourceGroup": "📖 经典出版",
+    "bookSourceName": "求书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xqiushu.com/",
+    "customOrder": 60,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1790261759269,
+    "respondTime": 1336,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.book_content@html##为了方便下次.*谢谢您的支持！！",
+      "replaceRegex": "##txt下载地址：|手机阅读"
+    },
+    "ruleSearch": {
+      "author": "tag.dd@tag.span.1@text##作者：|更新时间：|\\s*\\d+-\\d+-\\d+",
+      "bookList": "class.read_list@tag.li",
+      "bookUrl": "tag.dd@tag.span.0@tag.a@href",
+      "coverUrl": "class.pic@img@src",
+      "intro": "tag.dd@tag.span.2@text",
+      "kind": "tag.dd@tag.span.0@text&&\ntag.dd@tag.span.1@text##《.*》|/|作者.*时间：",
+      "lastChapter": "tag.dd@tag.span.3@tag.div.0@tag.a@text",
+      "name": "tag.dd@tag.span.0@tag.a@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_con_list.1@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xqiushu.com/search.php?searchkey={{key}}&submit=",
+    "weight": 0,
+    "bookSourceComment": "2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "爱下书小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.aixiawx.com/",
+    "bookUrlPattern": "https://www.aixiawx.com/\\d+/\\d+/",
+    "customOrder": 61,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1790261759280,
+    "respondTime": 3204,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作    者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "init": "",
+      "intro": "id.intro@tag.p@text",
+      "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text##最后更新：",
+      "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+      "name": "id.info@tag.h1@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "imageStyle": "0"
+    },
+    "ruleSearch": {
+      "author": "class.even.1@text",
+      "bookList": "class.grid@tag.tbody@tag.tr!0",
+      "bookUrl": "class.even.0@tag.a@href",
+      "coverUrl": "class.even.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "",
+      "lastChapter": "class.odd.0@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+      "name": "class.even.0@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.aixiawx.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename",
+    "weight": 0,
+    "bookSourceComment": "2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "concurrentRate": "1500"
+  }
+]
