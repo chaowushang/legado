@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-11T12:06:55.701Z",
-  "scope": "服务器兼容引擎抽样和网页复查；Android客户端未实测；分页抓取不等于所有页验证。",
+  "scope": "服务器兼容引擎抽样和网页复查；2026-10-11用户反馈全部30条通过阅读App 3.25内校验。客户端结果为用户报告，校验具体选项与逐章覆盖未提供。",
   "summary": {
     "active": 30,
     "new": 9,
@@ -9,7 +9,8 @@
     "reportedServerPassed": 6,
     "reportedServerNotPassed": 31,
     "screened": 100,
-    "disabled": 39
+    "disabled": 39,
+    "userReportedAppPassed": 30
   },
   "sources": [
     {
@@ -17,7 +18,7 @@
       "url": "https://www.sudugu.cc",
       "checkedAt": "2026-10-11T11:54:54.758Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "a1b5fbf42ae509139b9595186c3246ecd439e505dbb1404db6cbcf5546af5209",
       "phases": {
@@ -93,14 +94,16 @@
           "status": "page_fetched"
         }
       ],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "话本·公开章节",
       "url": "https://www.ihuaben.com",
       "checkedAt": "2026-10-11T11:54:54.987Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "22e6a7a1dd6c2c3f1fc98e6079a0108422c1932de2217322cec63bc3fb909d1c",
       "phases": {
@@ -142,14 +145,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "阅友小说",
       "url": "http://m.yueyouxs.com",
       "checkedAt": "2026-10-11T11:54:55.053Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "169b784cdcc5d9d9b4b7590122cde612166465c4821661c8c3f2a0e1f79129bc",
       "phases": {
@@ -191,14 +196,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "逐浪小说",
       "url": "https://m.zhulang.com",
       "checkedAt": "2026-10-11T11:54:55.116Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "192568ad23ef7fc805a2e05289660faadf82bb6110e5c0328f9b2c73ba02f1c8",
       "phases": {
@@ -240,14 +247,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "独步小说",
       "url": "https://www.dbxsn.com",
       "checkedAt": "2026-10-11T11:55:07.561Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "0f4515576339ffd323d978798003ebf6bfff25b7fce8502ffcf11b315b9f1acc",
       "phases": {
@@ -289,14 +298,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "乡土小说",
       "url": "https://www.xiangtxsw.com",
       "checkedAt": "2026-10-11T11:55:07.881Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "3103f32660b42e24f39794d4c17bad1a4d77b74b141246466068fb28fe548e14",
       "phases": {
@@ -338,14 +349,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "顶点小说",
       "url": "http://www.23us.tw/",
       "checkedAt": "2026-10-11T11:55:23.203Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "9c5de245187a032afd5221f371f8ea0b9138f92187c62c965a08dd9e045b7cd3",
       "phases": {
@@ -387,14 +400,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "云起书院",
       "url": "https://yunqi.qq.com#🎃",
       "checkedAt": "2026-10-11T11:55:35.071Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "db79c289a98b300691453a18d4f57ce615a29e3377c6c2cb6dd2a0763cd789ce",
       "phases": {
@@ -436,14 +451,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "酷书阁小说网",
       "url": "https://www.kushuge.com",
       "checkedAt": "2026-10-11T11:55:40.904Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "4d96ab5d15c03c4fa1f66ca2e0d13aa04f076e69c0523a32a6bdc12ca3a06b97",
       "phases": {
@@ -485,14 +502,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "笔趣阁（biquge7.xyz）",
       "url": "https://www.biquge7.xyz#",
       "checkedAt": "2026-10-11T11:56:00.811Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "e4e2c80553052c65bec7a96d1b07b4b2bea16759d023b6edced02d4b394bab4c",
       "phases": {
@@ -534,14 +553,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "夜伴书屋",
       "url": "https://www.yybsw.com#🎃",
       "checkedAt": "2026-10-11T11:56:01.496Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "c2e5e8af225186991229aa843f589043a13152da993925e35b88c989600895aa",
       "phases": {
@@ -583,14 +604,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "笔趣阁（bqquge.org）",
       "url": "https://www.bqquge.org",
       "checkedAt": "2026-10-11T11:56:02.056Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "20633762b11e8dff2b86304e7440bcd9e511d9aef7a76081bb0c81444e601d35",
       "phases": {
@@ -655,14 +678,16 @@
           "status": "page_fetched"
         }
       ],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "奇书网包",
       "url": "http://www.xqishuta.com#",
       "checkedAt": "2026-10-11T11:56:14.365Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "ec36ed90828c287f92eb2aa655b0689398c5080cdc10ebec40637a4800ca3d48",
       "phases": {
@@ -704,14 +729,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "爱看小说",
       "url": "http://m.2kk.la#",
       "checkedAt": "2026-10-11T11:56:26.306Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "7db3c768d034f03fa61ba0fe5730f4f57b6f62c45225dddc64dd71a077f157cd",
       "phases": {
@@ -776,14 +803,16 @@
           "status": "page_fetched"
         }
       ],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "思兔阅读",
       "url": "https://www.sto66.com",
       "checkedAt": "2026-10-11T11:56:32.474Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "4bb30553a055d6ed68516b796e4b164c5217c3b90af3ac6d3a5a27bce3bc92d1",
       "phases": {
@@ -837,14 +866,16 @@
           "status": "page_fetched"
         }
       ],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "星星小说网",
       "url": "https://m.xiifan.com/",
       "checkedAt": "2026-10-11T11:56:32.846Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "2aea576b6358a11994215c7d8080118461eba9882b19fa891f198c32f540d1ee",
       "phases": {
@@ -886,14 +917,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "瀚海书阁",
       "url": "https://www.ingml.cc",
       "checkedAt": "2026-10-11T11:56:44.411Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "4583a09d2ba18674c51516b2102aebd5abc4d500abb4545936219b7042368a02",
       "phases": {
@@ -935,14 +968,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "爱下电子（繁）",
       "url": "https://ixdzs.tw/",
       "checkedAt": "2026-10-11T11:57:02.293Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "a7d1fd3f7a2f2991d24d4948c142269633b1a1fa0e1760abf1c8c65b7d90fe4f",
       "phases": {
@@ -984,14 +1019,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "全本小说网",
       "url": "https://www.quanben.io",
       "checkedAt": "2026-10-11T11:57:20.290Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "486f3496f06534d6ccbc371a6e6563d17ef28269677e16a8d5c0deff45148625",
       "phases": {
@@ -1035,14 +1072,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "红人小说",
       "url": "https://www.hongrenxs.com/",
       "checkedAt": "2026-10-11T11:57:49.856Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "ab02d90da1183af67fee3e969953ae86980f2c9f03ed579fa19b5e3df46067be",
       "phases": {
@@ -1096,14 +1135,16 @@
           "status": "page_fetched"
         }
       ],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "九九藏书",
       "url": "https://www.sangshixs.com",
       "checkedAt": "2026-10-11T11:59:19.390Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "020b179780304b7596b4d016a8b6f3795aa0245d6985cbde35e4c518df467830",
       "phases": {
@@ -1145,14 +1186,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "轻之文库",
       "url": "https://www.linovel.net/",
       "checkedAt": "2026-10-11T11:59:32.856Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "0df3528547062afc0edd4af41d4af2a54c311daecc8377065613af123f416158",
       "phases": {
@@ -1194,14 +1237,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "梦阮读书",
       "url": "https://www.kunnu8.com",
       "checkedAt": "2026-10-11T11:59:57.466Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "6d973b6e41d8235b5b2ea6b2dcfddf0c12d9ae0cc833b0cc07b5e481f7b1e32a",
       "phases": {
@@ -1243,14 +1288,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "企鹅阅读",
       "url": "https://ubook.reader.qq.com",
       "checkedAt": "2026-10-11T12:00:04.676Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "edb032f9ece03c309639844a08fdd59bfeb376a724737fa6ef83b67774bea706",
       "phases": {
@@ -1292,14 +1339,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "万象书城",
       "url": "https://www.wwxsc.com",
       "checkedAt": "2026-10-11T12:00:21.328Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "d08859ecbe417743f20a5a2d999776275f9fb20dba7e273191c7f6dddbdc4f7d",
       "phases": {
@@ -1341,14 +1390,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "茶马小说",
       "url": "https://www.chamabooks.net",
       "checkedAt": "2026-10-11T12:00:35.032Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "1291ab024c77845c42c52563b523f790f29540b8ac4af361d4e64d82fecbcbd3",
       "phases": {
@@ -1390,14 +1441,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "笔趣阁",
       "url": "https://apibi.cc",
       "checkedAt": "2026-10-11T12:03:29.889Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "bb431a502d7d2852c1341c47f88449132544fdab9b5e2d84a3b7507b64f38ed4",
       "phases": {
@@ -1439,14 +1492,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": null
+      "fix": null,
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "轻说百科",
       "url": "https://lnovel.tw",
       "checkedAt": "2026-10-11T11:59:08.623Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "22de873a0e6b526284bc2ff8302800dd06cb592b9e196f8674daa8bfb00cf0fd",
       "phases": {
@@ -1488,14 +1543,16 @@
         }
       ],
       "paginationFollowups": [],
-      "fix": "排除分卷标题链接，避免前两个正文样本实际为同一章"
+      "fix": "排除分卷标题链接，避免前两个正文样本实际为同一章",
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "梦想家文学",
       "url": "http://www.mxjtedu.com/",
       "checkedAt": "2026-10-11T11:59:14.055Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "0e47cd56135fc07caf6d3405ffe3918955c169c567eae8369a07d2ffcc121349",
       "phases": {
@@ -1571,14 +1628,16 @@
           "status": "page_fetched"
         }
       ],
-      "fix": "补齐章节正文分页，避免只读取章节第一页"
+      "fix": "补齐章节正文分页，避免只读取章节第一页",
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     },
     {
       "name": "得奇小说网",
       "url": "https://www.deqixs.org",
       "checkedAt": "2026-10-11T11:59:16.200Z",
       "status": "server_sample_passed",
-      "androidVerified": false,
+      "androidVerified": true,
       "appVersionReported": "3.25",
       "sourceSha256": "84c731d7d7c92b97f2f811fc75a5fe2632dd0479753547e62e1ec4aa5710c30f",
       "phases": {
@@ -1654,7 +1713,9 @@
           "status": "page_fetched"
         }
       ],
-      "fix": "补齐目录分页"
+      "fix": "补齐目录分页",
+      "androidVerificationMethod": "user_reported_app_validation",
+      "androidVerificationDate": "2026-10-11"
     }
   ],
   "excluded": [
@@ -2181,5 +2242,16 @@
       "issues": []
     }
   ],
-  "appFailureReport": "app_failures.json"
+  "appFailureReport": "app_failures.json",
+  "clientFeedback": {
+    "reportedDate": "2026-10-11",
+    "timezone": "Asia/Shanghai",
+    "appVersion": "3.25",
+    "source": "user_report",
+    "passed": 30,
+    "total": 30,
+    "oldSourcesDisabled": true,
+    "statement": "已停用旧源，并且新版30条已全部校验通过",
+    "appliesToSourceCommit": "659795c7f978b0edc80a7396ca38c19f5ef2cf22"
+  }
 }
