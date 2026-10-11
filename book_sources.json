@@ -1,17 +1,17 @@
 [
   {
     "bookSourceType": 0,
-    "bookSourceGroup": "🎉 精选,🧪 App待实测",
+    "bookSourceGroup": "🎉 精选",
     "enabled": true,
     "enabledCookieJar": false,
     "concurrentRate": "1500",
-    "lastUpdateTime": 1791720415703,
+    "lastUpdateTime": 1791720955653,
     "weight": 0,
     "bookSourceName": "速读谷·新版",
     "bookSourceUrl": "https://www.sudugu.cc",
     "customOrder": 0,
     "enabledExplore": false,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "searchUrl": "/modules/article/search.php,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&action=login&searchtype=all&submit=\"}",
     "ruleSearch": {
       "bookList": ".item",
@@ -43,17 +43,17 @@
   },
   {
     "bookSourceType": 0,
-    "bookSourceGroup": "💰 正版,💐 女频,🧪 App待实测",
+    "bookSourceGroup": "💰 正版,💐 女频",
     "enabled": true,
     "enabledCookieJar": false,
     "concurrentRate": "1500",
-    "lastUpdateTime": 1791720415703,
+    "lastUpdateTime": 1791720955653,
     "weight": 0,
     "bookSourceName": "话本·公开章节",
     "bookSourceUrl": "https://www.ihuaben.com",
     "customOrder": 1,
     "enabledExplore": false,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "searchUrl": "https://www.ihuaben.com/app/search?indexName=book&keyword={{key}}&page={{page}}",
     "ruleSearch": {
       "bookList": "$.pageUtil.pageList",
@@ -81,7 +81,7 @@
     }
   },
   {
-    "bookSourceGroup": "🎉 精选,🧪 App待实测",
+    "bookSourceGroup": "🎉 精选",
     "bookSourceName": "阅友小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.yueyouxs.com",
@@ -90,7 +90,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "<js>\n(()=>{\n\tvar ua = \"Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; PCT-AL10 Build/HUAWEIPCT-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 Quark/4.0.5.137 Mobile Safari/537.36\";\n\tvar heders = {\"User-Agent\": ua};\n\treturn JSON.stringify(heders);\n})()\n</js>",
-    "lastUpdateTime": 1791720415703,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 736,
     "ruleBookInfo": {
       "author": "class.v-words flex.0@text##作者：",
@@ -124,11 +124,11 @@
     },
     "searchUrl": "http://m.yueyouxs.com/api/book/search?keyword={{key}}&page={{page}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   },
   {
-    "bookSourceGroup": "💰 正版,🧪 App待实测",
+    "bookSourceGroup": "💰 正版",
     "bookSourceName": "逐浪小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.zhulang.com",
@@ -136,7 +136,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1791720415703,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 1640,
     "ruleBookInfo": {
       "author": "class.yellow@text",
@@ -165,12 +165,12 @@
     },
     "searchUrl": "https://m.zhulang.com/search/index.html?k={{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "🎉 精选,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "🎉 精选",
     "bookSourceName": "独步小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.dbxsn.com",
@@ -180,7 +180,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "{\n  'User-Agent': 'Mozilla/5.0 (Linux; Android 9; PDBM00 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36'\n}",
-    "lastUpdateTime": 1791720415703,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 7189,
     "ruleBookInfo": {
       "author": ".media-body@a.1@text",
@@ -217,8 +217,8 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "🎉 精选,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "🎉 精选",
     "bookSourceName": "乡土小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xiangtxsw.com",
@@ -226,7 +226,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 2437,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -258,7 +258,7 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceGroup": "🎉 精选,🧪 App待实测",
+    "bookSourceGroup": "🎉 精选",
     "bookSourceName": "顶点小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.23us.tw/",
@@ -267,7 +267,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 1773,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作    者：",
@@ -296,11 +296,11 @@
     },
     "searchUrl": "http://www.23us.tw/modules/article/search.php?q={{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   },
   {
-    "bookSourceGroup": "💰 正版,💐 女频,🧪 App待实测",
+    "bookSourceGroup": "💰 正版,💐 女频",
     "bookSourceName": "云起书院",
     "bookSourceType": 0,
     "bookSourceUrl": "https://yunqi.qq.com#🎃",
@@ -308,7 +308,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 2103,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -339,11 +339,11 @@
     },
     "searchUrl": "/search/{{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   },
   {
-    "bookSourceGroup": "🎉 精选,🧪 App待实测",
+    "bookSourceGroup": "🎉 精选",
     "bookSourceName": "酷书阁小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kushuge.com",
@@ -352,7 +352,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; U; Android 13; zh-Hans-CN; PFJM10 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.4896.58 Quark/6.13.6.581 Mobile Safari/537.36\",\"Accept-Language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"}",
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 3566,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -383,12 +383,12 @@
     },
     "searchUrl": "/search.php?q={{key}}&p={{page}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "笔趣阁（biquge7.xyz）",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biquge7.xyz#",
@@ -398,7 +398,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "eventListener": false,
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 2289,
     "ruleBookInfo": {
       "author": "class.author@text",
@@ -435,8 +435,8 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "💐 女频,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💐 女频",
     "bookSourceName": "夜伴书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yybsw.com#🎃",
@@ -446,7 +446,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 3941,
     "ruleBookInfo": {
       "author": "@get:{a}",
@@ -479,8 +479,8 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "笔趣阁（bqquge.org）",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.bqquge.org",
@@ -489,7 +489,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\", \"Referer\": \"https://www.bqquge.org/\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8\"}",
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 9986,
     "ruleBookInfo": {
       "author": ".booktxt p a@text##作者：",
@@ -523,7 +523,7 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "奇书网包",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.xqishuta.com#",
@@ -534,7 +534,7 @@
     "enabledExplore": false,
     "eventListener": false,
     "header": "{\n\"User-Agent\":\"Mozilla/5.0(WindowsNT10.0;WOW64)AppleWebKit/537.36(KHTML,likeGecko,ByBlackPrism)Chrome/99.0Safari/537.36\"\n}",
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 9442,
     "ruleBookInfo": {
       "author": "class.small.5@text",
@@ -561,12 +561,12 @@
     },
     "searchUrl": "http://www.xqishuta.com/search.html?searchkey={{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "爱看小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.2kk.la#",
@@ -578,7 +578,7 @@
     "enabledExplore": false,
     "eventListener": false,
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 4518,
     "ruleBookInfo": {
       "author": "p.author@text",
@@ -614,8 +614,8 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "💐 女频,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💐 女频",
     "bookSourceName": "思兔阅读",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.sto66.com",
@@ -625,7 +625,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "@js:\nJSON.stringify({\n    \"User-Agent\": java.getWebViewUA()\n})",
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 30634,
     "ruleBookInfo": {
       "coverUrl": ".thumbnail.0@src",
@@ -656,8 +656,8 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "星星小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.xiifan.com/",
@@ -666,7 +666,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"Referer\":\"https://m.xiifan.com/\",\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\",\"Accept-Language\":\"zh-CN,zh;q=0.9,en;q=0.8\"}",
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 3597,
     "ruleBookInfo": {
       "author": "class.book-info@class.info@tag.span.1@tag.a@text",
@@ -698,7 +698,7 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "瀚海书阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ingml.cc",
@@ -709,7 +709,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "eventListener": false,
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 3573,
     "ruleBookInfo": {
       "author": "class.hover:text-primary.0@text",
@@ -742,12 +742,12 @@
     },
     "searchUrl": "https://www.ingml.cc/search.html?keyword={{key}}&page={{page}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "爱下电子（繁）",
     "bookSourceType": 0,
     "bookSourceUrl": "https://ixdzs.tw/",
@@ -757,7 +757,7 @@
     "enabledCookieJar": false,
     "enabledExplore": false,
     "eventListener": false,
-    "lastUpdateTime": 1791720415704,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 5622,
     "ruleBookInfo": {
       "tocUrl": "{{java.put(\"url\",baseUrl);\n\t\"https://ixdzs.tw/novel/clist/\"}},{\n  \"body\": \"bid={{baseUrl.match(/(\\d+).$/)[1]}}\",\n  \"method\": \"POST\"\n}"
@@ -787,8 +787,8 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "全本小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.quanben.io",
@@ -800,7 +800,7 @@
     "eventListener": false,
     "exploreUrl": "@js:\nlet url = String(source.getVariable()!=\"\"?source.getVariable():source.getKey()).replace(/\\/$/, '') \nlet arr = []\nlet push = (title, url, type) => arr.push({\n  title: title,\n  url: url,\n  style: {\n    layout_flexGrow: 1,\n    layout_flexBasisPercent: type\n  }\n})\n\npush(\"🏷️全部分类🏷️\", \"\", 1)\nlet res = org.jsoup.Jsoup.parse(java.ajax(url))\nlet lis = res.select('.nav a');\nfor (let i = 0; i < lis.length; i++) {\n    let text = lis[i].text();\n    let href = url + String(lis[i].attr('href')).replace(/\\.html/g,\"_\\{\\{page\\}\\}\\.html\");\n    push(text, href, 0.25);\n}\nJSON.stringify(arr)",
     "header": "{\n  \"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Yolo) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/4.0 Chrome/100.0.2987.108 Mobile Safari/537.36\"\n}",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "loginUrl": "https://www.quanben.io",
     "respondTime": 12478,
     "ruleBookInfo": {
@@ -827,8 +827,8 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "红人小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.hongrenxs.com/",
@@ -839,7 +839,7 @@
     "enabledExplore": false,
     "eventListener": false,
     "exploreUrl": "[{\"title\":\"高辣\",\"url\":\"sort/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"百合\",\"url\":\"sort/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"情欲\",\"url\":\"sort/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美\",\"url\":\"sort/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"海棠\",\"url\":\"sort/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"sort/8/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"/quanben/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 9182,
     "ruleBookInfo": {
       "tocUrl": "text.章节目录@href"
@@ -874,7 +874,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "九九藏书",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.sangshixs.com",
@@ -885,7 +885,7 @@
     "enabledExplore": false,
     "eventListener": false,
     "exploreUrl": "@js:\n   let result=[];\n   let push=(title, url, size)=>result.push({\n       \"title\": title,\n       \"url\": url,\n       \"style\": {\n        \"layout_flexGrow\": 1,\n        \"layout_flexBasisPercent\": size\n       }\n});\n   bu=source.key;\n   aj=java.ajax(bu);\n   let a=org.jsoup.Jsoup.parse(aj);\n   let b=a.select('.nav li a');\n   push('💖分类💖','',1);\n   for (i in b) {\n        let url=b[i].attr('href');\n        url=url+\"<,index_{{page}}.html>\";\n        push(b[i].text(), url, 0.25);\n    }\nJSON.stringify(result);",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 7106,
     "ruleBookInfo": {
       "coverUrl": "[property$=image]@content",
@@ -911,10 +911,10 @@
     },
     "searchUrl": "/e/search/index.php,{\n  \"body\": \"tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}\",\n  \"method\": \"POST\"\n}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注："
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注："
   },
   {
-    "bookSourceGroup": "📚 同人轻小说,🧪 App待实测",
+    "bookSourceGroup": "📚 同人轻小说",
     "bookSourceName": "轻之文库",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.linovel.net/",
@@ -925,7 +925,7 @@
     "enabledExplore": false,
     "eventListener": false,
     "exploreUrl": "[{\"title\":\"全部小说\",\"url\":\"https://www.linovel.net/cat/-1.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"文库精选\",\"url\":\"https://www.linovel.net/cat/2000.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"超能力\",\"url\":\"https://www.linovel.net/cat/12.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"幻想\",\"url\":\"/cat/1.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"战斗\",\"url\":\"https://www.linovel.net/cat/2.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"后宫\",\"url\":\"https://www.linovel.net/cat/8.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"恋爱\",\"url\":\"https://www.linovel.net/cat/3.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"异界\",\"url\":\"https://www.linovel.net/cat/4.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"搞笑\",\"url\":\"https://www.linovel.net/cat/5.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"日常\",\"url\":\"https://www.linovel.net/cat/6.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"校园\",\"url\":\"https://www.linovel.net/cat/7.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"https://www.linovel.net/cat/10.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"治愈\",\"url\":\"https://www.linovel.net/cat/11.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"节操\",\"url\":\"https://www.linovel.net/cat/13.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"妖怪\",\"url\":\"https://www.linovel.net/cat/14.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"恐怖\",\"url\":\"https://www.linovel.net/cat/15.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"妹控\",\"url\":\"https://www.linovel.net/cat/16.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"伪娘\",\"url\":\"https://www.linovel.net/cat/17.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"乙女\",\"url\":\"https://www.linovel.net/cat/19.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"同人\",\"url\":\"https://www.linovel.net/cat/20.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"百合\",\"url\":\"https://www.linovel.net/cat/21.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"https://www.linovel.net/cat/104.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"偶像\",\"url\":\"https://www.linovel.net/cat/22.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"魔法少女\",\"url\":\"https://www.linovel.net/cat/18.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 18994,
     "ruleBookInfo": {
       "intro": "class.about-text@html##(^|[。！？]++”?+)##$1<br>"
@@ -950,11 +950,11 @@
     },
     "searchUrl": "https://www.linovel.net/search?kw={{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注："
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注："
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "梦阮读书",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kunnu8.com",
@@ -967,7 +967,7 @@
     "eventListener": false,
     "exploreUrl": "[{\"title\":\"首页\",\"url\":\"https://www.kunnu8.com\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"畅销\",\"url\":\"https://www.kunnu8.com/hot/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"资料\",\"url\":\"https://www.kunnu8.com/indb/<,page/{{page}}/>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"古典\",\"url\":\"https://www.kunnu8.com/jingdian/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"名著\",\"url\":\"https://www.kunnu8.com/mingzhu/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"https://www.kunnu8.com/wuxia/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"纯爱\",\"url\":\"https://www.kunnu8.com/dan/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"https://www.kunnu8.com/yanqing/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"https://www.kunnu8.com/kehuan/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"推理\",\"url\":\"https://www.kunnu8.com/tuili/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"当代\",\"url\":\"https://www.kunnu8.com/dangdai/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"https://www.kunnu8.com/xuanyi/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\", \"Accept-Language\": \"zh-CN,zh;q=0.9\"}",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 5493,
     "ruleBookInfo": {
       "author": "class.book-describe@tag.p.0@text##作者：",
@@ -999,7 +999,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "💰 正版,🧪 App待实测",
+    "bookSourceGroup": "💰 正版",
     "bookSourceName": "企鹅阅读",
     "bookSourceType": 0,
     "bookSourceUrl": "https://ubook.reader.qq.com",
@@ -1010,7 +1010,7 @@
     "enabledExplore": false,
     "eventListener": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55\"\n}",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "loginUrl": "https://book.qq.com/",
     "respondTime": 8793,
     "ruleBookInfo": {
@@ -1055,10 +1055,10 @@
     },
     "searchUrl": "https://book.qq.com/book-search/{{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注："
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注："
   },
   {
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "万象书城",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.wwxsc.com",
@@ -1071,7 +1071,7 @@
     "eventListener": false,
     "exploreUrl": "[{\"title\":\"玄幻·奇幻\",\"url\":\"/nav/xuanhuan<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"仙侠·武侠\",\"url\":\"/nav/xianxia<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"都市·娱乐\",\"url\":\"/nav/dushi<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"历史·军事\",\"url\":\"/nav/lishi<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"科幻·游戏\",\"url\":\"/nav/kehuan<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"恐怖·悬疑\",\"url\":\"/nav/kongbu<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"耽美·纯爱\",\"url\":\"/nav/chunai<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"女生·言情\",\"url\":\"/nav/yanqing<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"轻小说\",\"url\":\"/nav/erciyuan<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
     "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 13408,
     "ruleBookInfo": {
       "author": "@get:{a}",
@@ -1110,10 +1110,10 @@
     },
     "searchUrl": "https://www.wwxsc.com/plus/search.php?q={{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注："
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注："
   },
   {
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "茶马小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.chamabooks.net",
@@ -1126,7 +1126,7 @@
     "eventListener": false,
     "exploreUrl": "@js:\nconst categories = [[\"全部\",\"\"],[\"言情\",\"2\"],[\"耽美\",\"3\"],[\"百合\",\"4\"],[\"武侠\",\"5\"],[\"玄幻\",\"6\"],[\"科幻\",\"7\"],[\"恐怖\",\"8\"],[\"推理\",\"9\"],[\"短篇\",\"12\"]];\nconst tpl = \"/main?c=$$&p={{page}}\"\n\nconst obj = (title, url, size) => ({\n  title,\n  url,\n  style: {layout_flexBasisPercent: size}\n})\n\nlet list = categories.map(([title, id]) => \n  obj(title, tpl.replace(\"$$\", id), 0.2)\n)\n\n// 在线获取书单（只获取第一页）\ntry {\n  let bookList = java.get(\"chamabooks_bookList\");\n  let bookListData = [];\n  if (bookList) {\n    try {\n      bookListData = JSON.parse(bookList);\n    } catch (e) {\n      java.log(\"缓存数据解析失败: \" + e.message);\n    }\n  }\n  \n  if (!Array.isArray(bookListData) || bookListData.length === 0) {\n    let html = java.ajax(\"https://www.chamabooks.net/main?c=100\");\n    if (html) {\n      let doc = org.jsoup.Jsoup.parse(html);\n      let bookListEl = doc.select(\".novel-item h4 a\");\n      \n      if (bookListEl && bookListEl.size() > 0) {\n        bookListData.push(obj(\"书单\", \"\", 1));\n        \n        bookListEl.forEach(el => {\n          let n = String(el.text()).trim();\n          let u = String(el.attr(\"href\"));\n          bookListData.push(obj(n, u, 0.9));\n        });\n        \n        java.put(\"chamabooks_bookList\", JSON.stringify(bookListData));\n      }\n    }\n  }\n  \n  if (bookListData.length > 0) {\n    list = list.concat(bookListData);\n  }\n  \n} catch (e) {\n  java.log(\"获取书单失败: \" + e.message);\n}\n\nJSON.stringify(list);",
     "header": "{\n\t \"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Mobile/15E148 Safari/604.1\",\n\t \"Referer\": \"https://www.chamabooks.net/\"\n}",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "loginUrl": "/",
     "respondTime": 21065,
     "ruleBookInfo": {
@@ -1158,11 +1158,11 @@
     },
     "searchUrl": "/search?s={{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注："
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注："
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。\n原备注：bqg413.cc SPA(极速版)。搜索/分类/详情/目录走 https://apibi.cc 明文 JSON；正文接口需 token，本源用纯 JS AES 现算。发现接口无服务端分页，整类一次性返回，翻页会重复。加书请用搜索，不要贴站点 SPA 链接。",
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：bqg413.cc SPA(极速版)。搜索/分类/详情/目录走 https://apibi.cc 明文 JSON；正文接口需 token，本源用纯 JS AES 现算。发现接口无服务端分页，整类一次性返回，翻页会重复。加书请用搜索，不要贴站点 SPA 链接。",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://apibi.cc",
@@ -1175,7 +1175,7 @@
     "eventListener": false,
     "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"https://apibi.cc/api/sort?sort=xuanhuan\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"https://apibi.cc/api/sort?sort=wuxia\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"https://apibi.cc/api/sort?sort=dushi\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"https://apibi.cc/api/sort?sort=lishi\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"网游\",\"url\":\"https://apibi.cc/api/sort?sort=wangyou\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"https://apibi.cc/api/sort?sort=kehuan\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"女生\",\"url\":\"https://apibi.cc/api/sort?sort=mm\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"排行榜\",\"url\":\"https://apibi.cc/api/sort?sort=top\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"全本\",\"url\":\"https://apibi.cc/api/sort?sort=finish\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 46795,
     "ruleBookInfo": {
       "author": "$.author@js:result.replace(/^\\s+|\\s+$/g,'')",
@@ -1214,8 +1214,8 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。 本次修复：排除分卷标题链接，避免前两个正文样本实际为同一章。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
-    "bookSourceGroup": "📚 同人轻小说,🧪 App待实测",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。 本次修复：排除分卷标题链接，避免前两个正文样本实际为同一章。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "📚 同人轻小说",
     "bookSourceName": "轻说百科",
     "bookSourceType": 0,
     "bookSourceUrl": "https://lnovel.tw",
@@ -1223,7 +1223,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 1714,
     "ruleBookInfo": {
       "author": ".text-body-tertiary.0@text",
@@ -1251,7 +1251,7 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceGroup": "🎉 精选,⭐️ API,🧪 App待实测",
+    "bookSourceGroup": "🎉 精选,⭐️ API",
     "bookSourceName": "梦想家文学",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.mxjtedu.com/",
@@ -1259,7 +1259,7 @@
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 1775,
     "ruleBookInfo": {
       "author": "class.fix@p.0@text##作者：",
@@ -1290,11 +1290,11 @@
     },
     "searchUrl": "search.php?keyWord={{key}}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。 本次修复：补齐章节正文分页，避免只读取章节第一页。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。 本次修复：补齐章节正文分页，避免只读取章节第一页。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   },
   {
-    "bookSourceGroup": "💠 综合,🧪 App待实测",
+    "bookSourceGroup": "💠 综合",
     "bookSourceName": "得奇小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.deqixs.org",
@@ -1305,7 +1305,7 @@
     "enabledExplore": false,
     "eventListener": false,
     "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\"}",
-    "lastUpdateTime": 1791720415705,
+    "lastUpdateTime": 1791720955653,
     "respondTime": 5954,
     "ruleBookInfo": {
       "author": "class.itemtxt@tag.p.1@tag.a@text##^作者：",
@@ -1339,7 +1339,7 @@
     },
     "searchUrl": "https://www.deqixs.org/modules/article/search.php,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&action=login&searchtype=articlename\"}",
     "weight": 0,
-    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；Android 阅读3.25未实测，不保证设备网络可达。 本次修复：补齐目录分页。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceComment": "2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。 本次修复：补齐目录分页。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
     "concurrentRate": "1500"
   }
 ]
