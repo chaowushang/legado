@@ -20,7 +20,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "a1b5fbf42ae509139b9595186c3246ecd439e505dbb1404db6cbcf5546af5209",
+      "sourceSha256": "994340d8723f85116342a094b1a69c070afbd9d363cc3f2b18e6e1f6b381c6cf",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -105,7 +105,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "22e6a7a1dd6c2c3f1fc98e6079a0108422c1932de2217322cec63bc3fb909d1c",
+      "sourceSha256": "2cba84bd404560c3993e3eb1a4bf5ae5319dbc08d4bc9eae3153c38116bab249",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -156,7 +156,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "169b784cdcc5d9d9b4b7590122cde612166465c4821661c8c3f2a0e1f79129bc",
+      "sourceSha256": "bbece6b072b614c9f535cebfb762832000cf981bc537b0e621387faae09b3d37",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -207,7 +207,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "192568ad23ef7fc805a2e05289660faadf82bb6110e5c0328f9b2c73ba02f1c8",
+      "sourceSha256": "a826ca8004ed13a2937b81ef12eb51aa896846a48afc045f1c483f33adf5fd40",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -258,7 +258,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "0f4515576339ffd323d978798003ebf6bfff25b7fce8502ffcf11b315b9f1acc",
+      "sourceSha256": "b177c5e29d11bf3cd9085b9b90c0df31e204a19467b81c03334164c3aa410790",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -309,7 +309,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "3103f32660b42e24f39794d4c17bad1a4d77b74b141246466068fb28fe548e14",
+      "sourceSha256": "10eec10fb6b61b1fc1ccce40b97d88fa3b928659c8a4a07aee910e91f8f4e1ec",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -360,7 +360,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "9c5de245187a032afd5221f371f8ea0b9138f92187c62c965a08dd9e045b7cd3",
+      "sourceSha256": "4b379da17457b8f110218c4c9aec1dae2562a8b0cea26b6ddfcae047c3ccb2d7",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -411,7 +411,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "db79c289a98b300691453a18d4f57ce615a29e3377c6c2cb6dd2a0763cd789ce",
+      "sourceSha256": "1d5cffdcc68dab3246f0e79a4a0427f766b68b4cfe8c623b59a9bc374e1a8e8f",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -462,7 +462,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "4d96ab5d15c03c4fa1f66ca2e0d13aa04f076e69c0523a32a6bdc12ca3a06b97",
+      "sourceSha256": "047bb917150ae12abcaa0268beaf4a9f19894c645d35521e7d9ffb8407a5f41b",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -513,7 +513,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "e4e2c80553052c65bec7a96d1b07b4b2bea16759d023b6edced02d4b394bab4c",
+      "sourceSha256": "233dd46e6909603b22ffd0da2b6f05a722bc38efa9d940baca15522d427acaa3",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -564,7 +564,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "c2e5e8af225186991229aa843f589043a13152da993925e35b88c989600895aa",
+      "sourceSha256": "d4f980ed5b8717dfe191697046cfc921e30a1a05a651775c0b4123fec9470997",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -615,7 +615,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "20633762b11e8dff2b86304e7440bcd9e511d9aef7a76081bb0c81444e601d35",
+      "sourceSha256": "2e3c6fb5eba7bdc1e09848c080d66efe2289a6a6121600e247c36c360d3c1d4d",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -689,7 +689,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "ec36ed90828c287f92eb2aa655b0689398c5080cdc10ebec40637a4800ca3d48",
+      "sourceSha256": "b8566ecd2fe71b9eb9c954df012594d971df115ea5a96c2c5fe38c73d8a3401a",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -740,7 +740,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "7db3c768d034f03fa61ba0fe5730f4f57b6f62c45225dddc64dd71a077f157cd",
+      "sourceSha256": "e7ca04fcc4e9b79fe86a69c5c7fd63be5b16508a302e1c1b8f5b052a2bfc2b53",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -814,7 +814,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "4bb30553a055d6ed68516b796e4b164c5217c3b90af3ac6d3a5a27bce3bc92d1",
+      "sourceSha256": "36a42a8b0bd6d7e85ab030d6bf5d1067c24dc6e93668f1e8cb887395fc42908d",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -877,7 +877,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "2aea576b6358a11994215c7d8080118461eba9882b19fa891f198c32f540d1ee",
+      "sourceSha256": "c8bc17458aa38ae259c59bbebfae864d4ce0693cfab459f443cb5f6e84d8a895",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -928,7 +928,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "4583a09d2ba18674c51516b2102aebd5abc4d500abb4545936219b7042368a02",
+      "sourceSha256": "129f2e2e5025358374a6f43402952732a1418a9e084a482d9845878f7948fd90",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -979,7 +979,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "a7d1fd3f7a2f2991d24d4948c142269633b1a1fa0e1760abf1c8c65b7d90fe4f",
+      "sourceSha256": "eee32d6e1e486f87e612b03d13febceba2600f3c99edc6f8d1f05c8217ced4ac",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1030,7 +1030,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "486f3496f06534d6ccbc371a6e6563d17ef28269677e16a8d5c0deff45148625",
+      "sourceSha256": "d7b4f2a2449d298f0b04b56e91b2f2937a18cbeba6b86bc1711dd164a5bd5dfd",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1083,7 +1083,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "ab02d90da1183af67fee3e969953ae86980f2c9f03ed579fa19b5e3df46067be",
+      "sourceSha256": "01657c1a355aac69bd5fc9ea498c2f5c17dded545742c3d52cef1b298b2e12a8",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1146,7 +1146,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "020b179780304b7596b4d016a8b6f3795aa0245d6985cbde35e4c518df467830",
+      "sourceSha256": "e2a20fa3b3c85c6b6bbe236eb9aadd7d6b6476d15e6bb6a73380c7b639722d0d",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1197,7 +1197,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "0df3528547062afc0edd4af41d4af2a54c311daecc8377065613af123f416158",
+      "sourceSha256": "950f03e8447841133982d0994172c2a98a0bb387f56006e543c7dcdd625adc5d",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1248,7 +1248,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "6d973b6e41d8235b5b2ea6b2dcfddf0c12d9ae0cc833b0cc07b5e481f7b1e32a",
+      "sourceSha256": "41836ceb6ffd46febab8965fbc856567507d7ffd4d6829bf433f8175bdd02ff2",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1299,7 +1299,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "edb032f9ece03c309639844a08fdd59bfeb376a724737fa6ef83b67774bea706",
+      "sourceSha256": "4c9f8f984dcf9353e7a330c220bc09e31194029e9d3eb8ccf2f6644324c6317d",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1350,7 +1350,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "d08859ecbe417743f20a5a2d999776275f9fb20dba7e273191c7f6dddbdc4f7d",
+      "sourceSha256": "d2d716d87c28c2500a15a4bf44a45076655cdcb5be7a9c239e1798308f681974",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1401,7 +1401,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "1291ab024c77845c42c52563b523f790f29540b8ac4af361d4e64d82fecbcbd3",
+      "sourceSha256": "9f644d4836a6a0a05ca19746683a4e1ce5890cd59d682aac73cfad64f70ed5f4",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1452,7 +1452,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "bb431a502d7d2852c1341c47f88449132544fdab9b5e2d84a3b7507b64f38ed4",
+      "sourceSha256": "ba7014875214f5c09de291ba0576d9865f7dc0c6461429d1832e8f2d8ebfd90a",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1503,7 +1503,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "22de873a0e6b526284bc2ff8302800dd06cb592b9e196f8674daa8bfb00cf0fd",
+      "sourceSha256": "0b884433dfc68cf6c2dea913e87772dd529d0dec8072e73526c97d28e315f16a",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1554,7 +1554,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "0e47cd56135fc07caf6d3405ffe3918955c169c567eae8369a07d2ffcc121349",
+      "sourceSha256": "09aa7333941a33c4c6b63ae8a3c0f19124fff29ea7fa61d964d8f359d9c42bc3",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -1639,7 +1639,7 @@
       "status": "server_sample_passed",
       "androidVerified": true,
       "appVersionReported": "3.25",
-      "sourceSha256": "84c731d7d7c92b97f2f811fc75a5fe2632dd0479753547e62e1ec4aa5710c30f",
+      "sourceSha256": "d476f995847f611f9fbbb4b6dbd82cc2580f52bb9e4a799baec2cc05641e7b5a",
       "phases": {
         "search": "success",
         "detail": "success",
@@ -2253,5 +2253,7 @@
     "oldSourcesDisabled": true,
     "statement": "已停用旧源，并且新版30条已全部校验通过",
     "appliesToSourceCommit": "659795c7f978b0edc80a7396ca38c19f5ef2cf22"
-  }
+  },
+  "metadataUpdatedDate": "2026-10-11",
+  "metadataChange": "移除App待实测分组并同步用户已通过校验的备注；阅读规则未改动"
 }
