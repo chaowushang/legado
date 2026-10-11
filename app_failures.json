@@ -1,0 +1,1186 @@
+{
+  "generatedAt": "2026-10-11T12:06:55.701Z",
+  "authoritativeUrl": "https://shuyuan.mgz6.com/shuyuan/17235649f0310826b7ad16dc0c67b429.json",
+  "count": 37,
+  "appVersion": "3.25",
+  "network": "未确认，截图显示Wi-Fi图标",
+  "policy": "用户App失败反馈优先。服务器通过不得自动解除隔离；需要明确修复与App复测。",
+  "blockedRedirectHosts": [
+    "cxzz958.com",
+    "paoshu9.com",
+    "2kzw.la",
+    "wap.pingshuku.com",
+    "biquge.info",
+    "8xiaoshuo.net"
+  ],
+  "sources": [
+    {
+      "name": "文桑小说",
+      "url": "http://www.wensang.net",
+      "evidence": "// Error: unexpected end of stream on http://www.wensang.net/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "文桑小说",
+        "url": "http://www.wensang.net",
+        "checkedAt": "2026-10-11T11:56:12.979Z",
+        "sourceSha256": "afb3ef9a2c59589a7c04b37b60fdbd944c2559d2195fe1b2a519cc196e240d1f",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "狗狗书籍",
+      "url": "http://www.qiushu.info",
+      "evidence": "// Error: unexpected end of stream on http://www.qiushu.info/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "狗狗书籍",
+        "url": "http://www.qiushu.info",
+        "checkedAt": "2026-10-11T11:56:14.756Z",
+        "sourceSha256": "0cdff4ea7e15261f44492316d3e84b371c6fe6f7fc2f6aa2c1a00f4d5c1b6d2a",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "捆绑小说",
+      "url": "http://www.uuwx.la",
+      "evidence": "// Error: unexpected end of stream on http://www.uuwx.la/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "捆绑小说",
+        "url": "http://www.uuwx.la",
+        "checkedAt": "2026-10-11T11:56:17.489Z",
+        "sourceSha256": "37ee2983e646abb42d15fc41a16ce33b6723ffeab117110a9dbcc5eaf31b836b",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "鬼吹灯",
+      "url": "http://www.cxzz.com#🎃",
+      "evidence": "// Error: unexpected end of stream on http://www.cxzz958.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "鬼吹灯",
+        "url": "http://www.cxzz.com#🎃",
+        "checkedAt": "2026-10-11T11:56:17.576Z",
+        "sourceSha256": "b555cb32d942200438372ef203fb32ef869a780afc3680e262512f81d84db587",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "泡书吧",
+      "url": "http://www.paoshu8.com",
+      "evidence": "// Error: unexpected end of stream on http://www.paoshu9.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "泡书吧",
+        "url": "http://www.paoshu8.com",
+        "checkedAt": "2026-10-11T11:56:53.332Z",
+        "sourceSha256": "77331358f096b5b80ed66c2fd2fe06a5bc330cd190392ee7eacffb411f1dc43d",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "Cloudflare challenge 页面",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "稻草书屋",
+      "url": "https://www.dcrbk.com",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "稻草书屋",
+        "url": "https://www.dcrbk.com",
+        "checkedAt": "2026-10-11T11:56:56.730Z",
+        "sourceSha256": "bf2d33ee4019262c557283b32236dd3109b877503520d4254783762598095fdb",
+        "keyword": "七界传说",
+        "engineStatus": "passed",
+        "phases": {
+          "search": "success",
+          "detail": "success",
+          "toc": "success",
+          "content": "success"
+        },
+        "book": "七界传说",
+        "chapterCount": 1107,
+        "contentLengths": [
+          3273,
+          6906
+        ],
+        "issues": [],
+        "firstChapterTitles": [
+          "第一部 六院风云 序章 七界传说",
+          "第一部 六院风云 第1章 宿命相逢",
+          "第一部 六院风云 第2章 家传祖物",
+          "第一部 六院风云 第3章 异域空间",
+          "第一部 六院风云 第4章 传功授诀"
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "name": "衍墨轩",
+      "url": "https://www.ymxshuwu.com#🎃",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "衍墨轩",
+        "url": "https://www.ymxshuwu.com#🎃",
+        "checkedAt": "2026-10-11T11:56:59.519Z",
+        "sourceSha256": "6f4a6e3858ae5333800edc963516d3785c184eb999e4272d75fbfc97be0fe654",
+        "keyword": "我的",
+        "engineStatus": "passed",
+        "phases": {
+          "search": "success",
+          "detail": "success",
+          "toc": "success",
+          "content": "success"
+        },
+        "book": "我的红警我的兵",
+        "chapterCount": 322,
+        "contentLengths": [
+          2183,
+          2490
+        ],
+        "issues": [],
+        "firstChapterTitles": [
+          "第1章 末世来了",
+          "第2章 染血的路",
+          "第3章 生与死",
+          "第4章 流星",
+          "第5章 基地"
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "name": "无错",
+      "url": "https://www.wcshuba.com",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "无错",
+        "url": "https://www.wcshuba.com",
+        "checkedAt": "2026-10-11T11:57:01.433Z",
+        "sourceSha256": "49e572919f510b382f8252ef4acd89dba4ac84ce94e8d41f6f522eba8491384e",
+        "keyword": "我的",
+        "engineStatus": "passed",
+        "phases": {
+          "search": "success",
+          "detail": "success",
+          "toc": "success",
+          "content": "success"
+        },
+        "book": "我的揹簍通古今，致富虐渣樣樣行",
+        "chapterCount": 274,
+        "contentLengths": [
+          2299,
+          2297
+        ],
+        "issues": [],
+        "firstChapterTitles": [
+          "第1章 絕境逢生：這是哪兒",
+          "第2章 驚疑不定：這是能救命的鹽",
+          "第3章 安然歸來：這不是夢",
+          "第4章 霸氣側漏：虐渣",
+          "第5章 成功分家：要的就是這個結果"
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "name": "无极书院",
+      "url": "http://m.wjzxchina.com",
+      "evidence": "// Error: unexpected end of stream on http://m.wjzxchina.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "无极书院",
+        "url": "http://m.wjzxchina.com",
+        "checkedAt": "2026-10-11T11:57:10.899Z",
+        "sourceSha256": "d164423587abbb1951c666670277f6d0a779461fc370143a6782017e475efb1a",
+        "keyword": "我的",
+        "engineStatus": "passed",
+        "phases": {
+          "search": "success",
+          "detail": "success",
+          "toc": "success",
+          "content": "success"
+        },
+        "book": "我的极品女友1",
+        "chapterCount": 1307,
+        "contentLengths": [
+          3434,
+          3600
+        ],
+        "issues": [],
+        "firstChapterTitles": [
+          "第1章：捡到一个美女",
+          "第2章：你是我的小姨子？",
+          "第3章：带个美女回家",
+          "第4章：终于到家了",
+          "第5章：尴尬的相处"
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "name": "18笔趣阁",
+      "url": "https://www.bqgns.com",
+      "evidence": "// Error: Read timed out\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "18笔趣阁",
+        "url": "https://www.bqgns.com",
+        "checkedAt": "2026-10-11T11:57:28.642Z",
+        "sourceSha256": "bc2ae01d4431eca33a540ec1cb08c5f4db5d08695541d0b130de8eb571c602f8",
+        "keyword": "成功",
+        "engineStatus": "passed",
+        "phases": {
+          "search": "success",
+          "detail": "success",
+          "toc": "success",
+          "content": "success"
+        },
+        "book": "穿进赛博游戏后干掉BOSS成功上位",
+        "chapterCount": 370,
+        "contentLengths": [
+          4448,
+          3282
+        ],
+        "issues": [],
+        "firstChapterTitles": [
+          "第1章 无光之海01",
+          "第2章 无光之海02",
+          "第3章 无光之海03",
+          "第4章 无光之海04",
+          "第5章 无光之海05"
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "name": "云中书库",
+      "url": "http://m.yunxs.info",
+      "evidence": "// Error: unexpected end of stream on http://m.yunxs.info/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "云中书库",
+        "url": "http://m.yunxs.info",
+        "checkedAt": "2026-10-11T11:57:32.876Z",
+        "sourceSha256": "7116ae039c3467de6ab59ffd0e1897848b23662b13f00344316a75b39fd87cd6",
+        "keyword": "高天之上",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "蚂蚁阅读",
+      "url": "http://www.xmayitxt.com/",
+      "evidence": "// Error: unexpected end of stream on http://www.xmayitxt.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "蚂蚁阅读",
+        "url": "http://www.xmayitxt.com/",
+        "checkedAt": "2026-10-11T11:57:36.689Z",
+        "sourceSha256": "aa5dfaf41baf3d214b3fdce628c8a0a504ecd5e846bd2bf1ff4320fbade78131",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "必去书库",
+      "url": "https://www.biqusk.com/",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "必去书库",
+        "url": "https://www.biqusk.com/",
+        "checkedAt": "2026-10-11T11:57:50.848Z",
+        "sourceSha256": "ea17c694a7e2727e84389d00818ca32e20952bb1155d7209edbbb0199f37aa01",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "无极小说",
+      "url": "https://wujixsw.info/",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "无极小说",
+        "url": "https://wujixsw.info/",
+        "checkedAt": "2026-10-11T11:57:52.515Z",
+        "sourceSha256": "72152eebd0322f3a6425487091d29e5baff6669b7b40cc65bb208a62245237e1",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "笔趣阁（biquge99.cc）",
+      "url": "https://www.biquge99.cc/",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "笔趣阁（biquge99.cc）",
+        "url": "https://www.biquge99.cc/",
+        "checkedAt": "2026-10-11T11:58:12.570Z",
+        "sourceSha256": "4e590e499110afce948672ca9f867778ec20c3026dd638c11536146e3addf4b2",
+        "keyword": "万族之劫",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 403 Forbidden",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "77读书",
+      "url": "http://www.77shuku.net/",
+      "evidence": "// Error: unexpected end of stream on http://www.77shuku.net/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "77读书",
+        "url": "http://www.77shuku.net/",
+        "checkedAt": "2026-10-11T11:58:17.229Z",
+        "sourceSha256": "4a8ad69977894488b4824fc589d5a65a41722b4c33f138ae7542da23f4246400",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "2K小说",
+      "url": "https://www.2kxs.info",
+      "evidence": "// Error: unexpected end of stream on http://www.2kzw.la/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "2K小说",
+        "url": "https://www.2kxs.info",
+        "checkedAt": "2026-10-11T11:58:26.713Z",
+        "sourceSha256": "04ecff1c91b001bce01296aea50c4bca8f96326e954508e800dc32d4e51dc29a",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "56书库",
+      "url": "http://m.pingshuku.com",
+      "evidence": "// Error: unexpected end of stream on http://wap.pingshuku.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "56书库",
+        "url": "http://m.pingshuku.com",
+        "checkedAt": "2026-10-11T11:58:28.179Z",
+        "sourceSha256": "06ce20720a72a3bb564e3c52b66bb19f6e86c85088108df05acc50abf4f1b6b6",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "零零小说",
+      "url": "https://www.00shu.la/",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "零零小说",
+        "url": "https://www.00shu.la/",
+        "checkedAt": "2026-10-11T11:58:31.261Z",
+        "sourceSha256": "a4803ac7e97ffbf1973d99f8a4a0ca9ffebecedcb4349eacbdb16331cc737290",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "全本小说5200",
+      "url": "http://www.xs5200.com/",
+      "evidence": "// Error: unexpected end of stream on http://www.xs5200.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "全本小说5200",
+        "url": "http://www.xs5200.com/",
+        "checkedAt": "2026-10-11T11:58:57.374Z",
+        "sourceSha256": "79d9d08476a55f0fe95c08a9b248747caeb3afadc6ff5c5f99946ab0c3c8d384",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "玄幻阁",
+      "url": "http://www.xuanhuange.net",
+      "evidence": "// Error: unexpected end of stream on http://www.xuanhuange.net/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "玄幻阁",
+        "url": "http://www.xuanhuange.net",
+        "checkedAt": "2026-10-11T11:59:02.257Z",
+        "sourceSha256": "62257787989e53847353ad2e3148411a9d6265ec834e98c64c47d0d93afbc0ef",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "飞速小说网",
+      "url": "http://www.feisuwx.org",
+      "evidence": "// Error: unexpected end of stream on http://www.feisuwx.org/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "飞速小说网",
+        "url": "http://www.feisuwx.org",
+        "checkedAt": "2026-10-11T11:59:06.768Z",
+        "sourceSha256": "d56d91d5a35388ed4c2240403e0aae4b2cfe7305194fe68e0310b3100474bfc5",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "平凡文学",
+      "url": "http://www.pfwx.com",
+      "evidence": "// Error: unexpected end of stream on http://www.pfwx.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "平凡文学",
+        "url": "http://www.pfwx.com",
+        "checkedAt": "2026-10-11T11:59:09.529Z",
+        "sourceSha256": "13284e44eee9ccf0e32a92716f008954f4ed6c6154f8c3044f9476bcd8fbaaa1",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "唐三中文",
+      "url": "http://www.xtangsanshu.com",
+      "evidence": "// Error: unexpected end of stream on http://www.xtangsanshu.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "唐三中文",
+        "url": "http://www.xtangsanshu.com",
+        "checkedAt": "2026-10-11T11:59:32.815Z",
+        "sourceSha256": "ba26fb9869211592b29feac0e4e74bd45d75f6f69de42961cf6d65e705701730",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "蚂蚁文学2",
+      "url": "https://www.mayiwxw.com#仅搜索",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "蚂蚁文学2",
+        "url": "https://www.mayiwxw.com#仅搜索",
+        "checkedAt": "2026-10-11T11:59:40.349Z",
+        "sourceSha256": "ecaa45390a0b44b2252b409b2606c005363bf2cf104bd029a150b6e89c42e024",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "九五书包",
+      "url": "http://www.95shubao.la",
+      "evidence": "// Error: unexpected end of stream on http://www.95shubao.la/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "九五书包",
+        "url": "http://www.95shubao.la",
+        "checkedAt": "2026-10-11T11:59:45.640Z",
+        "sourceSha256": "951d5c7a75cbdb71149ff5f492ecba8227321d84c89c6f9c38cab87f68649b35",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "七七读书",
+      "url": "http://www.77dushu.com#未月十八repair",
+      "evidence": "// Error: unexpected end of stream on http://www.77dushu.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "七七读书",
+        "url": "http://www.77dushu.com#未月十八repair",
+        "checkedAt": "2026-10-11T11:59:48.244Z",
+        "sourceSha256": "2446fcdd3146ddb364dab1d6a819716fb7e3f051d3ffede16a394a20f5fea4b0",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "笔趣阁（xbiquwx.la）",
+      "url": "https://www.xbiquwx.la/",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "笔趣阁（xbiquwx.la）",
+        "url": "https://www.xbiquwx.la/",
+        "checkedAt": "2026-10-11T12:00:08.647Z",
+        "sourceSha256": "e7dfd2c371d2065c779bc66009ef9fda266814e7657564525e91f71edb266cd4",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "悠久小说",
+      "url": "http://www.ujxs.com",
+      "evidence": "// Error: unexpected end of stream on http://www.ujxs.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "悠久小说",
+        "url": "http://www.ujxs.com",
+        "checkedAt": "2026-10-11T12:00:11.038Z",
+        "sourceSha256": "b907d6483f6418a74dac7a548f3e29b33b49916c91fbf27e5f70e2ee9dd653a5",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "九五小说",
+      "url": "http://www.jwdushu.com",
+      "evidence": "// Error: unexpected end of stream on http://www.jwdushu.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "九五小说",
+        "url": "http://www.jwdushu.com",
+        "checkedAt": "2026-10-11T12:00:20.760Z",
+        "sourceSha256": "2629744ba4c8600d2e841b80ae96001210fcaf40cb73327f03747322a0b880cc",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "笔趣阁loubiqu",
+      "url": "http://www.loubiqu.com",
+      "evidence": "// Error: unexpected end of stream on http://www.biquge.info/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "笔趣阁loubiqu",
+        "url": "http://www.loubiqu.com",
+        "checkedAt": "2026-10-11T12:00:23.896Z",
+        "sourceSha256": "e2d0977695535f08ca5cd8a975a917cf9e30a9c8727b6c946f847b5ca59a854d",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "笔趣阁A18",
+      "url": "http://www.yingsx.com/#",
+      "evidence": "// Error: unexpected end of stream on http://www.yingsx.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "笔趣阁A18",
+        "url": "http://www.yingsx.com/#",
+        "checkedAt": "2026-10-11T12:00:46.451Z",
+        "sourceSha256": "54122a663e60aa34d2e78b67e7baca12c8162e3c2c3e4119ed29290457f6d154",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "txt小说j",
+      "url": "http://www.aixiatxt.com",
+      "evidence": "// Error: unexpected end of stream on http://www.aixiatxt.com/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "txt小说j",
+        "url": "http://www.aixiatxt.com",
+        "checkedAt": "2026-10-11T12:00:49.028Z",
+        "sourceSha256": "9c25d2ae540d6938a1979b6a51040647464c029aba2f6aad8dea82b6b60bc7f7",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "若雨中文",
+      "url": "http://www.3yt.la",
+      "evidence": "// Error: unexpected end of stream on http://www.3yt.la/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "若雨中文",
+        "url": "http://www.3yt.la",
+        "checkedAt": "2026-10-11T12:00:55.812Z",
+        "sourceSha256": "1a91a9164dbacd7ffc375e41bf5cb20c5bf567ea3cae9abf65df72265ddbbf01",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "笔趣阁A17",
+      "url": "https://www.biqusa.com/#",
+      "evidence": "// Error: connection closed\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "笔趣阁A17",
+        "url": "https://www.biqusa.com/#",
+        "checkedAt": "2026-10-11T12:01:01.545Z",
+        "sourceSha256": "ce2c4d5041627c375ac1f5b04a69441ed85023b4babf223a6e381666ff17cd10",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 0, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    },
+    {
+      "name": "优四小说网",
+      "url": "http://www.xyusk.com",
+      "evidence": "// Error: unexpected end of stream on http://www.8xiaoshuo.net/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "优四小说网",
+        "url": "http://www.xyusk.com",
+        "checkedAt": "2026-10-11T12:01:25.864Z",
+        "sourceSha256": "daa5e77439221aebe35b93a6dfa5a8acc1e39864d60d1abc06983d8cf65028d1",
+        "keyword": "我的",
+        "engineStatus": "passed",
+        "phases": {
+          "search": "success",
+          "detail": "success",
+          "toc": "success",
+          "content": "success"
+        },
+        "book": "末日成神：我的我的我的都是我的异能",
+        "chapterCount": 69,
+        "contentLengths": [
+          2296,
+          2148
+        ],
+        "issues": [],
+        "firstChapterTitles": [
+          "第1章 五星差评的开局",
+          "第2章 离谱的数据面板",
+          "第3章 太阳神瞳到手",
+          "第4章 真假“太阳之子”",
+          "第5章 妖兽都市"
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "name": "棉花糖小说",
+      "url": "http://www.mhtwx.la/",
+      "evidence": "// Error: unexpected end of stream on http://www.mhtwx.la/...\n\n2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户导出：客户端请求失败",
+      "appVersion": "3.25",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "serverRecheck": {
+        "name": "棉花糖小说",
+        "url": "http://www.mhtwx.la/",
+        "checkedAt": "2026-10-11T12:01:28.156Z",
+        "sourceSha256": "64e97fdab62768dc11ee9d4b7a981cae26f4f50e2afcf3335fe772c39875e821",
+        "keyword": "我的",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "book": "",
+        "chapterCount": 0,
+        "contentLengths": [],
+        "issues": [
+          "HTTP 301, 响应体前200字: ",
+          "Fewer than two substantial chapter samples",
+          "Garbled or non-Chinese content"
+        ],
+        "firstChapterTitles": [],
+        "status": "needs_review"
+      }
+    }
+  ],
+  "screenshotSupplement": [
+    {
+      "name": "安之原创",
+      "url": "http://www.azycjd.com",
+      "evidence": "2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+      "reason": "用户截图：约20秒timeout",
+      "appVersion": "3.25",
+      "androidVerified": false
+    }
+  ]
+}
