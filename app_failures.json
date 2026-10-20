@@ -1,7 +1,6 @@
 {
-  "generatedAt": "2026-10-11T12:06:55.701Z",
-  "authoritativeUrl": "https://shuyuan.mgz6.com/shuyuan/17235649f0310826b7ad16dc0c67b429.json",
-  "count": 37,
+  "generatedAt": "2026-10-20T13:17:21.847Z",
+  "count": 45,
   "appVersion": "3.25",
   "network": "未确认，截图显示Wi-Fi图标",
   "policy": "用户App失败反馈优先。服务器通过不得自动解除隔离；需要明确修复与App复测。",
@@ -1171,6 +1170,94 @@
         "firstChapterTitles": [],
         "status": "needs_review"
       }
+    },
+    {
+      "name": "速读谷·新版",
+      "url": "https://www.sudugu.cc",
+      "status": "quarantined_app_report",
+      "androidVerified": false,
+      "reportedDate": "2026-10-20",
+      "evidenceType": "user_screenshot",
+      "evidence": "timeout",
+      "elapsedSeconds": 29.356,
+      "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
+    },
+    {
+      "name": "红人小说",
+      "url": "https://www.hongrenxs.com/",
+      "status": "quarantined_app_report",
+      "androidVerified": false,
+      "reportedDate": "2026-10-20",
+      "evidenceType": "user_screenshot",
+      "evidence": "timeout",
+      "elapsedSeconds": 18.934,
+      "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
+    },
+    {
+      "name": "独步小说",
+      "url": "https://www.dbxsn.com",
+      "status": "quarantined_app_report",
+      "androidVerified": false,
+      "reportedDate": "2026-10-20",
+      "evidenceType": "user_screenshot",
+      "evidence": "timeout",
+      "elapsedSeconds": 36.321,
+      "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
+    },
+    {
+      "name": "笔趣阁（biquge7.xyz）",
+      "url": "https://www.biquge7.xyz#",
+      "status": "quarantined_app_report",
+      "androidVerified": false,
+      "reportedDate": "2026-10-20",
+      "evidenceType": "user_screenshot",
+      "evidence": "timeout",
+      "elapsedSeconds": 18.977,
+      "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
+    },
+    {
+      "name": "奇书网包",
+      "url": "http://www.xqishuta.com#",
+      "status": "quarantined_app_report",
+      "androidVerified": false,
+      "reportedDate": "2026-10-20",
+      "evidenceType": "user_screenshot",
+      "evidence": "unexpected end of stream on htt…（截图文字截断）",
+      "elapsedSeconds": 3.531,
+      "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
+    },
+    {
+      "name": "得奇小说网",
+      "url": "https://www.deqixs.org",
+      "status": "quarantined_app_report",
+      "androidVerified": false,
+      "reportedDate": "2026-10-20",
+      "evidenceType": "user_screenshot",
+      "evidence": "timeout",
+      "elapsedSeconds": 76.673,
+      "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
+    },
+    {
+      "name": "茶马小说",
+      "url": "https://www.chamabooks.net",
+      "status": "quarantined_app_report",
+      "androidVerified": false,
+      "reportedDate": "2026-10-20",
+      "evidenceType": "user_screenshot",
+      "evidence": "timeout",
+      "elapsedSeconds": 43.665,
+      "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
+    },
+    {
+      "name": "笔趣阁",
+      "url": "https://apibi.cc",
+      "status": "quarantined_app_report",
+      "androidVerified": false,
+      "reportedDate": "2026-10-20",
+      "evidenceType": "user_screenshot",
+      "evidence": "timeout",
+      "elapsedSeconds": 30.504,
+      "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
     }
   ],
   "screenshotSupplement": [
@@ -1182,5 +1269,15 @@
       "appVersion": "3.25",
       "androidVerified": false
     }
-  ]
+  ],
+  "originalExportCount": 37,
+  "originalExportUrl": "https://shuyuan.mgz6.com/shuyuan/17235649f0310826b7ad16dc0c67b429.json",
+  "countDefinition": "累计用户反馈隔离条目：10月11日导出JSON的37条，加10月20日截图中的8条；不将截图视为完整导出清单。",
+  "latestScreenshotFeedback": {
+    "reportedDate": "2026-10-20",
+    "visibleFailedCount": 8,
+    "completeExportProvided": false,
+    "appBuildInScreenshot": false,
+    "networkComparisonProvided": false
+  }
 }

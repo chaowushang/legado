@@ -1,0 +1,379 @@
+[
+  {
+    "bookSourceType": 0,
+    "bookSourceGroup": "🚫 停用待复核,🎉 精选",
+    "enabled": false,
+    "enabledCookieJar": false,
+    "concurrentRate": "1500",
+    "lastUpdateTime": 1792502241864,
+    "weight": 0,
+    "bookSourceName": "速读谷·新版",
+    "bookSourceUrl": "https://www.sudugu.cc",
+    "customOrder": 0,
+    "enabledExplore": false,
+    "bookSourceComment": "2026-10-20用户App截图反馈校验失败：timeout（29.356秒）。已隔离，服务器通过不能解除客户端失败状态。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "searchUrl": "/modules/article/search.php,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&action=login&searchtype=all&submit=\"}",
+    "ruleSearch": {
+      "bookList": ".item",
+      "name": "h3 a@text",
+      "bookUrl": "h3 a@href",
+      "author": "li.0@text##^作者：",
+      "intro": ".itemtxt p@text##^简介：",
+      "lastChapter": "li a@text",
+      "checkKeyWord": "修仙"
+    },
+    "ruleBookInfo": {
+      "name": ".item h1 a@text",
+      "author": ".itemtxt p.1 a@text##^作者：",
+      "coverUrl": ".item img@src",
+      "intro": ".des@text",
+      "kind": ".itemtxt p.0@text",
+      "lastChapter": ".itemtxt li.0 a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "@css:#pages .gr:not([href=\"#\"])@href"
+    },
+    "ruleContent": {
+      "content": ".con@html",
+      "nextContentUrl": "//div[@class='prenext']/span/a[text()='下一页']/@href"
+    }
+  },
+  {
+    "bookSourceComment": "2026-10-20用户App截图反馈校验失败：timeout（18.934秒）。已隔离，服务器通过不能解除客户端失败状态。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：",
+    "bookSourceGroup": "🚫 停用待复核,💠 综合",
+    "bookSourceName": "红人小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hongrenxs.com/",
+    "customButton": false,
+    "customOrder": 2,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "eventListener": false,
+    "exploreUrl": "[{\"title\":\"高辣\",\"url\":\"sort/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"百合\",\"url\":\"sort/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"情欲\",\"url\":\"sort/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美\",\"url\":\"sort/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"海棠\",\"url\":\"sort/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"sort/8/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"/quanben/sort/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
+    "lastUpdateTime": 1792502241864,
+    "respondTime": 9182,
+    "ruleBookInfo": {
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "#nr1@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": ".mr15@text##作者:##",
+      "bookList": ".list-item",
+      "bookUrl": ".article@a.0@href",
+      "coverUrl": "img.0@src",
+      "intro": ".fs12.1@text",
+      "name": ".article@a.0@text"
+    },
+    "ruleSearch": {
+      "author": ".mr15@text##作者:##",
+      "bookList": ".list-item",
+      "bookUrl": ".article@a.0@href",
+      "checkKeyWord": "都市",
+      "intro": ".fs12.1@text",
+      "name": ".article@a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ".last9 li!0",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.hongrenxs.com/search/,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&searchtype=all&t_btnsearch=\"}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "2026-10-20用户App截图反馈校验失败：timeout（36.321秒）。已隔离，服务器通过不能解除客户端失败状态。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "🚫 停用待复核,🎉 精选",
+    "bookSourceName": "独步小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dbxsn.com",
+    "bookUrlPattern": "",
+    "customOrder": 6,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "{\n  'User-Agent': 'Mozilla/5.0 (Linux; Android 9; PDBM00 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.110 Mobile Safari/537.36'\n}",
+    "lastUpdateTime": 1792502241864,
+    "respondTime": 7189,
+    "ruleBookInfo": {
+      "author": ".media-body@a.1@text",
+      "coverUrl": ".book-img-middel@src",
+      "init": "",
+      "intro": ".book-detail@text##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": ".col-md-4@text##.*：|\\s..:.*",
+      "lastChapter": ".media-body@a.2@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "name": ".book-name@a@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.cont-body@html  ",
+      "nextContentUrl": ".page@a@href"
+    },
+    "ruleSearch": {
+      "author": "td.1@text",
+      "bookList": ".table@tbody@tr",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "",
+      "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\n'/uploads/cover/'+id+'s.jpg';\n</js>",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "a.0@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "id.all-chapter@div@a",
+      "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/plus/search.php?q={{key}}",
+    "weight": 0,
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceComment": "2026-10-20用户App截图反馈校验失败：timeout（18.977秒）。已隔离，服务器通过不能解除客户端失败状态。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "🚫 停用待复核,💠 综合",
+    "bookSourceName": "笔趣阁（biquge7.xyz）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge7.xyz#",
+    "customButton": false,
+    "customOrder": 17,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "eventListener": false,
+    "lastUpdateTime": 1792502241864,
+    "respondTime": 2289,
+    "ruleBookInfo": {
+      "author": "class.author@text",
+      "coverUrl": "",
+      "intro": "class.des@text",
+      "kind": "class.navi@tag.a.1@text",
+      "lastChapter": "class.upd@tag.a@text",
+      "name": "h1@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.text@html",
+      "nextContentUrl": ""
+    },
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.tui_1_item",
+      "bookUrl": "class.title@a@href",
+      "checkKeyWord": "",
+      "coverUrl": "tag.img@src",
+      "intro": "class.item_title@tag.p.-1@text",
+      "lastChapter": "",
+      "name": "class.title@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.biquge7.xyz/search?keyword={{key}}",
+    "weight": 0,
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceGroup": "🚫 停用待复核,💠 综合",
+    "bookSourceName": "奇书网包",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xqishuta.com#",
+    "customButton": false,
+    "customOrder": 22,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "eventListener": false,
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0(WindowsNT10.0;WOW64)AppleWebKit/537.36(KHTML,likeGecko,ByBlackPrism)Chrome/99.0Safari/537.36\"\n}",
+    "lastUpdateTime": 1792502241864,
+    "respondTime": 9442,
+    "ruleBookInfo": {
+      "author": "class.small.5@text",
+      "coverUrl": "class.detail_pic@tag.img@src",
+      "intro": "class.showInfo@tag.p@text",
+      "lastChapter": "class.small.6@text",
+      "name": "class.detail_right@tag.h1@text##全集",
+      "tocUrl": "class.showDown@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content1@html##最新网址：www.xqishuta.com"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.even@tag.a@href",
+      "lastChapter": "class.odd.2@text",
+      "name": "class.even@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.pc_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xqishuta.com/search.html?searchkey={{key}}",
+    "weight": 0,
+    "bookSourceComment": "2026-10-20用户App截图反馈校验失败：unexpected end of stream on htt…（截图文字截断）（3.531秒）。已隔离，服务器通过不能解除客户端失败状态。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceGroup": "🚫 停用待复核,💠 综合",
+    "bookSourceName": "得奇小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.deqixs.org",
+    "customButton": false,
+    "customOrder": 26,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "eventListener": false,
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1792502241864,
+    "respondTime": 5954,
+    "ruleBookInfo": {
+      "author": "class.itemtxt@tag.p.1@tag.a@text##^作者：",
+      "coverUrl": "class.item@tag.img@src",
+      "intro": "class.des.0@textNodes",
+      "kind": "class.itemtxt@tag.p.0@tag.span@text",
+      "lastChapter": "class.itemtxt@tag.ul@tag.li.0@tag.a@text",
+      "name": "class.itemtxt@tag.h1@tag.a@text",
+      "wordCount": "class.itemtxt@tag.p.0@tag.span.2@text"
+    },
+    "ruleContent": {
+      "content": "class.con@html##求书、催更、报错.*?deqixs",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleSearch": {
+      "author": "class.itemtxt@tag.p.1@tag.a@text||class.itemtxt@tag.ul@tag.li.0@text##^作者：",
+      "bookList": "class.item",
+      "bookUrl": "tag.h1@tag.a@href||tag.h3@tag.a@href###dir",
+      "coverUrl": "tag.img@src",
+      "intro": "class.itemtxt@tag.p.0@text##^简介：\\s*|^连载中.*",
+      "kind": "class.itemtxt@tag.p.0@tag.span@text",
+      "lastChapter": "class.itemtxt@tag.ul@tag.li.0@tag.a@text||class.itemtxt@tag.ul@tag.li.2@tag.a@text",
+      "name": "tag.h1@tag.a@text||tag.h3@tag.a@text",
+      "wordCount": "class.itemtxt@tag.p.0@tag.span.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.deqixs.org/modules/article/search.php,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&action=login&searchtype=articlename\"}",
+    "weight": 0,
+    "bookSourceComment": "2026-10-20用户App截图反馈校验失败：timeout（76.673秒）。已隔离，服务器通过不能解除客户端失败状态。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。 本次修复：补齐目录分页。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceGroup": "🚫 停用待复核,💠 综合",
+    "bookSourceName": "茶马小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.chamabooks.net",
+    "bookUrlPattern": "https://www.chamabooks.net/novel_.*?.html",
+    "customButton": false,
+    "customOrder": 120,
+    "enabled": false,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "eventListener": false,
+    "exploreUrl": "@js:\nconst categories = [[\"全部\",\"\"],[\"言情\",\"2\"],[\"耽美\",\"3\"],[\"百合\",\"4\"],[\"武侠\",\"5\"],[\"玄幻\",\"6\"],[\"科幻\",\"7\"],[\"恐怖\",\"8\"],[\"推理\",\"9\"],[\"短篇\",\"12\"]];\nconst tpl = \"/main?c=$$&p={{page}}\"\n\nconst obj = (title, url, size) => ({\n  title,\n  url,\n  style: {layout_flexBasisPercent: size}\n})\n\nlet list = categories.map(([title, id]) => \n  obj(title, tpl.replace(\"$$\", id), 0.2)\n)\n\n// 在线获取书单（只获取第一页）\ntry {\n  let bookList = java.get(\"chamabooks_bookList\");\n  let bookListData = [];\n  if (bookList) {\n    try {\n      bookListData = JSON.parse(bookList);\n    } catch (e) {\n      java.log(\"缓存数据解析失败: \" + e.message);\n    }\n  }\n  \n  if (!Array.isArray(bookListData) || bookListData.length === 0) {\n    let html = java.ajax(\"https://www.chamabooks.net/main?c=100\");\n    if (html) {\n      let doc = org.jsoup.Jsoup.parse(html);\n      let bookListEl = doc.select(\".novel-item h4 a\");\n      \n      if (bookListEl && bookListEl.size() > 0) {\n        bookListData.push(obj(\"书单\", \"\", 1));\n        \n        bookListEl.forEach(el => {\n          let n = String(el.text()).trim();\n          let u = String(el.attr(\"href\"));\n          bookListData.push(obj(n, u, 0.9));\n        });\n        \n        java.put(\"chamabooks_bookList\", JSON.stringify(bookListData));\n      }\n    }\n  }\n  \n  if (bookListData.length > 0) {\n    list = list.concat(bookListData);\n  }\n  \n} catch (e) {\n  java.log(\"获取书单失败: \" + e.message);\n}\n\nJSON.stringify(list);",
+    "header": "{\n\t \"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Mobile/15E148 Safari/604.1\",\n\t \"Referer\": \"https://www.chamabooks.net/\"\n}",
+    "lastUpdateTime": 1792502241864,
+    "loginUrl": "/",
+    "respondTime": 21065,
+    "ruleBookInfo": {
+      "author": "h1 a@text##作者:",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": ".novel-summary-content@html",
+      "kind": "@js:\nconst get = (sel) => String(java.getString(sel))\nlet cat = book.kind || get(\".category@text\")\nlet count = get(\"@@.misc-value.2@text\");\ncount = count ? \",章节数：\"+count : \"\";\ncat.concat(count)",
+      "lastChapter": "option.-1@value",
+      "name": "h1@ownText##《|》",
+      "wordCount": ".misc-value.1@text##$##字"
+    },
+    "ruleContent": {
+      "content": "#novel-content@html##{{title}}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".misc-value a@text",
+      "bookList": ".novel-item",
+      "bookUrl": "h4 a@href",
+      "intro": "p.novel-desc@text",
+      "kind": ".category,.upload-date@text",
+      "name": "h4 a@text",
+      "wordCount": ".word-count@text"
+    },
+    "ruleToc": {
+      "chapterList": "option",
+      "chapterName": "text",
+      "chapterUrl": "value"
+    },
+    "searchUrl": "/search?s={{key}}",
+    "weight": 0,
+    "bookSourceComment": "2026-10-20用户App截图反馈校验失败：timeout（43.665秒）。已隔离，服务器通过不能解除客户端失败状态。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注："
+  },
+  {
+    "bookSourceComment": "2026-10-20用户App截图反馈校验失败：timeout（30.504秒）。已隔离，服务器通过不能解除客户端失败状态。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：bqg413.cc SPA(极速版)。搜索/分类/详情/目录走 https://apibi.cc 明文 JSON；正文接口需 token，本源用纯 JS AES 现算。发现接口无服务端分页，整类一次性返回，翻页会重复。加书请用搜索，不要贴站点 SPA 链接。",
+    "bookSourceGroup": "🚫 停用待复核,💠 综合",
+    "bookSourceName": "笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://apibi.cc",
+    "bookUrlPattern": "https?://(www\\.)?([^/]*\\.)?(bqg413\\.cc|apibi\\.cc)/api/book\\?id=\\d+.*",
+    "customButton": false,
+    "customOrder": 240,
+    "enabled": false,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "eventListener": false,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"https://apibi.cc/api/sort?sort=xuanhuan\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"https://apibi.cc/api/sort?sort=wuxia\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"https://apibi.cc/api/sort?sort=dushi\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"https://apibi.cc/api/sort?sort=lishi\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"网游\",\"url\":\"https://apibi.cc/api/sort?sort=wangyou\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"https://apibi.cc/api/sort?sort=kehuan\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"女生\",\"url\":\"https://apibi.cc/api/sort?sort=mm\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"排行榜\",\"url\":\"https://apibi.cc/api/sort?sort=top\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"全本\",\"url\":\"https://apibi.cc/api/sort?sort=finish\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1792502241864,
+    "respondTime": 46795,
+    "ruleBookInfo": {
+      "author": "$.author@js:result.replace(/^\\s+|\\s+$/g,'')",
+      "coverUrl": "<js>(function(){function pick(o,k){if(o===null||o===undefined)return null;try{var v=o[k];if(v!==undefined&&v!==null&&v!=='')return v;}catch(e){}try{if(o.get){var w=o.get(k);if(w!==undefined&&w!==null&&w!=='')return w;}}catch(e){}try{var g='get'+k.charAt(0).toUpperCase()+k.slice(1);if(typeof o[g]==='function'){var z=o[g]();if(z!==undefined&&z!==null&&z!=='')return z;}}catch(e){}return null;}function jparse(s){s=String(s);if(s.length&&s.charCodeAt(0)===65279)s=s.slice(1);return JSON.parse(s);}function itemVal(k){var o=null;try{o=(typeof result==='string')?jparse(result):result;}catch(e){o=null;}return pick(o,k);}var id=itemVal('id');if(id===null)return '';return 'https://www.bqg413.cc/bookimg/'+Math.floor(Number(id)/1000)+'/'+id+'.jpg';})()</js>",
+      "intro": "$.intro",
+      "kind": "$.sortname",
+      "lastChapter": "$.lastchapter",
+      "name": "$.title",
+      "tocUrl": "<js>(function(){function pick(o,k){if(o===null||o===undefined)return null;try{var v=o[k];if(v!==undefined&&v!==null&&v!=='')return v;}catch(e){}try{if(o.get){var w=o.get(k);if(w!==undefined&&w!==null&&w!=='')return w;}}catch(e){}try{var g='get'+k.charAt(0).toUpperCase()+k.slice(1);if(typeof o[g]==='function'){var z=o[g]();if(z!==undefined&&z!==null&&z!=='')return z;}}catch(e){}return null;}function jparse(s){s=String(s);if(s.length&&s.charCodeAt(0)===65279)s=s.slice(1);return JSON.parse(s);}function itemVal(k){var o=null;try{o=(typeof result==='string')?jparse(result):result;}catch(e){o=null;}return pick(o,k);}var d=itemVal('dirid');if(d===null)d=itemVal('id');if(d===null)return '';return 'https://apibi.cc/api/booklist?id='+d;})()</js>"
+    },
+    "ruleContent": {
+      "content": "<js>(function(){var s=String(src);if(s.length&&s.charCodeAt(0)===65279)s=s.slice(1);var o=null;try{o=JSON.parse(s);}catch(e){return '';}if(!o||typeof o.txt!=='string'){return '';}return o.txt.split('\\n').join('<br><br>');})()</js>"
+    },
+    "ruleExplore": {
+      "author": "$.author@js:result.replace(/^\\s+|\\s+$/g,'')",
+      "bookList": "$.data",
+      "bookUrl": "<js>(function(){function pick(o,k){if(o===null||o===undefined)return null;try{var v=o[k];if(v!==undefined&&v!==null&&v!=='')return v;}catch(e){}try{if(o.get){var w=o.get(k);if(w!==undefined&&w!==null&&w!=='')return w;}}catch(e){}try{var g='get'+k.charAt(0).toUpperCase()+k.slice(1);if(typeof o[g]==='function'){var z=o[g]();if(z!==undefined&&z!==null&&z!=='')return z;}}catch(e){}return null;}function jparse(s){s=String(s);if(s.length&&s.charCodeAt(0)===65279)s=s.slice(1);return JSON.parse(s);}function itemVal(k){var o=null;try{o=(typeof result==='string')?jparse(result):result;}catch(e){o=null;}return pick(o,k);}var id=itemVal('id');if(id===null)return '';return 'https://apibi.cc/api/book?id='+id;})()</js>",
+      "coverUrl": "<js>(function(){function pick(o,k){if(o===null||o===undefined)return null;try{var v=o[k];if(v!==undefined&&v!==null&&v!=='')return v;}catch(e){}try{if(o.get){var w=o.get(k);if(w!==undefined&&w!==null&&w!=='')return w;}}catch(e){}try{var g='get'+k.charAt(0).toUpperCase()+k.slice(1);if(typeof o[g]==='function'){var z=o[g]();if(z!==undefined&&z!==null&&z!=='')return z;}}catch(e){}return null;}function jparse(s){s=String(s);if(s.length&&s.charCodeAt(0)===65279)s=s.slice(1);return JSON.parse(s);}function itemVal(k){var o=null;try{o=(typeof result==='string')?jparse(result):result;}catch(e){o=null;}return pick(o,k);}var id=itemVal('id');if(id===null)return '';return 'https://www.bqg413.cc/bookimg/'+Math.floor(Number(id)/1000)+'/'+id+'.jpg';})()</js>",
+      "intro": "$.intro",
+      "name": "$.title"
+    },
+    "ruleSearch": {
+      "author": "$.author@js:result.replace(/^\\s+|\\s+$/g,'')",
+      "bookList": "$.data",
+      "bookUrl": "<js>(function(){function pick(o,k){if(o===null||o===undefined)return null;try{var v=o[k];if(v!==undefined&&v!==null&&v!=='')return v;}catch(e){}try{if(o.get){var w=o.get(k);if(w!==undefined&&w!==null&&w!=='')return w;}}catch(e){}try{var g='get'+k.charAt(0).toUpperCase()+k.slice(1);if(typeof o[g]==='function'){var z=o[g]();if(z!==undefined&&z!==null&&z!=='')return z;}}catch(e){}return null;}function jparse(s){s=String(s);if(s.length&&s.charCodeAt(0)===65279)s=s.slice(1);return JSON.parse(s);}function itemVal(k){var o=null;try{o=(typeof result==='string')?jparse(result):result;}catch(e){o=null;}return pick(o,k);}var id=itemVal('id');if(id===null)return '';return 'https://apibi.cc/api/book?id='+id;})()</js>",
+      "coverUrl": "<js>(function(){function pick(o,k){if(o===null||o===undefined)return null;try{var v=o[k];if(v!==undefined&&v!==null&&v!=='')return v;}catch(e){}try{if(o.get){var w=o.get(k);if(w!==undefined&&w!==null&&w!=='')return w;}}catch(e){}try{var g='get'+k.charAt(0).toUpperCase()+k.slice(1);if(typeof o[g]==='function'){var z=o[g]();if(z!==undefined&&z!==null&&z!=='')return z;}}catch(e){}return null;}function jparse(s){s=String(s);if(s.length&&s.charCodeAt(0)===65279)s=s.slice(1);return JSON.parse(s);}function itemVal(k){var o=null;try{o=(typeof result==='string')?jparse(result):result;}catch(e){o=null;}return pick(o,k);}var id=itemVal('id');if(id===null)return '';return 'https://www.bqg413.cc/bookimg/'+Math.floor(Number(id)/1000)+'/'+id+'.jpg';})()</js>",
+      "intro": "$.intro",
+      "name": "$.title"
+    },
+    "ruleToc": {
+      "chapterList": "<js>(function(){var SB=[0x63,0x7c,0x77,0x7b,0xf2,0x6b,0x6f,0xc5,0x30,0x01,0x67,0x2b,0xfe,0xd7,0xab,0x76,0xca,0x82,0xc9,0x7d,0xfa,0x59,0x47,0xf0,0xad,0xd4,0xa2,0xaf,0x9c,0xa4,0x72,0xc0,0xb7,0xfd,0x93,0x26,0x36,0x3f,0xf7,0xcc,0x34,0xa5,0xe5,0xf1,0x71,0xd8,0x31,0x15,0x04,0xc7,0x23,0xc3,0x18,0x96,0x05,0x9a,0x07,0x12,0x80,0xe2,0xeb,0x27,0xb2,0x75,0x09,0x83,0x2c,0x1a,0x1b,0x6e,0x5a,0xa0,0x52,0x3b,0xd6,0xb3,0x29,0xe3,0x2f,0x84,0x53,0xd1,0x00,0xed,0x20,0xfc,0xb1,0x5b,0x6a,0xcb,0xbe,0x39,0x4a,0x4c,0x58,0xcf,0xd0,0xef,0xaa,0xfb,0x43,0x4d,0x33,0x85,0x45,0xf9,0x02,0x7f,0x50,0x3c,0x9f,0xa8,0x51,0xa3,0x40,0x8f,0x92,0x9d,0x38,0xf5,0xbc,0xb6,0xda,0x21,0x10,0xff,0xf3,0xd2,0xcd,0x0c,0x13,0xec,0x5f,0x97,0x44,0x17,0xc4,0xa7,0x7e,0x3d,0x64,0x5d,0x19,0x73,0x60,0x81,0x4f,0xdc,0x22,0x2a,0x90,0x88,0x46,0xee,0xb8,0x14,0xde,0x5e,0x0b,0xdb,0xe0,0x32,0x3a,0x0a,0x49,0x06,0x24,0x5c,0xc2,0xd3,0xac,0x62,0x91,0x95,0xe4,0x79,0xe7,0xc8,0x37,0x6d,0x8d,0xd5,0x4e,0xa9,0x6c,0x56,0xf4,0xea,0x65,0x7a,0xae,0x08,0xba,0x78,0x25,0x2e,0x1c,0xa6,0xb4,0xc6,0xe8,0xdd,0x74,0x1f,0x4b,0xbd,0x8b,0x8a,0x70,0x3e,0xb5,0x66,0x48,0x03,0xf6,0x0e,0x61,0x35,0x57,0xb9,0x86,0xc1,0x1d,0x9e,0xe1,0xf8,0x98,0x11,0x69,0xd9,0x8e,0x94,0x9b,0x1e,0x87,0xe9,0xce,0x55,0x28,0xdf,0x8c,0xa1,0x89,0x0d,0xbf,0xe6,0x42,0x68,0x41,0x99,0x2d,0x0f,0xb0,0x54,0xbb,0x16];function _xt(a){return ((a<<1)^((a&128)?27:0))&255;}function _ml(a,b){var r=0;while(b){if(b&1)r^=a;a=_xt(a);b>>=1;}return r&255;}function _ek(k){var w=new Array(176);var i;for(i=0;i<16;i++)w[i]=k[i];var rc=1;for(i=16;i<176;i+=4){var t0=w[i-4],t1=w[i-3],t2=w[i-2],t3=w[i-1];if(i%16===0){var tp=t0;t0=SB[t1]^rc;t1=SB[t2];t2=SB[t3];t3=SB[tp];rc=_xt(rc);}w[i]=w[i-16]^t0;w[i+1]=w[i-15]^t1;w[i+2]=w[i-14]^t2;w[i+3]=w[i-13]^t3;}return w;}function _sr(s){var t=s.slice(0);for(var r=0;r<4;r++){for(var q=0;q<4;q++){s[r+4*q]=t[r+4*((q+r)&3)];}}return s;}function _eb(w,s){var i,r,q;for(i=0;i<16;i++)s[i]^=w[i];for(r=1;r<10;r++){for(i=0;i<16;i++)s[i]=SB[s[i]];_sr(s);for(q=0;q<4;q++){var a0=s[4*q],a1=s[4*q+1],a2=s[4*q+2],a3=s[4*q+3];s[4*q]=_ml(a0,2)^_ml(a1,3)^a2^a3;s[4*q+1]=a0^_ml(a1,2)^_ml(a2,3)^a3;s[4*q+2]=a0^a1^_ml(a2,2)^_ml(a3,3);s[4*q+3]=_ml(a0,3)^a1^a2^_ml(a3,2);}for(i=0;i<16;i++)s[i]^=w[16*r+i];}for(i=0;i<16;i++)s[i]=SB[s[i]];_sr(s);for(i=0;i<16;i++)s[i]^=w[160+i];return s;}function _u8(t){var o=[];var s=String(t);for(var i=0;i<s.length;i++){var u=s.charCodeAt(i);if(u<128)o.push(u);else if(u<2048)o.push(192|(u>>6),128|(u&63));else if(u>=55296&&u<=56319&&i+1<s.length){var u2=s.charCodeAt(i+1);var cp=65536+((u-55296)<<10)+(u2-56320);i++;o.push(240|(cp>>18),128|((cp>>12)&63),128|((cp>>6)&63),128|(cp&63));}else o.push(224|(u>>12),128|((u>>6)&63),128|(u&63));}return o;}var _B='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';function _b64(b){var o='';for(var i=0;i<b.length;i+=3){var b0=b[i],b1=b[i+1],b2=b[i+2];var n=(b0<<16)|((b1===undefined?0:b1)<<8)|(b2===undefined?0:b2);o+=_B[(n>>18)&63]+_B[(n>>12)&63];o+=(b1===undefined)?'=':_B[(n>>6)&63];o+=(b2===undefined)?'=':_B[n&63];}return o;}function _enc(plain,kstr,ivstr){var k=_u8(kstr),iv=_u8(ivstr),w=_ek(k),d=_u8(plain),pad=16-(d.length%16),i,j;for(i=0;i<pad;i++)d.push(pad);var pv=iv.slice(0),out=[];for(i=0;i<d.length;i+=16){var blk=new Array(16);for(j=0;j<16;j++)blk[j]=d[i+j]^pv[j];_eb(w,blk);for(j=0;j<16;j++){out.push(blk[j]);pv[j]=blk[j];}}return _b64(out);}var K='a3dc22cf70418a51',V='394c2c3202da6270';function tok(o){return encodeURIComponent(_enc(JSON.stringify(o),K,V));}function pick(o,k){if(o===null||o===undefined)return null;try{var v=o[k];if(v!==undefined&&v!==null&&v!=='')return v;}catch(e){}try{if(o.get){var w=o.get(k);if(w!==undefined&&w!==null&&w!=='')return w;}}catch(e){}try{var g='get'+k.charAt(0).toUpperCase()+k.slice(1);if(typeof o[g]==='function'){var z=o[g]();if(z!==undefined&&z!==null&&z!=='')return z;}}catch(e){}return null;}function jparse(s){s=String(s);if(s.length&&s.charCodeAt(0)===65279)s=s.slice(1);return JSON.parse(s);}function itemVal(k){var o=null;try{o=(typeof result==='string')?jparse(result):result;}catch(e){o=null;}return pick(o,k);}var list=null,bid=null;try{var root=jparse(src);if(root&&root.list&&root.list.length){list=root.list;}}catch(e){}var hunts=[String(baseUrl||'')];try{if(typeof book!=='undefined'&&book){hunts.push(String(book.bookUrl||''));hunts.push(String(book.tocUrl||''));}}catch(e){}for(var h=0;h<hunts.length;h++){var m=hunts[h].match(/[?&]id=(\\d+)/);if(m){bid=m[1];break;}}if(!bid){try{var mm=String(src||'').match(/\"(?:id|dirid)\"\\s*:\\s*\"?\\s*(\\d+)/);if(mm){bid=mm[1];}}catch(e){}}if((!list||!list.length)&&bid){try{var body=java.ajax('https://apibi.cc/api/booklist?id='+bid);var r2=jparse(body);if(r2&&r2.list){list=r2.list;}}catch(e){}}if(!list)list=[];if(!bid)bid='0';var res=[];for(var i=0;i<list.length;i++){res.push('<a href=\"https://apibi.cc/api/chapter?token='+tok({id:Number(bid),chapterid:i+1})+'\">'+list[i]+'</a>');}return res;})()</js>",
+      "chapterName": "@css:a@text",
+      "chapterUrl": "@css:a@href"
+    },
+    "searchUrl": "https://apibi.cc/api/search?q={{key}}",
+    "weight": 0
+  }
+]

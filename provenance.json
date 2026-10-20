@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T13:04:22.211Z",
+  "generatedAt": "2026-10-20T13:17:21.847Z",
   "notice": "规则来源与原作者归属保留于原链接。本仓库整理与修订规则，不收录小说正文，不对第三方规则授予新许可。",
   "sources": [
     {
@@ -10,7 +10,9 @@
       "originalCandidateIndex": 0,
       "originalRuleId": "oct11-9eaa70732968d8",
       "fix": null,
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "用户App截图校验失败"
     },
     {
       "name": "话本·公开章节",
@@ -50,7 +52,9 @@
       "originalCandidateIndex": 6,
       "originalRuleId": "oct11-61d7b48dcd41a0",
       "fix": null,
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "用户App截图校验失败"
     },
     {
       "name": "乡土小说",
@@ -102,7 +106,9 @@
       "originalCandidateIndex": 17,
       "originalRuleId": "oct11-cd791ba3324320",
       "fix": null,
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "用户App截图校验失败"
     },
     {
       "name": "夜伴书屋",
@@ -132,7 +138,9 @@
       "originalCandidateIndex": 22,
       "originalRuleId": "oct11-50dc5c08968338",
       "fix": null,
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "用户App截图校验失败"
     },
     {
       "name": "爱看小说",
@@ -202,7 +210,9 @@
       "originalCandidateIndex": 2,
       "originalRuleId": "oct11-62b62e554c7e7c",
       "fix": null,
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "用户App截图校验失败"
     },
     {
       "name": "九九藏书",
@@ -262,7 +272,9 @@
       "originalCandidateIndex": 120,
       "originalRuleId": "oct11-e05f297a411811",
       "fix": null,
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "用户App截图校验失败"
     },
     {
       "name": "笔趣阁",
@@ -272,7 +284,9 @@
       "originalCandidateIndex": 239,
       "originalRuleId": "oct11-993496d0bd86f2",
       "fix": null,
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "用户App截图校验失败"
     },
     {
       "name": "轻说百科",
@@ -302,7 +316,9 @@
       "originalCandidateIndex": 26,
       "originalRuleId": "oct11-4e3703d9a2786c",
       "fix": "补齐目录分页",
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "用户App截图校验失败"
     },
     {
       "name": "唐人小说网",
