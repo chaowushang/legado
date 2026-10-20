@@ -12,7 +12,7 @@
 - 每次先读取 `app_failures.json`。其中 App 反馈失效的域名及已知跳转域名须隔离；即使服务器通过，也不能自动放回主合集。重新纳入须有明确修复证据及 App 复测结果。截图补充问题单独记录，不更改完整 JSON 的数量。
 - 每轮可新增站点，不限最初源池。搜索实际小说网站及近期维护的 GitHub 书源仓库，并参考 https://www.yckceo.com/yuedu/shuyuans/index.html 。同步日期、收录数量、网站首页 200、搜索引擎缓存均不能代替完整验证；缺少长期证据时不要标注长期稳定或口碑优秀。
 - 两个章节样本必须是不同实际请求 URL；排除目录分卷标题、重复链接和推荐列表。额外抓取完整目录及正文页检查分页，不能只查看截断的响应预览。新增来源与检验范围记录到 provenance.json 和 verification.json。
-- 主合集是服务器抽测候选，尚不等于 Android 已验证。客户端与服务器结果分开保存，禁止将服务器通过覆盖用户的失败反馈。
+- 2026-10-11版本30条已有用户App通过反馈；后续新增或规则变更不得继承该批次的客户端验证状态。客户端与服务器结果分开保存，禁止将服务器通过覆盖用户的失败反馈。
 - 从远程合集移除条目不一定会删除用户 App 中的旧条目。提供相同 bookSourceUrl、enabled=false 的停用导入文件，并提醒用户导入后检查开关；不删除书架或阅读进度。
 
 1. 下载仓库当前书源、`verification.json`、`candidate_sources.json`，不要仅复用上次通过结果。
@@ -30,3 +30,7 @@
 验证组件来自 [Narylr350/book-source-creator-skill](https://github.com/Narylr350/book-source-creator-skill)，脚本锁定提交与 SHA-256。未在仓库重新分发其二进制。更换版本时先核验来源并回归测试。
 
 官方定时任务运行条件：[OpenAI Docs](https://learn.chatgpt.com/docs/automations?surface=app)。
+
+## 2026-10-20维护补充
+
+当前主合集30条：移除DNS NXDOMAIN的顶点小说（23us.tw），新增唐人小说网（服务器抽测，尚未App复测）。本轮21条完成全部服务器抽测与网页复核，9条受连接/超时/空响应等影响仍待复核，具体以verification.json为准。保留9条历史App通过的规则不表示它们本轮已验证可用。继续逐条复查，不能将本轮未完成项目改写为通过。用户要求分组不加“App待实测”标签；验证差异记录在备注与verification.json。

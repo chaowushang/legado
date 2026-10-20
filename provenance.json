@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T12:06:55.701Z",
+  "generatedAt": "2026-10-20T13:04:22.211Z",
   "notice": "规则来源与原作者归属保留于原链接。本仓库整理与修订规则，不收录小说正文，不对第三方规则授予新许可。",
   "sources": [
     {
@@ -70,7 +70,9 @@
       "originalCandidateIndex": 11,
       "originalRuleId": "oct11-977bce835468b3",
       "fix": null,
-      "active": true
+      "active": false,
+      "retiredDate": "2026-10-20",
+      "reason": "DNS NXDOMAIN"
     },
     {
       "name": "云起书院",
@@ -301,6 +303,16 @@
       "originalRuleId": "oct11-4e3703d9a2786c",
       "fix": "补齐目录分页",
       "active": true
+    },
+    {
+      "name": "唐人小说网",
+      "url": "https://www.trxsw.com",
+      "origin": "yck-1315",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1315.html",
+      "originalCandidateIndex": 35,
+      "originalRuleId": "oct20-new-f0e4b8b3e1ce",
+      "active": true,
+      "androidVerified": false
     }
   ],
   "additionalRepositoriesReviewed": [
