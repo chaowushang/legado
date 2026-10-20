@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T13:17:21.847Z",
+  "generatedAt": "2026-10-20T14:04:58.663Z",
   "notice": "规则来源与原作者归属保留于原链接。本仓库整理与修订规则，不收录小说正文，不对第三方规则授予新许可。",
   "sources": [
     {
@@ -64,7 +64,9 @@
       "originalCandidateIndex": 8,
       "originalRuleId": "oct11-2835cb780ae4e4",
       "fix": null,
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "顶点小说",
@@ -96,7 +98,9 @@
       "originalCandidateIndex": 15,
       "originalRuleId": "oct11-e66ce5df567442",
       "fix": null,
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "笔趣阁（biquge7.xyz）",
@@ -160,7 +164,9 @@
       "originalCandidateIndex": 28,
       "originalRuleId": "oct11-6c711b7229bace",
       "fix": null,
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "星星小说网",
@@ -170,7 +176,9 @@
       "originalCandidateIndex": 29,
       "originalRuleId": "oct11-77a419a224513b",
       "fix": null,
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "瀚海书阁",
@@ -180,7 +188,9 @@
       "originalCandidateIndex": 30,
       "originalRuleId": "oct11-c1ac6015fbd33f",
       "fix": null,
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "爱下电子（繁）",
@@ -232,7 +242,9 @@
       "originalCandidateIndex": 94,
       "originalRuleId": "oct11-7ae691f2d3c9bb",
       "fix": null,
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "梦阮读书",
@@ -242,7 +254,9 @@
       "originalCandidateIndex": 107,
       "originalRuleId": "oct11-466b6a2311f427",
       "fix": null,
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "企鹅阅读",
@@ -262,7 +276,9 @@
       "originalCandidateIndex": 116,
       "originalRuleId": "oct11-8e1459b848e9c7",
       "fix": null,
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "茶马小说",
@@ -296,7 +312,9 @@
       "originalCandidateIndex": 14,
       "originalRuleId": "oct11-5e4448e630bb2e",
       "fix": "排除分卷标题链接，避免前两个正文样本实际为同一章",
-      "active": true
+      "active": false,
+      "reason": "2026-10-20最新复测后退出主合集",
+      "retiredDate": "2026-10-20"
     },
     {
       "name": "梦想家文学",
@@ -329,6 +347,210 @@
       "originalRuleId": "oct20-new-f0e4b8b3e1ce",
       "active": true,
       "androidVerified": false
+    },
+    {
+      "name": "四零二零",
+      "url": "http://www.4020xs.com",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 233,
+      "originalSourceUrl": "https://www.iwurexs.com",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-bb1f77f06ca72",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "爱下书小说网",
+      "url": "http://www.aixiashu.la",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 628,
+      "originalSourceUrl": "https://www.aixiawx.com/",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-a94777179b428",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "就爱文学",
+      "url": "http://www.92xs.info",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 95,
+      "originalSourceUrl": "http://www.92xs.info",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-90a13e0d668a8",
+      "canonicalChanged": false,
+      "fix": "本轮重新完整校验"
+    },
+    {
+      "name": "笔趣阁⑥⑧",
+      "url": "https://www.shubaoge.org",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 303,
+      "originalSourceUrl": "http://www.39txt.com",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-183b57a571c90",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "黄易小说",
+      "url": "http://wap.aihytd.com",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 395,
+      "originalSourceUrl": "http://m.xhytd.com",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-1ca075d18f6fe",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "夜天连看",
+      "url": "http://www.xyetianlian.com",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 480,
+      "originalSourceUrl": "http://www.yetianlian.info",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-3838d532556f9",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "笔趣网",
+      "url": "http://www.ibiquw.org",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 631,
+      "originalSourceUrl": "http://www.biquw.com/",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-a71952e501447",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "穿越小说",
+      "url": "http://www.kk169.la",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 720,
+      "originalSourceUrl": "http://www.kk169.net/",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-407f17c2bd314",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "黑炎小说",
+      "url": "http://www.xheiyan.org",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 749,
+      "originalSourceUrl": "http://www.heiyan.info/",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-ad5fdf1b742dc",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "阅读库",
+      "url": "http://www.yeudusk.com",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 764,
+      "originalSourceUrl": "http://www.yuedsk.com",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-cd9b3985d87ad",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "亿软网",
+      "url": "http://www.iyruan.info",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 783,
+      "originalSourceUrl": "http://www.yruan.com/",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-b00b672e4e8be",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "溜达小说",
+      "url": "http://www.liudatxt.la",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 884,
+      "originalSourceUrl": "http://www.txtshuku.org",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-85c6c47e24a86",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "橘子小说",
+      "url": "http://www.shugelou.org",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 918,
+      "originalSourceUrl": "http://www.xinshuge.net/",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-510aea9c01972",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "去读书",
+      "url": "http://www.quduwx.net",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 949,
+      "originalSourceUrl": "http://www.qudushu.org/",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-16c2da1ebe0b3",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "猪猪书网",
+      "url": "http://www.zzs5.net",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 945,
+      "originalSourceUrl": "http://www.zzs5.info/",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-8845f6ae62e01",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "啃书阁",
+      "url": "http://www.kenshuzw.la",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 1001,
+      "originalSourceUrl": "http://www.kenshuwx.com",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-cff19f7e5ac23",
+      "canonicalChanged": true,
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+    },
+    {
+      "name": "天地中文网",
+      "url": "http://www.tiandizw.com",
+      "active": true,
+      "origin": "historical-candidate",
+      "originalCandidateIndex": 681,
+      "originalSourceUrl": "http://www.tiandizw.com",
+      "upstream": "https://github.com/aoaostar/legado",
+      "ruleId": "final30-beda499998f0f",
+      "canonicalChanged": false,
+      "fix": "本轮重新完整校验"
     }
   ],
   "additionalRepositoriesReviewed": [

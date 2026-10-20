@@ -1,1 +1,171 @@
-[]
+[
+  {
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "不知加啥",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.rulianshi.cc",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1792505098666,
+    "respondTime": 5235,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.nr_nr@tag.div.1@textNodes",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "",
+      "sourceRegex": ""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "p.3@text##作者：",
+      "bookList": "class.block",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "我的",
+      "coverUrl": "img@src",
+      "kind": "p.2@text##分类：",
+      "lastChapter": "p.4@tag.a@text",
+      "name": "h2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.cover@tag.ul.1@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href",
+      "preUpdateJs": ""
+    },
+    "searchUrl": "/s.php?q={{key}}&submit=",
+    "weight": 0,
+    "bookSourceComment": "2026-10-20本轮：服务器搜索、详情、目录、两个不同章节及网页/分页抽样检查已通过；本轮未在Android客户端重新实测，免费公开样本不代表所有书籍或付费章节。\n历史备注与作者归属：\n"
+  },
+  {
+    "bookSourceComment": "2026-10-20本轮：服务器搜索、详情、目录、两个不同章节及网页/分页抽样检查已通过；本轮未在Android客户端重新实测，免费公开样本不代表所有书籍或付费章节。\n历史备注与作者归属：\n",
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "365小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shukuge.com/",
+    "customOrder": 2,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "玄幻::http://www.shukuge.com/i-xuanhuan/{{page}}&&言情::http://www.shukuge.com/i-yanqing/{{page}}&&穿越::http://www.shukuge.com/i-chuanyue/{{page}}&&重生::http://www.shukuge.com/i-chongsheng/{{page}}&&架空::http://www.shukuge.com/i-jiakong/{{page}}&&总裁::http://www.shukuge.com/i-zongcai/{{page}}&&武侠::http://www.shukuge.com/i-wuxia/{{page}}&&仙侠::http://www.shukuge.com/i-xianxia/{{page}}&&耽美::http://www.shukuge.com/i-danmei/{{page}}&&都市::http://www.shukuge.com/i-dushi/{{page}}&&军事::http://www.shukuge.com/i-junshi/{{page}}&&网游::http://www.shukuge.com/i-wangyou/{{page}}&&悬疑::http://www.shukuge.com/i-xuanyi/{{page}}&&文学::http://www.shukuge.com/i-wenxue/{{page}}&&科幻::http://www.shukuge.com/i-kehuan/{{page}}&&修真::http://www.shukuge.com/i-xiuzhen/{{page}}&&历史::http://www.shukuge.com/i-lishi/{{page}}&&其他::http://www.shukuge.com/i-qita/{{page}}&&短篇::http://www.shukuge.com/i-duanpian/{{page}}&&中篇::http://www.shukuge.com/i-zhongpian/{{page}}&&长篇::http://www.shukuge.com/i-changpian/{{page}}&&最新::http://www.shukuge.com/new/{{page}}",
+    "lastUpdateTime": 1792505098666,
+    "respondTime": 5860,
+    "ruleBookInfo": {
+      "author": ".bookdmore@p.2@a@text",
+      "coverUrl": ".bookdcover@img@src",
+      "intro": ".bookdtext@p.0@text",
+      "kind": ".bookdmore@p.0@a@text",
+      "lastChapter": ".bookdmore@p.6@a@text",
+      "name": ".bookd-title@text##TXT全集",
+      "tocUrl": ".bookdtext@p.6@a@href"
+    },
+    "ruleContent": {
+      "content": "#content@textNodes##投推荐票|上一章|←|章节目录|→|下一章|加入书签",
+      "title": ".bookd-title@text##作者：[\\u4e00-\\u9fa5]+|更新时间：[\\d]{4}-[\\d]{2}-[\\d]{2}|[\\d]{2}:[\\d]{2}:[\\d]{2}"
+    },
+    "ruleExplore": {
+      "author": ".sp@span.0@a@text",
+      "bookList": ".listitem",
+      "bookUrl": ".bookdesc@a@href",
+      "coverUrl": "img@src",
+      "intro": ".bookdesc@p.2@text##简介：",
+      "kind": ".sp@span.1@text##分类：",
+      "lastChapter": ".bookdesc@p.1@a@text",
+      "name": ".bookdesc@h2@text"
+    },
+    "ruleSearch": {
+      "author": ".sp@span.0@text##作者：",
+      "bookList": ".listitem",
+      "bookUrl": ".bookdesc@a@href",
+      "coverUrl": "img@src",
+      "intro": ".desc.1@text##简介：",
+      "kind": ".sp@span.1@text##分类：",
+      "lastChapter": ".desc.0@text##最新章节：",
+      "name": ".bookdesc@h2@text"
+    },
+    "ruleToc": {
+      "chapterList": ".box_con@dd",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "Search?wd={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "2026-10-20本轮：服务器搜索、详情、目录、两个不同章节及网页/分页抽样检查已通过；本轮未在Android客户端重新实测，免费公开样本不代表所有书籍或付费章节。\n历史备注与作者归属：\nerror:Unable to resolve host \"www.botaodz.com\": No address associated with hostname\n",
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "快眼看书botaodz",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xbotaodz.info",
+    "bookUrlPattern": "",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "全部::/category/all/\n玄幻::/category/xuanhuan/\n奇幻::/category/qihuan/\n武侠::/category/wuxia/\n仙侠::/category/xianxia/\n都市::/category/dushi/\n历史::/category/lishi/\n军事::/category/junshi/\n游戏::/category/youxi/\n竞技::/category/jingji/\n科幻::/category/kehuan/\n灵异::/category/lingyi/\n同人::/category/tongren/\n女生::/category/nvsheng/",
+    "header": "",
+    "lastUpdateTime": 1792505098666,
+    "loginUrl": "",
+    "respondTime": 17430,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "init": "meta",
+      "intro": "[property=\"og:description\"]@content##各位书友要是觉得.+",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.info@tag.span.1@text##作者：",
+      "bookList": "class.librarylist@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.intro@text",
+      "kind": "",
+      "lastChapter": "class.last@tag.a@text",
+      "name": "class.novelname@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.hide@tag.a",
+      "chapterName": "text##(?<=\\d章\\h)\\d+(\\+\\d+)?[，、]|(?<!^|[章卷部集]\\h?|[零一二三四五六七八九十][、\\h])[（［【\\{\\[\\(](?![一二三四五六七八九十]{1,3}\\W$|\\d{1,3}\\D$|[上中下完终续]\\W)[^（［【\\{\\[\\(]+|^(?=请\\w{0,2}假|解释|上架|推封|新书)\\S{2,}$",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }
+]

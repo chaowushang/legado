@@ -2105,5 +2105,399 @@
     },
     "searchUrl": "https://apibi.cc/api/search?q={{key}}",
     "weight": 0
+  },
+  {
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "🎉 精选",
+    "bookSourceName": "乡土小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiangtxsw.com",
+    "customOrder": 8,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 2437,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": ".m-summary@html",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+      "lastChapter": "#booklist a.-1@text",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "#content@html",
+      "imageStyle": "0"
+    },
+    "ruleSearch": {
+      "author": "td.2@text",
+      "bookList": "tbody tr",
+      "bookUrl": "a.0@href",
+      "kind": "td.3@text",
+      "lastChapter": "td.1@text",
+      "name": "a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "#booklist li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0,
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceGroup": "🎉 精选",
+    "bookSourceName": "酷书阁小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kushuge.com",
+    "customOrder": 15,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; U; Android 13; zh-Hans-CN; PFJM10 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.4896.58 Quark/6.13.6.581 Mobile Safari/537.36\",\"Accept-Language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 3566,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "[property~=las?test_chapter_name]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "article@html##第\\(\\d+\\/\\d+\\)页",
+      "nextContentUrl": ""
+    },
+    "ruleSearch": {
+      "author": "span.0@text",
+      "bookList": ".col-md-6@dl",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@src",
+      "kind": "{{@a.1@text##\\[(.*)\\].*##$1}}\n{{@dd.2:3##状态：?:?|更新时间：?:?}}",
+      "lastChapter": "a.2@text",
+      "name": "a.1@text##\\[.*\\](.*)##$1"
+    },
+    "ruleToc": {
+      "chapterList": ".book_list2@ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ".page-link.0@text##\\d+\\/(\\d+)##$1\n@js:\nres = JSON.parse(result)\nlist = [];\nfor (var i = 2; i <= res; i++) {\n\tlist.push(baseUrl.replace(/\\/$/,\"/index_\" + i + \".html\")); \n}\nlist;"
+    },
+    "searchUrl": "/search.php?q={{key}}&p={{page}}",
+    "weight": 0,
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💐 女频",
+    "bookSourceName": "思兔阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sto66.com",
+    "bookUrlPattern": "(https?://)?(www\\.)?sto66\\.com",
+    "customOrder": 28,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "@js:\nJSON.stringify({\n    \"User-Agent\": java.getWebViewUA()\n})",
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 30634,
+    "ruleBookInfo": {
+      "coverUrl": ".thumbnail.0@src",
+      "kind": "span.red@text&&a.blue@text",
+      "tocUrl": "div#allchapter > dl > dd > a.3@href"
+    },
+    "ruleContent": {
+      "content": "#content@html"
+    },
+    "ruleSearch": {
+      "author": ".author.0@text",
+      "bookList": "div.container > div.content.book > div.bookbox",
+      "bookUrl": "h2.bookname > a@href",
+      "checkKeyWord": "系统",
+      "intro": ".update@text",
+      "lastChapter": "div.cat > a@text",
+      "name": ".bookname@text",
+      "wordCount": ".author.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "div.container > div.content > div.book.chapterlist > div#allchapter > dl > dd",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "div > div > div > p > a@href"
+    },
+    "searchUrl": "https://www.sto66.com/search/{{key}}.html",
+    "weight": 0,
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "星星小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xiifan.com/",
+    "customOrder": 29,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"Referer\":\"https://m.xiifan.com/\",\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\",\"Accept-Language\":\"zh-CN,zh;q=0.9,en;q=0.8\"}",
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 3597,
+    "ruleBookInfo": {
+      "author": "class.book-info@class.info@tag.span.1@tag.a@text",
+      "coverUrl": "class.book-info@tag.dt@tag.img@src",
+      "intro": "class.book-info@class.intro@class.content@text",
+      "kind": "class.book-info@class.info@tag.span.0@text##分类：",
+      "lastChapter": "class.attentions@tag.li.0@tag.a@text",
+      "name": "class.book-info@tag.h2@text"
+    },
+    "ruleContent": {
+      "content": "id.chapterContent@html##<!--go-->|<!--over-->##"
+    },
+    "ruleSearch": {
+      "author": "class.info@tag.span.0@text##作者：",
+      "bookList": "class.search-list@tag.li",
+      "bookUrl": "class.tit@href",
+      "coverUrl": "class.pic@src",
+      "intro": "class.intro@text",
+      "kind": "class.info@tag.em.0@text",
+      "name": "class.tit@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nvar html=result;\nvar start=html.indexOf('bookshelf-list');\nvar section=start>=0?html.substring(start):'';\nvar chapters=[];\nvar re=/<a[^>]*href=\"(\\/book\\/\\d+\\/[^\"]+)\"[^>]*>([^<]+)<\\/a>/g;\nvar m;\nvar nav=['科幻小说','恐怖小说','其他小说','会员书架','阅读记录','首页','玄幻小说','仙侠小说','都市小说','历史小说','网游小说','武侠小说','言情小说','青春小说','穿越小说','惊悚小说','修真小说','首  页','首页'];\nwhile((m=re.exec(section))!==null){\n  var name=m[2].trim();\n  if(nav.indexOf(name)===-1){\n    chapters.push({'name':name,'url':m[1]})\n  }\n}\nresult=JSON.stringify(chapters)\n</js>\n$.[*]",
+      "chapterName": "$.name",
+      "chapterUrl": "$.url"
+    },
+    "searchUrl": "/search.html,{\"method\":\"POST\",\"body\":\"keyword={{key}}\"}",
+    "weight": 0,
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "瀚海书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ingml.cc",
+    "bookUrlPattern": "\\/novel\\/[0-9]+\\.html",
+    "customButton": false,
+    "customOrder": 30,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "eventListener": false,
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 3573,
+    "ruleBookInfo": {
+      "author": "class.hover:text-primary.0@text",
+      "coverUrl": "class.w-32 h-44 object-cover rounded-md shadow-md@src\n<js>\n\"https://www.ingml.cc\"+result;\n</js>",
+      "init": "",
+      "intro": "class.text-gray-700 dark:text-gray-300 leading-relaxed@text",
+      "kind": "class.hover:text-primary.1@text",
+      "name": "h1@text",
+      "wordCount": "tag.span.2@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content j_readContent@html",
+      "title": "class.j_chapterName@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@text",
+      "bookList": "@css:div.bg-light-secondary.rounded-lg.overflow-hidden.shadow-sm.flex",
+      "bookUrl": "tag.div.bg-light-secondary@onclick\n<js>\nvar url=result;\nurl=url.replace(\"window.open('\",'');\nurl=url.replace(\"', '_blank')\",\"\")\nurl;\n</js>",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.1@text",
+      "kind": "tag.span.0@text",
+      "name": "tag.h3@text",
+      "wordCount": "tag.span.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapter-list@a",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href\n<js>\n\"https://www.ingml.cc\"+result;\n</js>",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.ingml.cc/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0,
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "concurrentRate": "1500"
+  },
+  {
+    "bookSourceGroup": "📚 同人轻小说",
+    "bookSourceName": "轻之文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.linovel.net/",
+    "customButton": false,
+    "customOrder": 94,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "eventListener": false,
+    "exploreUrl": "[{\"title\":\"全部小说\",\"url\":\"https://www.linovel.net/cat/-1.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"文库精选\",\"url\":\"https://www.linovel.net/cat/2000.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"超能力\",\"url\":\"https://www.linovel.net/cat/12.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"幻想\",\"url\":\"/cat/1.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"战斗\",\"url\":\"https://www.linovel.net/cat/2.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"后宫\",\"url\":\"https://www.linovel.net/cat/8.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"恋爱\",\"url\":\"https://www.linovel.net/cat/3.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"异界\",\"url\":\"https://www.linovel.net/cat/4.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"搞笑\",\"url\":\"https://www.linovel.net/cat/5.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"日常\",\"url\":\"https://www.linovel.net/cat/6.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"校园\",\"url\":\"https://www.linovel.net/cat/7.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"https://www.linovel.net/cat/10.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"治愈\",\"url\":\"https://www.linovel.net/cat/11.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"节操\",\"url\":\"https://www.linovel.net/cat/13.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"妖怪\",\"url\":\"https://www.linovel.net/cat/14.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"恐怖\",\"url\":\"https://www.linovel.net/cat/15.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"妹控\",\"url\":\"https://www.linovel.net/cat/16.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"伪娘\",\"url\":\"https://www.linovel.net/cat/17.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"乙女\",\"url\":\"https://www.linovel.net/cat/19.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"同人\",\"url\":\"https://www.linovel.net/cat/20.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"百合\",\"url\":\"https://www.linovel.net/cat/21.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"https://www.linovel.net/cat/104.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"偶像\",\"url\":\"https://www.linovel.net/cat/22.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"魔法少女\",\"url\":\"https://www.linovel.net/cat/18.html?sort=hot&sign=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 18994,
+    "ruleBookInfo": {
+      "intro": "class.about-text@html##(^|[。！？]++”?+)##$1<br>"
+    },
+    "ruleContent": {
+      "content": "class.l@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book-extra@text##丨.*",
+      "bookList": "class.rank-book||class.rank-book-list@tag.a",
+      "bookUrl": "tag.a@href||href",
+      "coverUrl": "img@src",
+      "intro": "class.book-intro@textNodes",
+      "kind": "class.book-tags@text",
+      "name": "class.book-name@text||class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.linovel.net/search?kw={{key}}",
+    "weight": 0,
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注："
+  },
+  {
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注：",
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "梦阮读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kunnu8.com",
+    "concurrentRate": "3",
+    "customButton": false,
+    "customOrder": 107,
+    "enabled": false,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "eventListener": false,
+    "exploreUrl": "[{\"title\":\"首页\",\"url\":\"https://www.kunnu8.com\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"畅销\",\"url\":\"https://www.kunnu8.com/hot/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"资料\",\"url\":\"https://www.kunnu8.com/indb/<,page/{{page}}/>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"古典\",\"url\":\"https://www.kunnu8.com/jingdian/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"名著\",\"url\":\"https://www.kunnu8.com/mingzhu/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"https://www.kunnu8.com/wuxia/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"纯爱\",\"url\":\"https://www.kunnu8.com/dan/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"https://www.kunnu8.com/yanqing/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"https://www.kunnu8.com/kehuan/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"推理\",\"url\":\"https://www.kunnu8.com/tuili/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"当代\",\"url\":\"https://www.kunnu8.com/dangdai/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"https://www.kunnu8.com/xuanyi/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\", \"Accept-Language\": \"zh-CN,zh;q=0.9\"}",
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 5493,
+    "ruleBookInfo": {
+      "author": "class.book-describe@tag.p.0@text##作者：",
+      "coverUrl": "[property$=image]@content||img@src",
+      "intro": "class.describe-html@tag.p.1@textNodes",
+      "kind": "class.book-describe@tag.p.1@text##类型：",
+      "lastChapter": "class.book-describe@a@text",
+      "name": "class.book-describe@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.nr1@p@html##.*梦.*阮.*读.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "p@text||span@text##作者：|\\/ 类型.*|.*\\]|.*小说|.*经典|\\/ 上架时间.*|\\/|幻想|.*幻.*\\/|.*当代|.*文学|.*散文|.*青春|悬疑|随笔|",
+      "bookList": "class.cat-search-item&&class.book-list-indb clearfix@li&&ol@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "p@text||span@text##.*类型：|\\/.*",
+      "lastChapter": "p@text##.*完结时间：",
+      "name": "h2@a@text||h2@text||a@text##言情|都市"
+    },
+    "ruleToc": {
+      "chapterList": "class.book-list clearfix@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.kunnu8.com/?s={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "万象书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wwxsc.com",
+    "bookUrlPattern": "https?://www.wxsc8.com/book/\\d+/",
+    "customButton": false,
+    "customOrder": 116,
+    "enabled": false,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "eventListener": false,
+    "exploreUrl": "[{\"title\":\"玄幻·奇幻\",\"url\":\"/nav/xuanhuan<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"仙侠·武侠\",\"url\":\"/nav/xianxia<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"都市·娱乐\",\"url\":\"/nav/dushi<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"历史·军事\",\"url\":\"/nav/lishi<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"科幻·游戏\",\"url\":\"/nav/kehuan<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"恐怖·悬疑\",\"url\":\"/nav/kongbu<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"耽美·纯爱\",\"url\":\"/nav/chunai<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"女生·言情\",\"url\":\"/nav/yanqing<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},{\"title\":\"轻小说\",\"url\":\"/nav/erciyuan<,_{{page}}>.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 13408,
+    "ruleBookInfo": {
+      "author": "@get:{a}",
+      "coverUrl": "@get:{c}",
+      "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+      "intro": "@get:{i}",
+      "kind": "@get:{k}",
+      "lastChapter": "@get:{l}",
+      "name": "@get:{n}"
+    },
+    "ruleContent": {
+      "content": "#cont-body@html",
+      "nextContentUrl": ".page a@href"
+    },
+    "ruleExplore": {
+      "author": ".dark@text",
+      "bookList": ".media",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "intro": ".media-info@text",
+      "kind": "0",
+      "name": "h4@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.1@text",
+      "bookList": "tbody tr",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href\n##(\\d+)##/uploads/cover/pic$1.jpg###",
+      "kind": "0",
+      "name": "tag.a.0@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "#all-chapter a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.wwxsc.com/plus/search.php?q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。\n原备注："
+  },
+  {
+    "bookSourceComment": "2026-10-20最新复测未完成全部验证，暂退出主合集，不认定永久失效。\n2026-10-11：服务器搜索、详情、目录及两个不同章节抽测；用户于2026-10-11确认本版全部通过阅读App 3.25内校验。 本次修复：排除分卷标题链接，避免前两个正文样本实际为同一章。\n原备注：2026-09-24 服务器规则引擎抽样验证：搜索、详情、目录及两个章节。尚未在 Android 阅读客户端实测；免费公开章节，不保证所有书籍或付费章节。",
+    "bookSourceGroup": "📚 同人轻小说",
+    "bookSourceName": "轻说百科",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://lnovel.tw",
+    "customOrder": 14,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1791720955653,
+    "respondTime": 1714,
+    "ruleBookInfo": {
+      "author": ".text-body-tertiary.0@text",
+      "coverUrl": "https://lnovel.tw{{@@class.w-100 h-100.0@src}}",
+      "intro": "&nbsp;\n🎁：{{@@.card-body@p@text}}",
+      "kind": "{{@@dd.1@a@text}},{{@@dd.2@a@text}}",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "class.card-body.0@html##{{title}}"
+    },
+    "ruleSearch": {
+      "bookList": "class.col-6 col-md-4 col-md-3 col-lg-6 col-xl-4",
+      "bookUrl": "href",
+      "coverUrl": "img@src",
+      "name": "text"
+    },
+    "ruleToc": {
+      "chapterList": ".accordion-item a:not(.accordion-button)",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/books?page={{page}}&q%5Bname_cont%5D={{key}}",
+    "weight": 0,
+    "concurrentRate": "1500"
   }
 ]

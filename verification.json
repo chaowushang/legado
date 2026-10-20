@@ -1,14 +1,16 @@
 {
-  "generatedAt": "2026-10-20T13:17:21.847Z",
-  "scope": "2026-10-20服务器抽样记录，另结合用户最新App截图隔离8条。剩余22条不等于本轮全部App通过；10月11日反馈仅为历史记录。",
+  "generatedAt": "2026-10-20T14:04:58.663Z",
+  "scope": "当前30条全部完成服务器抽样；搜索、详情、目录、两个不同章节、目录顺序及页面分页抽查。抽查不保证全部书籍、所有分页或Android运行结果。本轮新增规则不继承历史App通过记录。",
   "summary": {
-    "active": 22,
-    "serverSamplePassed": 17,
-    "inconclusive": 5,
-    "new": 1,
+    "active": 30,
+    "serverSamplePassed": 30,
+    "inconclusive": 0,
+    "retained": 13,
+    "new": 17,
     "removed": 9,
-    "candidatesTested": 20,
-    "userScreenshotQuarantined": 8,
+    "initialCandidatesTested": 105,
+    "finalCandidatesTested": 35,
+    "verifiedReserve": 3,
     "cumulativeUserQuarantined": 45
   },
   "clientFeedback": {
@@ -33,13 +35,15 @@
     {
       "name": "话本·公开章节",
       "url": "https://www.ihuaben.com",
-      "sourceSha256": "2cba84bd404560c3993e3eb1a4bf5ae5319dbc08d4bc9eae3153c38116bab249",
+      "sourceSha256": "bd363f3ff6027711ce3b8aac085b5b960f8a793cdb82b49deced82bc26f289aa",
+      "testedRuleSha256": "2cba84bd404560c3993e3eb1a4bf5ae5319dbc08d4bc9eae3153c38116bab249",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:53:19.413Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:58:26.466Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -47,32 +51,63 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "穿越",
       "chapterCount": 165,
-      "contentLengths": [
-        1950,
-        1441
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第一季~穿越到赛尔号",
         "第一季~小米和战斗小队",
         "第一季~队友的生命就是我的生命",
         "第一季~飞翔的皮皮",
         "第一季~虎口脱险"
       ],
+      "contentLengths": [
+        1950,
+        1441
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://cdncn.ihuaben.com/cdn/chapters/3511282/1736481300000",
+          "effectiveUrl": "https://cdncn.ihuaben.com/cdn/chapters/3511282/1736481300000",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "a7d9e845805a7c5f17ee2964f211002a2f740bc78fa73c3e79143c5aa98df44d"
+        },
+        {
+          "phase": "content",
+          "url": "https://cdncn.ihuaben.com/cdn/chapter/3511282/23333270/1583981970000",
+          "effectiveUrl": "https://cdncn.ihuaben.com/cdn/chapter/3511282/23333270/1583981970000",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "98429d32fb4490e3ef1d2999fa0d20b5c25f560bae2afcb3dea94839388ceaec"
+        },
+        {
+          "phase": "content",
+          "url": "https://cdncn.ihuaben.com/cdn/chapter/3511282/23369910/1583988263000",
+          "effectiveUrl": "https://cdncn.ihuaben.com/cdn/chapter/3511282/23369910/1583988263000",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "63af77a5cadf7fa2edbb66ce925006d4cad2932162ffc0af0693b82b0b8470ae"
+        }
+      ],
       "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "阅友小说",
       "url": "http://m.yueyouxs.com",
-      "sourceSha256": "bbece6b072b614c9f535cebfb762832000cf981bc537b0e621387faae09b3d37",
+      "sourceSha256": "9ee82b6161eae9142f8e91a7ab93b9663a3d89f7700e6adea30dea81c69cb989",
+      "testedRuleSha256": "bbece6b072b614c9f535cebfb762832000cf981bc537b0e621387faae09b3d37",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:53:19.476Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:58:26.535Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -80,32 +115,63 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 1102,
-      "contentLengths": [
-        2035,
-        2623
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第一章 女上司的短信",
         "第二章 白裙子的美女",
         "第三章 闺蜜陷害",
         "第四章 卖女求荣",
         "第五章 送去酒店"
       ],
+      "contentLengths": [
+        2035,
+        2623
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://m.yueyouxs.com/c/235209.html",
+          "effectiveUrl": "http://m.yueyouxs.com/c/235209.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "f7be29ba4fe2ca7384874741c203cc8146f762457ecdead64005c304cfaa21b2"
+        },
+        {
+          "phase": "content",
+          "url": "http://m.yueyouxs.com/r/235209/235210.html",
+          "effectiveUrl": "http://m.yueyouxs.com/r/235209/235210.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "d790175a2759033fbedc11b1883495c72404cf7dc94a58f1b6c6ffd850a7d4d2"
+        },
+        {
+          "phase": "content",
+          "url": "http://m.yueyouxs.com/r/235209/235211.html",
+          "effectiveUrl": "http://m.yueyouxs.com/r/235209/235211.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "52d3c66045275ffdbddfe8b6eecf80456b2ff67ba647e2270763adac13fb4e2a"
+        }
+      ],
       "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "逐浪小说",
       "url": "https://m.zhulang.com",
-      "sourceSha256": "a826ca8004ed13a2937b81ef12eb51aa896846a48afc045f1c483f33adf5fd40",
+      "sourceSha256": "a7b06ffee58a47c4393fe36533c4ee35e5ef2aae2f100a80ef237ef6f727b745",
+      "testedRuleSha256": "a826ca8004ed13a2937b81ef12eb51aa896846a48afc045f1c483f33adf5fd40",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:53:19.544Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:58:26.599Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -113,65 +179,63 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 148,
-      "contentLengths": [
-        2730,
-        2470
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第1章 1960，漂泊异乡 免费",
         "第2章 第一代，靠河求活 免费",
         "第3章 1968，黄河遇险 免费",
         "第4章 为了好日子 免费",
         "第5章 1976，李秀珍进城 免费"
       ],
-      "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
-    },
-    {
-      "name": "乡土小说",
-      "url": "https://www.xiangtxsw.com",
-      "sourceSha256": "10eec10fb6b61b1fc1ccce40b97d88fa3b928659c8a4a07aee910e91f8f4e1ec",
-      "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:53:45.733Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "passed",
-      "phases": {
-        "search": "success",
-        "detail": "success",
-        "toc": "success",
-        "content": "success"
-      },
-      "chapterCount": 23,
       "contentLengths": [
-        2232,
-        4161
+        2730,
+        2470
       ],
-      "firstChapterTitles": [
-        "第1章 复活",
-        "第2章 与月相逢 1",
-        "第3章 与月相逢 2",
-        "第4章 与月相逢 3",
-        "第5章 与月相逢 4"
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://m.zhulang.com/778492/0/?",
+          "effectiveUrl": "https://m.zhulang.com/778492/0/?",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": true,
+          "bodySha256": "98df672f80ad798c2e559564033adde8cc9ecbd7baf48bbb16b0a7a9314b47c9"
+        },
+        {
+          "phase": "content",
+          "url": "https://m.zhulang.com/778492/304418.html?",
+          "effectiveUrl": "https://m.zhulang.com/778492/304418.html?",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "aa2e103a994258bb568a958c1bee73e50cafb57434f0a639d1b50eb57a7c35b6"
+        },
+        {
+          "phase": "content",
+          "url": "https://m.zhulang.com/778492/309184.html?",
+          "effectiveUrl": "https://m.zhulang.com/778492/309184.html?",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "770929d8d00e16a04a981524626e2cb8ceb9a00ccd4d14281c307dfbd55be14c"
+        }
       ],
       "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "云起书院",
       "url": "https://yunqi.qq.com#🎃",
-      "sourceSha256": "1d5cffdcc68dab3246f0e79a4a0427f766b68b4cfe8c623b59a9bc374e1a8e8f",
+      "sourceSha256": "1f4bb17b1046bbf1a65858d127a27a1092c4db380ae502b20edbeee3fb8ee3ef",
+      "testedRuleSha256": "1d5cffdcc68dab3246f0e79a4a0427f766b68b4cfe8c623b59a9bc374e1a8e8f",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:53:49.904Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:58:26.658Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -179,76 +243,63 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 355,
-      "contentLengths": [
-        2438,
-        2580
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第1章 三大职业，父母俱全",
         "第2章 一阶【游侠儿】和妖雾",
         "第3章 老陆家的传承职业和灵鱼",
         "第4章 两界门",
         "第5章 云顶巨人袭击"
       ],
-      "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
-    },
-    {
-      "name": "酷书阁小说网",
-      "url": "https://www.kushuge.com",
-      "sourceSha256": "047bb917150ae12abcaa0268beaf4a9f19894c645d35521e7d9ffb8407a5f41b",
-      "status": "inconclusive_network_or_rule",
-      "checkedAt": "2026-10-20T12:53:54.376Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "passed",
-      "phases": {
-        "search": "success",
-        "detail": "success",
-        "toc": "success",
-        "content": "success"
-      },
-      "chapterCount": 100,
       "contentLengths": [
-        658,
-        864
+        2438,
+        2580
       ],
-      "firstChapterTitles": [
-        "第1章:闯祸的仙人（契子）",
-        "第2章:坐小寒舍的七尊",
-        "第3章:此道别，亦十年",
-        "第4章:一起下山吧！",
-        "第5章:行人客栈"
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://yunqi.qq.com/detail/47382304",
+          "effectiveUrl": "https://yunqi.qq.com/detail/47382304",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "3200858b91fbcb2c67bdc63c7474508d9983735524b380986bb2ebf90695d2a5"
+        },
+        {
+          "phase": "content",
+          "url": "https://yunqi.qq.com/read/47382304/1",
+          "effectiveUrl": "https://yunqi.qq.com/read/47382304/1",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "b8ed782ee7e0f3386befda86bf70cec9f2eea783c02e5cb889c0f0c38ff0223c"
+        },
+        {
+          "phase": "content",
+          "url": "https://yunqi.qq.com/read/47382304/2",
+          "effectiveUrl": "https://yunqi.qq.com/read/47382304/2",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "d783d2748adfdc63e803c27f19179f80726bd9382a7fb8d5ab24f9fc4dabce00"
+        }
       ],
       "paginationFollowups": [],
-      "issues": [
-        "toc复取失败: Command failed: C:\\Users\\jacki\\Documents\\Codex\\2026-09-24\\ppt-2026-8-21-project-ppt\\work\\curl\\curl-8.22.0_2-win64-mingw\\bin\\curl.exe --silent --show-e",
-        "content复取失败: Command failed: C:\\Users\\jacki\\Documents\\Codex\\2026-09-24\\ppt-2026-8-21-project-ppt\\work\\curl\\curl-8.22.0_2-win64-mingw\\bin\\curl.exe --silent --show-e"
-      ],
-      "transportDiagnosis": {
-        "name": "酷书阁小说网",
-        "url": "https://www.kushuge.com",
-        "phase": "toc",
-        "checkedAt": "2026-10-20T13:00:59.811Z",
-        "httpStatus": 200,
-        "category": "request_recovered_requires_full_retest"
-      },
-      "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
+      "issues": []
     },
     {
       "name": "夜伴书屋",
       "url": "https://www.yybsw.com#🎃",
-      "sourceSha256": "d4f980ed5b8717dfe191697046cfc921e30a1a05a651775c0b4123fec9470997",
+      "sourceSha256": "7f01ccb3692f9d6c4f8293daa63394f24804e852d5da465d649127222ccee361",
+      "testedRuleSha256": "d4f980ed5b8717dfe191697046cfc921e30a1a05a651775c0b4123fec9470997",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:54:04.456Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:58:49.659Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -256,32 +307,63 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 50,
-      "contentLengths": [
-        1675,
-        1551
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第一章 奇幻初遇",
         "第二章 似懂非懂",
         "第三章 毫无防备",
         "第四章 赖上你了",
         "第五章 上新男友"
       ],
+      "contentLengths": [
+        1675,
+        1551
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://www.yybsw.com/book/wodemogelinanhai/",
+          "effectiveUrl": "https://www.yybsw.com/book/wodemogelinanhai/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "2defcf1b85bbdb7e21c4c059650ad465d0377626841d2312d2a00c8f254cc076"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.yybsw.com/book/wodemogelinanhai/21973.html",
+          "effectiveUrl": "https://www.yybsw.com/book/wodemogelinanhai/21973.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "dd7296753862f343716ea0811d39019ed30a6da35ec394ea8416d48b1d4f639f"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.yybsw.com/book/wodemogelinanhai/21974.html",
+          "effectiveUrl": "https://www.yybsw.com/book/wodemogelinanhai/21974.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "d7f0526fc8b971f61afc91294975cace671800afc42ed6dedd97146be4142a24"
+        }
+      ],
       "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "笔趣阁（bqquge.org）",
       "url": "https://www.bqquge.org",
-      "sourceSha256": "2e3c6fb5eba7bdc1e09848c080d66efe2289a6a6121600e247c36c360d3c1d4d",
+      "sourceSha256": "a8d3ad31741adb531cdfa6d841e8e0f21f58defe7d7f68da370753df6c5eb20a",
+      "testedRuleSha256": "2e3c6fb5eba7bdc1e09848c080d66efe2289a6a6121600e247c36c360d3c1d4d",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:54:15.671Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:58:52.012Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -289,21 +371,61 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 548,
-      "contentLengths": [
-        2719,
-        944
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第一章 关於属性这件事",
         "第二章 魅惑法师",
         "第三章 术式天演",
         "第四章 路",
         "第五章 《冒险家协会通用魔物图鑑》"
       ],
+      "contentLengths": [
+        2719,
+        2129
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://www.bqquge.org/4704",
+          "effectiveUrl": "https://www.bqquge.org/4704",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "10011f62ae41994e3756f16b4e6fa3a07bb805539f099166ae7ee24bb70ffdf2"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.bqquge.org/4704/3073524",
+          "effectiveUrl": "https://www.bqquge.org/4704/3073524",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/4704/3073524-2"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "6c89c00874c38a350b6f07f9ec1b5af88208436cccd549ffe67af365c5d2febc"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.bqquge.org/4704/3073526",
+          "effectiveUrl": "https://www.bqquge.org/4704/3073526",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/4704/3073526-2"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "e763db078e3dd274331bfdf9d741c2fa922dc375802a5083dae29f410f8110dd"
+        }
+      ],
       "paginationFollowups": [
         {
-          "id": "oct20-11",
+          "id": "final30-2e3c6fb5eba7b",
           "name": "笔趣阁（bqquge.org）",
           "phase": "content",
           "from": "https://www.bqquge.org/4704/3073524",
@@ -314,7 +436,7 @@
           "status": "page_fetched"
         },
         {
-          "id": "oct20-11",
+          "id": "final30-2e3c6fb5eba7b",
           "name": "笔趣阁（bqquge.org）",
           "phase": "content",
           "from": "https://www.bqquge.org/4704/3073526",
@@ -325,19 +447,20 @@
           "status": "page_fetched"
         }
       ],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "爱看小说",
       "url": "http://m.2kk.la#",
-      "sourceSha256": "e7ca04fcc4e9b79fe86a69c5c7fd63be5b16508a302e1c1b8f5b052a2bfc2b53",
+      "sourceSha256": "7d46a2f282c652924b95e7171e229f68c186d7657b74d0c837da2c96c619e8d7",
+      "testedRuleSha256": "e7ca04fcc4e9b79fe86a69c5c7fd63be5b16508a302e1c1b8f5b052a2bfc2b53",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:54:28.404Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:58:54.753Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -345,32 +468,69 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "剑来",
       "chapterCount": 1308,
-      "contentLengths": [
-        3531,
-        3749
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第一卷 笼中雀 第一章 惊蛰",
         "第一卷 笼中雀 第二章 开门",
         "第一卷 笼中雀 第三章 日出",
         "第一卷 笼中雀 第四章 黄鸟",
         "第一卷 笼中雀 第五章 道破"
       ],
-      "paginationFollowups": [
+      "contentLengths": [
+        3531,
+        3749
+      ],
+      "requests": [
         {
-          "id": "oct20-13",
-          "name": "爱看小说",
-          "phase": "content",
-          "from": "http://m.2kk.la/ks2984/825131.html",
-          "url": "http://m.2kk.la/ks2984/825131_2.html",
+          "phase": "toc",
+          "url": "http://m.2kk.la/ks2984/all.html",
+          "effectiveUrl": "http://m.2kk.la/ks2984/all.html",
           "httpStatus": 200,
-          "title": "第一卷 笼中雀 第二章 开门_剑来_爱看小说",
-          "chineseCharacters": 1057,
-          "status": "page_fetched"
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "501ae861ea066cc1b3cdd746e4c93d24cf10a717521982101953638388aebb57"
         },
         {
-          "id": "oct20-13",
+          "phase": "content",
+          "url": "http://m.2kk.la/ks2984/825130.html",
+          "effectiveUrl": "http://m.2kk.la/ks2984/825130.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/ks2984/825130_2.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/ks2984/825130_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "f9636e8ef7ddaa62737617e6930f2220146a41a4cd7c4b131f5a7e8e1ad3ae16"
+        },
+        {
+          "phase": "content",
+          "url": "http://m.2kk.la/ks2984/825131.html",
+          "effectiveUrl": "http://m.2kk.la/ks2984/825131.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/ks2984/825131_2.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/ks2984/825131_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "12f80283ee7ece45359fa8e0d6f8671d13cb476b96c70642d2c90ef8aa3d3ec1"
+        }
+      ],
+      "paginationFollowups": [
+        {
+          "id": "final30-e7ca04fcc4e9b",
           "name": "爱看小说",
           "phase": "content",
           "from": "http://m.2kk.la/ks2984/825130.html",
@@ -379,150 +539,33 @@
           "title": "第一卷 笼中雀 第一章 惊蛰_剑来_爱看小说",
           "chineseCharacters": 908,
           "status": "page_fetched"
-        }
-      ],
-      "issues": [],
-      "transportDiagnosis": null
-    },
-    {
-      "name": "思兔阅读",
-      "url": "https://www.sto66.com",
-      "sourceSha256": "36a42a8b0bd6d7e85ab030d6bf5d1067c24dc6e93668f1e8cb887395fc42908d",
-      "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:54:38.079Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "passed",
-      "phases": {
-        "search": "success",
-        "detail": "success",
-        "toc": "success",
-        "content": "success"
-      },
-      "chapterCount": 1500,
-      "contentLengths": [
-        2305,
-        2286
-      ],
-      "firstChapterTitles": [
-        "第1章 放出来了",
-        "第2章 春风化雨",
-        "第3章 又菜又嚣张",
-        "第4章 人间地狱",
-        "第5章 砍死你丫的"
-      ],
-      "paginationFollowups": [
+        },
         {
-          "id": "oct20-14",
-          "name": "思兔阅读",
-          "phase": "toc",
-          "from": "https://www.sto66.com/chapter/aM3y6lrq9ALlrpD8L5qpK.html",
-          "url": "https://www.sto66.com/chapter/aM3y6lrq9ALlrpD8L5qpK/2.html",
+          "id": "final30-e7ca04fcc4e9b",
+          "name": "爱看小说",
+          "phase": "content",
+          "from": "http://m.2kk.la/ks2984/825131.html",
+          "url": "http://m.2kk.la/ks2984/825131_2.html",
           "httpStatus": 200,
-          "title": "开局：被系统关成了精神病章节列表",
-          "chineseCharacters": 3443,
+          "title": "第一卷 笼中雀 第二章 开门_剑来_爱看小说",
+          "chineseCharacters": 1057,
           "status": "page_fetched"
         }
       ],
-      "issues": [],
-      "transportDiagnosis": {
-        "name": "思兔阅读",
-        "url": "https://www.sto66.com",
-        "phase": "toc",
-        "checkedAt": "2026-10-20T13:00:59.833Z",
-        "httpStatus": 200,
-        "category": "request_recovered_requires_full_retest"
-      }
-    },
-    {
-      "name": "星星小说网",
-      "url": "https://m.xiifan.com/",
-      "sourceSha256": "c8bc17458aa38ae259c59bbebfae864d4ce0693cfab459f443cb5f6e84d8a895",
-      "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:54:42.134Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "passed",
-      "phases": {
-        "search": "success",
-        "detail": "success",
-        "toc": "success",
-        "content": "success"
-      },
-      "chapterCount": 406,
-      "contentLengths": [
-        2642,
-        3325
-      ],
-      "firstChapterTitles": [
-        "第1章 哪怕是泰坦，也会死于感染",
-        "第2章 降临！",
-        "第3章 首战大捷",
-        "第4章 “绯红星河”",
-        "第5章 停服维护与戒断反应"
-      ],
-      "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
-    },
-    {
-      "name": "瀚海书阁",
-      "url": "https://www.ingml.cc",
-      "sourceSha256": "129f2e2e5025358374a6f43402952732a1418a9e084a482d9845878f7948fd90",
-      "status": "inconclusive_network_or_rule",
-      "checkedAt": "2026-10-20T12:54:48.861Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "passed",
-      "phases": {
-        "search": "success",
-        "detail": "success",
-        "toc": "success",
-        "content": "success"
-      },
-      "chapterCount": 691,
-      "contentLengths": [
-        2264,
-        2317
-      ],
-      "firstChapterTitles": [
-        "第1章 万界小说网",
-        "第2章 兑现",
-        "第3章 逛商场",
-        "第4章 成为正式作者",
-        "第5章 特种兵王的健身私教"
-      ],
-      "paginationFollowups": [],
-      "issues": [
-        "toc复取失败: Command failed: C:\\Users\\jacki\\Documents\\Codex\\2026-09-24\\ppt-2026-8-21-project-ppt\\work\\curl\\curl-8.22.0_2-win64-mingw\\bin\\curl.exe --silent --show-e",
-        "content复取失败: Command failed: C:\\Users\\jacki\\Documents\\Codex\\2026-09-24\\ppt-2026-8-21-project-ppt\\work\\curl\\curl-8.22.0_2-win64-mingw\\bin\\curl.exe --silent --show-e"
-      ],
-      "transportDiagnosis": {
-        "name": "瀚海书阁",
-        "url": "https://www.ingml.cc",
-        "phase": "toc",
-        "checkedAt": "2026-10-20T13:00:59.860Z",
-        "transportError": "curl: (52) Empty reply from server",
-        "category": "transport_failure"
-      },
-      "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
+      "issues": []
     },
     {
       "name": "爱下电子（繁）",
       "url": "https://ixdzs.tw/",
-      "sourceSha256": "eee32d6e1e486f87e612b03d13febceba2600f3c99edc6f8d1f05c8217ced4ac",
+      "sourceSha256": "df36a24bfe868020d6f73a40de728eb23cdd9f11e428853d7a66193d18d14848",
+      "testedRuleSha256": "eee32d6e1e486f87e612b03d13febceba2600f3c99edc6f8d1f05c8217ced4ac",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:54:53.220Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:58:55.072Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -530,32 +573,63 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 634,
-      "contentLengths": [
-        2200,
-        2192
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第1章 遇襲，京都震怒",
         "第2章 不惜一切代價救人",
         "第3章 會上抓人",
         "第4章 仇要自己報",
         "第5章 這一次，我要青雲直上！"
       ],
+      "contentLengths": [
+        2200,
+        2192
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://ixdzs.tw/novel/clist/",
+          "effectiveUrl": "https://ixdzs.tw/novel/clist/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "2294fb26fdf7a94569014bb7aaa866cc71a134768d02453a6191e59cae7a5828"
+        },
+        {
+          "phase": "content",
+          "url": "https://ixdzs.tw/read/645660/p1.html",
+          "effectiveUrl": "https://ixdzs.tw/read/645660/p1.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "f71661bbe8ac77e7084ffd9fd5a54740318fbcccf3212d16fb73ed6f8c64171c"
+        },
+        {
+          "phase": "content",
+          "url": "https://ixdzs.tw/read/645660/p2.html",
+          "effectiveUrl": "https://ixdzs.tw/read/645660/p2.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "9aa678ce4e50673c8caf62f168dd6d546218f46c7565b2bc7a33ff282540115a"
+        }
+      ],
       "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "全本小说网",
       "url": "https://www.quanben.io",
-      "sourceSha256": "d7b4f2a2449d298f0b04b56e91b2f2937a18cbeba6b86bc1711dd164a5bd5dfd",
+      "sourceSha256": "0c1be22526f45794061a6f74b8fa58c61ae3c92c53292d2f0605327f12afd20f",
+      "testedRuleSha256": "d7b4f2a2449d298f0b04b56e91b2f2937a18cbeba6b86bc1711dd164a5bd5dfd",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:54:59.216Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:59:16.354Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "anonymous_candidate",
       "phases": {
         "search": "success",
@@ -563,32 +637,75 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 989,
-      "contentLengths": [
-        4149,
-        3705
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第1章 我是你的女神",
         "第2章 那个贱人",
         "第3章 我是你撬动地球的支点",
         "第4章 梦想的准备阶段",
         "第5章 你属于你自己"
       ],
+      "contentLengths": [
+        4149,
+        3705
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://www.quanben.io/n/wodenushen/list.html",
+          "effectiveUrl": "https://www.quanben.io/n/wodenushen/list.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "8f222e8f36096c1275a9d32dfff2999667fbba257aae804913efd08dc18ec66b"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.quanben.io/n/wodenushen/1.html",
+          "effectiveUrl": "https://www.quanben.io/n/wodenushen/1.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/n/wodenushen/2.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "eae135038f33708166fdc98609cb2edfca9a797b4888d69e75887350e9f795cb",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.quanben.io/n/wodenushen/2.html",
+          "effectiveUrl": "https://www.quanben.io/n/wodenushen/2.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/n/wodenushen/3.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "4ae3c46dea55bc58a5e38bc28d5c08a29b051a60acdf9f9dfe104a7a3a0388f4",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        }
+      ],
       "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "九九藏书",
       "url": "https://www.sangshixs.com",
-      "sourceSha256": "e2a20fa3b3c85c6b6bbe236eb9aadd7d6b6476d15e6bb6a73380c7b639722d0d",
+      "sourceSha256": "8bb5d8816f9cf77ac8ee430bacc9708925ced98f596bf3ab4bab5de26f406a0f",
+      "testedRuleSha256": "e2a20fa3b3c85c6b6bbe236eb9aadd7d6b6476d15e6bb6a73380c7b639722d0d",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:55:10.370Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:59:19.250Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -596,87 +713,63 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 63,
-      "contentLengths": [
-        3166,
-        3253
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "失忆",
         "富贵花",
         "因为你",
         "绒绒",
         "十八岁"
       ],
-      "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
-    },
-    {
-      "name": "轻之文库",
-      "url": "https://www.linovel.net/",
-      "sourceSha256": "950f03e8447841133982d0994172c2a98a0bb387f56006e543c7dcdd625adc5d",
-      "status": "inconclusive_network_or_rule",
-      "checkedAt": "2026-10-20T12:57:54.024Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "error",
-      "paginationFollowups": [],
-      "issues": [
-        "The operation was aborted due to timeout"
+      "contentLengths": [
+        3166,
+        3253
       ],
-      "transportDiagnosis": {
-        "name": "轻之文库",
-        "url": "https://www.linovel.net/",
-        "phase": "homepage_transport_only",
-        "checkedAt": "2026-10-20T13:01:06.277Z",
-        "httpStatus": 200,
-        "category": "request_recovered_requires_full_retest"
-      },
-      "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
-    },
-    {
-      "name": "梦阮读书",
-      "url": "https://www.kunnu8.com",
-      "sourceSha256": "41836ceb6ffd46febab8965fbc856567507d7ffd4d6829bf433f8175bdd02ff2",
-      "status": "inconclusive_network_or_rule",
-      "checkedAt": "2026-10-20T12:58:25.503Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "chapterCount": 0,
-      "contentLengths": [],
-      "paginationFollowups": [],
-      "issues": [
-        "HTTP 0, 响应体前200字: "
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://www.sangshixs.com/wodeomegatapaole/",
+          "effectiveUrl": "https://www.sangshixs.com/wodeomegatapaole/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "e81da997d584671a82c92474db9ee08b8c5e51df1b2504710d61221a1e7dc05d"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.sangshixs.com/wodeomegatapaole/645923.html",
+          "effectiveUrl": "https://www.sangshixs.com/wodeomegatapaole/645923.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "34a6af64fe40dd7b4331c5e06f7d3477def749e65599b8785081a0dd93601059"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.sangshixs.com/wodeomegatapaole/645924.html",
+          "effectiveUrl": "https://www.sangshixs.com/wodeomegatapaole/645924.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "004263b895796ee7b5ad6156cf202c57265e1a8c0d938dcbc7a32387a1ab9549"
+        }
       ],
-      "transportDiagnosis": {
-        "name": "梦阮读书",
-        "url": "https://www.kunnu8.com",
-        "phase": "search",
-        "checkedAt": "2026-10-20T13:01:07.425Z",
-        "transportError": "curl: (28) Connection timed out after 15014 milliseconds",
-        "category": "network_timeout"
-      },
-      "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
+      "paginationFollowups": [],
+      "issues": []
     },
     {
       "name": "企鹅阅读",
       "url": "https://ubook.reader.qq.com",
-      "sourceSha256": "4c9f8f984dcf9353e7a330c220bc09e31194029e9d3eb8ccf2f6644324c6317d",
+      "sourceSha256": "048fde324cdc7b8eb1c75a9fdc1970d80c2c466a4c8547af6346af2b99094432",
+      "testedRuleSha256": "4c9f8f984dcf9353e7a330c220bc09e31194029e9d3eb8ccf2f6644324c6317d",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:55:36.650Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:59:23.941Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "anonymous_candidate",
       "phases": {
         "search": "success",
@@ -684,95 +777,63 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "深空彼岸",
       "chapterCount": 1455,
-      "contentLengths": [
-        2198,
-        2072
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第1章 旧土",
         "第2章 韶华易逝",
         "第3章 续命项目",
         "第4章 超自然",
         "第5章 弃若敝履"
       ],
-      "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
-    },
-    {
-      "name": "万象书城",
-      "url": "https://www.wwxsc.com",
-      "sourceSha256": "d2d716d87c28c2500a15a4bf44a45076655cdcb5be7a9c239e1798308f681974",
-      "status": "inconclusive_network_or_rule",
-      "checkedAt": "2026-10-20T12:58:27.336Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "chapterCount": 0,
-      "contentLengths": [],
-      "paginationFollowups": [],
-      "issues": [
-        "HTTP 0, 响应体前200字: "
-      ],
-      "transportDiagnosis": {
-        "name": "万象书城",
-        "url": "https://www.wwxsc.com",
-        "phase": "search",
-        "checkedAt": "2026-10-20T13:01:13.374Z",
-        "httpStatus": 200,
-        "category": "request_recovered_requires_full_retest"
-      },
-      "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
-    },
-    {
-      "name": "轻说百科",
-      "url": "https://lnovel.tw",
-      "sourceSha256": "0b884433dfc68cf6c2dea913e87772dd529d0dec8072e73526c97d28e315f16a",
-      "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:56:34.850Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-      "engineStatus": "passed",
-      "phases": {
-        "search": "success",
-        "detail": "success",
-        "toc": "success",
-        "content": "success"
-      },
-      "chapterCount": 133,
       "contentLengths": [
-        5378,
-        6495
+        2198,
+        2072
       ],
-      "firstChapterTitles": [
-        "第一話 仙台的價格剛好五千元",
-        "第1話 仙台同學的價值不多不少，正好五千圓",
-        "第二話 今天宮城給了我五千元",
-        "第2話　宮城今天也給了我五千圓",
-        "第三話 說仙台甜是在騙人"
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://book.qq.com/book-chapter/37339371",
+          "effectiveUrl": "https://book.qq.com/book-chapter/37339371",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "64c8187f9dc9ab1a21507e91603790f8adb438300bfa00bb7902e91d2db580d4"
+        },
+        {
+          "phase": "content",
+          "url": "https://book.qq.com/book-read/37339371/1",
+          "effectiveUrl": "https://book.qq.com/book-read/37339371/1",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "3a6e1fb3a36e0cad004bf269824b86c25fe3faf521f2f963a5f8ddfad1cefae5"
+        },
+        {
+          "phase": "content",
+          "url": "https://book.qq.com/book-read/37339371/2",
+          "effectiveUrl": "https://book.qq.com/book-read/37339371/2",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "9c1b02d6366c96756f5d00dcf1f56bc24207998abb02d706afb6a821545eba95"
+        }
       ],
       "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "梦想家文学",
       "url": "http://www.mxjtedu.com/",
-      "sourceSha256": "09aa7333941a33c4c6b63ae8a3c0f19124fff29ea7fa61d964d8f359d9c42bc3",
+      "sourceSha256": "81e6ef5208fe045dd401aa7c09cabeff8699b0df29b7c66df4f682ea21a222c6",
+      "testedRuleSha256": "09aa7333941a33c4c6b63ae8a3c0f19124fff29ea7fa61d964d8f359d9c42bc3",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:56:41.431Z",
-      "androidVerified": true,
-      "androidVerificationMethod": "user_reported_app_validation",
-      "androidVerificationDate": "2026-10-11",
-      "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
+      "checkedAt": "2026-10-20T13:59:41.017Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": "2026-10-11",
+        "result": "2026-10-11用户报告通过，非本轮新验证"
+      },
       "engineStatus": "passed",
       "phases": {
         "search": "success",
@@ -780,21 +841,74 @@
         "toc": "success",
         "content": "success"
       },
+      "keyword": "我的",
       "chapterCount": 69,
-      "contentLengths": [
-        2420,
-        2248
-      ],
-      "firstChapterTitles": [
+      "firstTitles": [
         "第1章 五星差评的开局",
         "第2章 离谱的数据面板",
         "第3章 太阳神瞳到手",
         "第4章 真假“太阳之子”",
         "第5章 妖兽都市"
       ],
+      "contentLengths": [
+        2420,
+        2248
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.mxjtedu.com/shu/106/106287/",
+          "effectiveUrl": "http://www.mxjtedu.com/shu/106/106287/",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/shu/106/106287/index_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "9591df0adc96b15335d38dd1b439bd40c5a6fb0f41a607e172409f435b8ca13d"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.mxjtedu.com/shu/106/106287/43524418.html",
+          "effectiveUrl": "http://www.mxjtedu.com/shu/106/106287/43524418.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/shu/106/106287/43524418_2.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/shu/106/106287/43524418_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "2e5627fbe284f34a433a8f631058297af1d416c1abeba6373635b9a558467039"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.mxjtedu.com/shu/106/106287/43524419.html",
+          "effectiveUrl": "http://www.mxjtedu.com/shu/106/106287/43524419.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/shu/106/106287/43524419_2.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/shu/106/106287/43524419_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "d91934f7541e8af5314bf808f57f87e0d2fe0c75a74ab09d3880985170ead8af"
+        }
+      ],
       "paginationFollowups": [
         {
-          "id": "oct20-28",
+          "id": "final30-09aa7333941a3",
           "name": "梦想家文学",
           "phase": "toc",
           "from": "http://www.mxjtedu.com/shu/106/106287/",
@@ -805,7 +919,7 @@
           "status": "page_fetched"
         },
         {
-          "id": "oct20-28",
+          "id": "final30-09aa7333941a3",
           "name": "梦想家文学",
           "phase": "content",
           "from": "http://www.mxjtedu.com/shu/106/106287/43524418.html",
@@ -816,7 +930,7 @@
           "status": "page_fetched"
         },
         {
-          "id": "oct20-28",
+          "id": "final30-09aa7333941a3",
           "name": "梦想家文学",
           "phase": "content",
           "from": "http://www.mxjtedu.com/shu/106/106287/43524419.html",
@@ -827,19 +941,20 @@
           "status": "page_fetched"
         }
       ],
-      "issues": [],
-      "transportDiagnosis": null
+      "issues": []
     },
     {
       "name": "唐人小说网",
       "url": "https://www.trxsw.com",
-      "sourceSha256": "2388b7cdd0d346ad709a6270d4dfe6ee9be7ed6b4868b613482129fe8a78ded0",
+      "sourceSha256": "e93ef50d7df78a0aec29ad558ca1483c0ac14a59f819e851503927419223e5a3",
+      "testedRuleSha256": "2388b7cdd0d346ad709a6270d4dfe6ee9be7ed6b4868b613482129fe8a78ded0",
       "status": "server_sample_passed",
-      "checkedAt": "2026-10-20T12:56:37.425Z",
-      "androidVerified": false,
-      "androidVerificationMethod": null,
-      "androidVerificationDate": null,
-      "lastUserReportedResult": null,
+      "checkedAt": "2026-10-20T13:59:41.112Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": {
+        "date": null,
+        "result": null
+      },
       "engineStatus": "anonymous_candidate",
       "phases": {
         "search": "success",
@@ -847,642 +962,1295 @@
         "toc": "success",
         "content": "success"
       },
-      "chapterCount": 1074,
-      "contentLengths": [
-        3848,
-        3636
+      "keyword": "我的",
+      "chapterCount": 473,
+      "firstTitles": [
+        "第1章 有工作了捏",
+        "第2章 幸运值",
+        "第3章 收集物资",
+        "第4章 求生第二天结束",
+        "第5章 找到组织了"
       ],
-      "firstChapterTitles": [
-        "第1章 卡牌系统",
-        "第2章 契机",
-        "第3章 码头混战",
-        "第4章 青年李乾坤",
-        "第5章 冲突"
+      "contentLengths": [
+        2401,
+        2620
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://www.trxsw.com/tangren/106779/",
+          "effectiveUrl": "https://www.trxsw.com/tangren/106779/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "f67f17003a2c36bf50794596d26dbddd3518d8bb377551c7bab883d237a51fdf"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.trxsw.com/tangren/106779/286761843.html",
+          "effectiveUrl": "https://www.trxsw.com/tangren/106779/286761843.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "1d298d2e6563a3540e464461a4042cb91e7a64614343c0bdb3eba0c7c183915a"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.trxsw.com/tangren/106779/286761845.html",
+          "effectiveUrl": "https://www.trxsw.com/tangren/106779/286761845.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "07cc1521784fe4072730ec250652010dd9efa07286b0f99cdf135636f0a466e5"
+        }
       ],
       "paginationFollowups": [],
-      "issues": [],
-      "transportDiagnosis": null
-    }
-  ],
-  "retired": [
-    {
-      "name": "顶点小说",
-      "url": "http://www.23us.tw/",
-      "reason": "本地curl无法解析域名；Google公共DNS对www.23us.tw与23us.tw均返回NXDOMAIN。",
-      "dnsEvidence": [
-        {
-          "host": "www.23us.tw",
-          "status": 3,
-          "authority": [
-            {
-              "name": "tw.",
-              "type": 6,
-              "TTL": 900,
-              "data": "a.dns.tw. snw.twnic.net.tw. 2011093351 3600 900 1296000 900"
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
-      "name": "速读谷·新版",
-      "url": "https://www.sudugu.cc",
-      "reason": "2026-10-20用户App截图校验失败：timeout",
-      "status": "quarantined_app_report",
-      "previousVerification": {
-        "name": "速读谷·新版",
-        "url": "https://www.sudugu.cc",
-        "sourceSha256": "994340d8723f85116342a094b1a69c070afbd9d363cc3f2b18e6e1f6b381c6cf",
-        "status": "server_sample_passed",
-        "checkedAt": "2026-10-20T12:53:19.190Z",
-        "androidVerified": true,
-        "androidVerificationMethod": "user_reported_app_validation",
-        "androidVerificationDate": "2026-10-11",
-        "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-        "engineStatus": "passed",
-        "phases": {
-          "search": "success",
-          "detail": "success",
-          "toc": "success",
-          "content": "success"
-        },
-        "chapterCount": 770,
-        "contentLengths": [
-          2826,
-          2542
-        ],
-        "firstChapterTitles": [
-          "第一章 装备面板",
-          "第二章 护卫队",
-          "第三章 灵田收租",
-          "第四章 清洁术",
-          "第五章 词条永久化"
-        ],
-        "paginationFollowups": [
-          {
-            "id": "oct20-0",
-            "name": "速读谷·新版",
-            "phase": "content",
-            "from": "https://www.sudugu.cc/370/326214.html",
-            "url": "https://www.sudugu.cc/370/326214_2.html",
-            "httpStatus": 200,
-            "title": "修仙：我能固化装备属性 > 第一章 装备面板（2 / 3）",
-            "chineseCharacters": 494,
-            "status": "page_fetched"
-          },
-          {
-            "id": "oct20-0",
-            "name": "速读谷·新版",
-            "phase": "content",
-            "from": "https://www.sudugu.cc/370/326218.html",
-            "url": "https://www.sudugu.cc/370/326218_2.html",
-            "httpStatus": 200,
-            "title": "修仙：我能固化装备属性 > 第二章 护卫队（2 / 3）",
-            "chineseCharacters": 735,
-            "status": "page_fetched"
-          }
-        ],
-        "issues": [],
-        "transportDiagnosis": null
-      }
-    },
-    {
-      "name": "红人小说",
-      "url": "https://www.hongrenxs.com/",
-      "reason": "2026-10-20用户App截图校验失败：timeout",
-      "status": "quarantined_app_report",
-      "previousVerification": {
-        "name": "红人小说",
-        "url": "https://www.hongrenxs.com/",
-        "sourceSha256": "01657c1a355aac69bd5fc9ea498c2f5c17dded545742c3d52cef1b298b2e12a8",
-        "status": "inconclusive_network_or_rule",
-        "checkedAt": "2026-10-20T12:57:53.954Z",
-        "androidVerified": true,
-        "androidVerificationMethod": "user_reported_app_validation",
-        "androidVerificationDate": "2026-10-11",
-        "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-        "engineStatus": "failed",
-        "phases": {
-          "search": "error"
-        },
-        "chapterCount": 0,
-        "contentLengths": [],
-        "paginationFollowups": [],
-        "issues": [
-          "HTTP 0, 响应体前200字: "
-        ],
-        "transportDiagnosis": {
-          "name": "红人小说",
-          "url": "https://www.hongrenxs.com/",
-          "phase": "search",
-          "checkedAt": "2026-10-20T13:01:02.017Z",
-          "httpStatus": 200,
-          "category": "request_recovered_requires_full_retest"
-        },
-        "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
-      }
-    },
-    {
-      "name": "独步小说",
-      "url": "https://www.dbxsn.com",
-      "reason": "2026-10-20用户App截图校验失败：timeout",
-      "status": "quarantined_app_report",
-      "previousVerification": {
-        "name": "独步小说",
-        "url": "https://www.dbxsn.com",
-        "sourceSha256": "b177c5e29d11bf3cd9085b9b90c0df31e204a19467b81c03334164c3aa410790",
-        "status": "server_sample_passed",
-        "checkedAt": "2026-10-20T12:53:39.477Z",
-        "androidVerified": true,
-        "androidVerificationMethod": "user_reported_app_validation",
-        "androidVerificationDate": "2026-10-11",
-        "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-        "engineStatus": "passed",
-        "phases": {
-          "search": "success",
-          "detail": "success",
-          "toc": "success",
-          "content": "success"
-        },
-        "chapterCount": 103,
-        "contentLengths": [
-          2512,
-          3110
-        ],
-        "firstChapterTitles": [
-          "第1章",
-          "第2章",
-          "第3章",
-          "第4章",
-          "第5章"
-        ],
-        "paginationFollowups": [],
-        "issues": [],
-        "transportDiagnosis": null
-      }
-    },
-    {
-      "name": "笔趣阁（biquge7.xyz）",
-      "url": "https://www.biquge7.xyz#",
-      "reason": "2026-10-20用户App截图校验失败：timeout",
-      "status": "quarantined_app_report",
-      "previousVerification": {
-        "name": "笔趣阁（biquge7.xyz）",
-        "url": "https://www.biquge7.xyz#",
-        "sourceSha256": "233dd46e6909603b22ffd0da2b6f05a722bc38efa9d940baca15522d427acaa3",
-        "status": "server_sample_passed",
-        "checkedAt": "2026-10-20T12:54:03.549Z",
-        "androidVerified": true,
-        "androidVerificationMethod": "user_reported_app_validation",
-        "androidVerificationDate": "2026-10-11",
-        "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-        "engineStatus": "passed",
-        "phases": {
-          "search": "success",
-          "detail": "success",
-          "toc": "success",
-          "content": "success"
-        },
-        "chapterCount": 1010,
-        "contentLengths": [
-          2822,
-          2930
-        ],
-        "firstChapterTitles": [
-          "1、想等的人（修）",
-          "2、倒计时（修）",
-          "3、破碎的世界（修）",
-          "4、不止一个（修）",
-          "5、超然的地位（修）"
-        ],
-        "paginationFollowups": [],
-        "issues": [],
-        "transportDiagnosis": null
-      }
-    },
-    {
-      "name": "奇书网包",
-      "url": "http://www.xqishuta.com#",
-      "reason": "2026-10-20用户App截图校验失败：unexpected end of stream on htt…（截图文字截断）",
-      "status": "quarantined_app_report",
-      "previousVerification": {
-        "name": "奇书网包",
-        "url": "http://www.xqishuta.com#",
-        "sourceSha256": "b8566ecd2fe71b9eb9c954df012594d971df115ea5a96c2c5fe38c73d8a3401a",
-        "status": "server_sample_passed",
-        "checkedAt": "2026-10-20T12:54:25.651Z",
-        "androidVerified": true,
-        "androidVerificationMethod": "user_reported_app_validation",
-        "androidVerificationDate": "2026-10-11",
-        "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-        "engineStatus": "passed",
-        "phases": {
-          "search": "success",
-          "detail": "success",
-          "toc": "success",
-          "content": "success"
-        },
-        "chapterCount": 69,
-        "contentLengths": [
-          3377,
-          3085
-        ],
-        "firstChapterTitles": [
-          "第1章 五星差评的开局",
-          "第2章 离谱的数据面板",
-          "第3章 太阳神瞳到手",
-          "第4章 真假“太阳之子”",
-          "第5章 妖兽都市"
-        ],
-        "paginationFollowups": [],
-        "issues": [],
-        "transportDiagnosis": null
-      }
-    },
-    {
-      "name": "得奇小说网",
-      "url": "https://www.deqixs.org",
-      "reason": "2026-10-20用户App截图校验失败：timeout",
-      "status": "quarantined_app_report",
-      "previousVerification": {
-        "name": "得奇小说网",
-        "url": "https://www.deqixs.org",
-        "sourceSha256": "d476f995847f611f9fbbb4b6dbd82cc2580f52bb9e4a799baec2cc05641e7b5a",
-        "status": "inconclusive_network_or_rule",
-        "checkedAt": "2026-10-20T12:59:30.886Z",
-        "androidVerified": true,
-        "androidVerificationMethod": "user_reported_app_validation",
-        "androidVerificationDate": "2026-10-11",
-        "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-        "engineStatus": "failed",
-        "phases": {
-          "search": "error"
-        },
-        "chapterCount": 0,
-        "contentLengths": [],
-        "paginationFollowups": [],
-        "issues": [
-          "搜索结果为空 (HTTP 200, 列表大小:0)"
-        ],
-        "transportDiagnosis": {
-          "name": "得奇小说网",
-          "url": "https://www.deqixs.org",
-          "phase": "search",
-          "checkedAt": "2026-10-20T13:01:22.492Z",
-          "transportError": "curl: (28) Operation timed out after 15012 milliseconds with 8196 bytes received",
-          "category": "network_timeout"
-        },
-        "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
-      }
-    },
-    {
-      "name": "茶马小说",
-      "url": "https://www.chamabooks.net",
-      "reason": "2026-10-20用户App截图校验失败：timeout",
-      "status": "quarantined_app_report",
-      "previousVerification": {
-        "name": "茶马小说",
-        "url": "https://www.chamabooks.net",
-        "sourceSha256": "9f644d4836a6a0a05ca19746683a4e1ce5890cd59d682aac73cfad64f70ed5f4",
-        "status": "inconclusive_network_or_rule",
-        "checkedAt": "2026-10-20T12:58:46.824Z",
-        "androidVerified": true,
-        "androidVerificationMethod": "user_reported_app_validation",
-        "androidVerificationDate": "2026-10-11",
-        "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-        "engineStatus": "anonymous_candidate",
-        "phases": {
-          "search": "success",
-          "detail": "success",
-          "toc": "success",
-          "content": "success"
-        },
-        "chapterCount": 108,
-        "contentLengths": [
-          3071,
-          2879
-        ],
-        "firstChapterTitles": [
-          "第1章 一只哥哥“你是我的哥哥吗？”",
-          "第2章 两只哥哥兄长对妹妹的保护欲",
-          "第3章 三只哥哥被封印的怪物",
-          "第4章 四只哥哥像鹤一样的青年",
-          "第5章 五只哥哥纯白色染上赤红之后，不就更"
-        ],
-        "paginationFollowups": [],
-        "issues": [
-          "toc复取失败: Command failed: C:\\Users\\jacki\\Documents\\Codex\\2026-09-24\\ppt-2026-8-21-project-ppt\\work\\curl\\curl-8.22.0_2-win64-mingw\\bin\\curl.exe --silent --show-e",
-          "content复取失败: Command failed: C:\\Users\\jacki\\Documents\\Codex\\2026-09-24\\ppt-2026-8-21-project-ppt\\work\\curl\\curl-8.22.0_2-win64-mingw\\bin\\curl.exe --silent --show-e",
-          "content复取失败: Command failed: C:\\Users\\jacki\\Documents\\Codex\\2026-09-24\\ppt-2026-8-21-project-ppt\\work\\curl\\curl-8.22.0_2-win64-mingw\\bin\\curl.exe --silent --show-e"
-        ],
-        "transportDiagnosis": {
-          "name": "茶马小说",
-          "url": "https://www.chamabooks.net",
-          "phase": "toc",
-          "checkedAt": "2026-10-20T13:01:07.452Z",
-          "httpStatus": 200,
-          "category": "request_recovered_requires_full_retest"
-        },
-        "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
-      }
-    },
-    {
-      "name": "笔趣阁",
-      "url": "https://apibi.cc",
-      "reason": "2026-10-20用户App截图校验失败：timeout",
-      "status": "quarantined_app_report",
-      "previousVerification": {
-        "name": "笔趣阁",
-        "url": "https://apibi.cc",
-        "sourceSha256": "ba7014875214f5c09de291ba0576d9865f7dc0c6461429d1832e8f2d8ebfd90a",
-        "status": "inconclusive_network_or_rule",
-        "checkedAt": "2026-10-20T12:58:59.383Z",
-        "androidVerified": true,
-        "androidVerificationMethod": "user_reported_app_validation",
-        "androidVerificationDate": "2026-10-11",
-        "lastUserReportedResult": "2026-10-11用户报告通过，非本轮新验证",
-        "engineStatus": "failed",
-        "phases": {
-          "search": "error"
-        },
-        "chapterCount": 0,
-        "contentLengths": [],
-        "paginationFollowups": [],
-        "issues": [
-          "IllegalArgumentException: json string can not be null or empty"
-        ],
-        "transportDiagnosis": {
-          "name": "笔趣阁",
-          "url": "https://apibi.cc",
-          "phase": "search",
-          "checkedAt": "2026-10-20T13:01:09.484Z",
-          "transportError": "curl: (28) Connection timed out after 15010 milliseconds",
-          "category": "network_timeout"
-        },
-        "retentionReason": "上次用户App验证通过；本轮存在超时、连接中断或搜索空结果，不能据此断定用户设备也失效。保留规则并明确本轮未通过完整复查。"
-      }
-    }
-  ],
-  "candidateReview": [
-    {
-      "name": "📂黄金屋",
-      "url": "https://www.huangjinwu.org/",
-      "checkedAt": "2026-10-20T12:55:28.560Z",
-      "status": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "contentLengths": [],
-      "reason": "搜索结果为空 (HTTP 200, 列表大小:0)",
-      "accepted": false
-    },
-    {
-      "name": "📂故事族",
-      "url": "https://www.gushizu.com",
-      "checkedAt": "2026-10-20T12:55:28.630Z",
-      "status": "failed",
-      "phases": {
-        "search": "success",
-        "detail": "success",
-        "toc": "success",
-        "content": "error"
-      },
-      "contentLengths": [
-        0
-      ],
-      "reason": "IllegalArgumentException: 内容为空",
-      "accepted": false
-    },
-    {
-      "name": "🏷创世中文网",
-      "url": "https://chuangshi.qq.com/",
-      "checkedAt": "2026-10-20T12:55:50.879Z",
-      "status": "error",
-      "reason": "Bad escaped character in JSON at position 251 (line 1 column 252)",
-      "accepted": false
-    },
-    {
-      "name": "⚡📂搜小说",
-      "url": "https://www.sou78.com/",
-      "checkedAt": "2026-10-20T12:55:28.480Z",
-      "status": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "contentLengths": [],
-      "reason": "HTTP 0, 响应体前200字: ",
-      "accepted": false
-    },
-    {
-      "name": "📂恩京书房",
-      "url": "https://www.enjing.net",
-      "checkedAt": "2026-10-20T12:55:28.696Z",
-      "status": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "contentLengths": [],
-      "reason": "HTTP 0, 响应体前200字: ",
-      "accepted": false
-    },
-    {
-      "name": "📂得奇小说",
-      "url": "https://www.deqixss.com/",
-      "checkedAt": "2026-10-20T12:55:43.266Z",
-      "status": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "contentLengths": [],
-      "reason": "HTTP 0, 响应体前200字: ",
-      "accepted": false
-    },
-    {
-      "name": "📂烟锁重楼",
-      "url": "https://www.eyushuwu.com",
-      "checkedAt": "2026-10-20T12:55:53.475Z",
-      "status": "error",
-      "reason": "Bad escaped character in JSON at position 256 (line 1 column 257)",
-      "accepted": false
-    },
-    {
-      "name": "⚡📂新笔趣阁",
-      "url": "https://www.xbqg777.com",
-      "checkedAt": "2026-10-20T12:56:17.671Z",
-      "status": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "contentLengths": [],
-      "reason": "HTTP 0, 响应体前200字: ",
-      "accepted": false
-    },
-    {
-      "name": "📂种田小说",
-      "url": "https://m.zhongtianwen.cn",
-      "checkedAt": "2026-10-20T12:55:57.731Z",
-      "status": "error",
-      "reason": "The operation was aborted due to timeout",
-      "accepted": false
-    },
-    {
-      "name": "🌍半夏小说",
-      "url": "https://www.xbanxia.cc/",
-      "checkedAt": "2026-10-20T12:57:04.300Z",
-      "status": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "contentLengths": [],
-      "reason": "搜索返回验证码/人机验证页面",
-      "accepted": false
-    },
-    {
-      "name": "📂群小说",
-      "url": "https://www.qunxs.com",
-      "checkedAt": "2026-10-20T12:56:08.406Z",
-      "status": "error",
-      "reason": "The operation was aborted due to timeout",
-      "accepted": false
-    },
-    {
-      "name": "⚡📂唐人小说网",
-      "url": "https://www.trxsw.com",
-      "checkedAt": "2026-10-20T12:56:37.425Z",
-      "status": "anonymous_candidate",
+      "name": "四零二零",
+      "url": "http://www.4020xs.com",
+      "sourceSha256": "eee902a6b29c4be21b66a0d2d67235289251a0ff8dbc0cd9247e4760995934ae",
+      "testedRuleSha256": "bb1f77f06ca7276904f81b2c90cd5046f174a4575a35bc43a948adb7a5502d77",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T13:59:46.399Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
       "phases": {
         "search": "success",
         "detail": "success",
         "toc": "success",
         "content": "success"
       },
-      "contentLengths": [
-        3848,
-        3636
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
       ],
-      "reason": null,
-      "accepted": true
+      "contentLengths": [
+        2236,
+        2088
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.4020xs.com/read/382722/",
+          "effectiveUrl": "http://www.4020xs.com/read/382722/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "c2a1af79759c20d9750e89f66287fdbec962973ecfd11b65aa746048035aba8c"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.4020xs.com/read/382722/87817751.html",
+          "effectiveUrl": "http://www.4020xs.com/read/382722/87817751.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "f297323bafad3de571f281a4a7b9104ccfca9946925522612548adb22e29e803"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.4020xs.com/read/382722/87817752.html",
+          "effectiveUrl": "http://www.4020xs.com/read/382722/87817752.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "519f20855d7bd3e38907ecd101a0b478a7901f7c25dca3ba1f511ba699ce9392"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
     },
     {
-      "name": "⚡📂听小说APP",
-      "url": "https://ts3.txs12.com",
-      "checkedAt": "2026-10-20T12:57:16.303Z",
-      "status": "failed",
+      "name": "爱下书小说网",
+      "url": "http://www.aixiashu.la",
+      "sourceSha256": "f7b338793aa7a8fbdd3fc9c4f78c6ebe9650bbb873c18b093bd6831aeb221ccf",
+      "testedRuleSha256": "a94777179b4281854ff0b72a9a68b0d46396cf61edae4951e102d1ed28f7a137",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T13:59:55.666Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
       "phases": {
         "search": "success",
         "detail": "success",
         "toc": "success",
-        "content": "error"
+        "content": "success"
       },
-      "contentLengths": [
-        0,
-        0
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
       ],
-      "reason": "IllegalArgumentException: 内容为空",
-      "accepted": false
+      "contentLengths": [
+        3328,
+        3036
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.aixiashu.la/163/163944/",
+          "effectiveUrl": "http://www.aixiashu.la/163/163944/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "dc26c6f98068bc1a37d674bac820a99f652cd8b131e8d2f37feae5f1927433da"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.aixiashu.la/163/163944/60246853.html",
+          "effectiveUrl": "http://www.aixiashu.la/163/163944/60246853.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "4412333e6610e91ca90a23341d528ee4c9cb29fafed4f83e597b8b1e9be72402"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.aixiashu.la/163/163944/60246854.html",
+          "effectiveUrl": "http://www.aixiashu.la/163/163944/60246854.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "0238e56a82f00c7ec2094a04864fad31cbf86bccc4fd0dd932a0f284ab42a98b"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
     },
     {
-      "name": "⚡📂米读小说",
-      "url": "https://api.midureader.com",
-      "checkedAt": "2026-10-20T12:57:27.082Z",
-      "status": "failed",
+      "name": "就爱文学",
+      "url": "http://www.92xs.info",
+      "sourceSha256": "0aaa5bdeee918e7228e1b522505fdf9869e811c80d4037ae81fc876b553512be",
+      "testedRuleSha256": "90a13e0d668a8bec218393fc965b79a1fe5ea615a20f4dd8fd35b219ddafa50d",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:06.674Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
       "phases": {
         "search": "success",
         "detail": "success",
         "toc": "success",
-        "content": "error"
+        "content": "success"
       },
-      "contentLengths": [
-        0,
-        0
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
       ],
-      "reason": "IllegalArgumentException: json string can not be null or empty",
-      "accepted": false
+      "contentLengths": [
+        2236,
+        2088
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.92xs.info/html/131583/",
+          "effectiveUrl": "http://www.92xs.info/html/131583/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "9b69cdb0259953c43d57a3ca47f7637720ca63178d81b47f324e38344883a6a3"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.92xs.info/html/131583/46351548.html",
+          "effectiveUrl": "http://www.92xs.info/html/131583/46351548.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/html/131583/46351549.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/html/131583/46351549.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "dc97cc4438e031277a1e7a1b66a9a036291f15b6953fa6f64b6658e80e9dd113",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.92xs.info/html/131583/46351549.html",
+          "effectiveUrl": "http://www.92xs.info/html/131583/46351549.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/html/131583/46351550.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/html/131583/46351550.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "f31830ba4282f01734ae16c2cf0c5b324509ffb53785fe58eec6e58007a8a0c6",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
     },
     {
-      "name": "📂爱书包",
+      "name": "笔趣阁⑥⑧",
       "url": "https://www.shubaoge.org",
-      "checkedAt": "2026-10-20T12:56:36.795Z",
-      "status": "error",
-      "reason": "The operation was aborted due to timeout",
-      "accepted": false
-    },
-    {
-      "name": "⚡📂思路客",
-      "url": "https://www.szndz.com",
-      "checkedAt": "2026-10-20T12:57:07.754Z",
-      "status": "failed",
-      "phases": {
-        "search": "error"
-      },
-      "contentLengths": [],
-      "reason": "搜索结果为空 (HTTP 200, 列表大小:0)",
-      "accepted": false
-    },
-    {
-      "name": "📂书斋阁",
-      "url": "https://www.shuzhaige.com",
-      "checkedAt": "2026-10-20T12:57:42.266Z",
-      "status": "failed",
+      "sourceSha256": "63005e57ee92554ae080c785469c513fe26e02b407285b7c01e73a9c8d3b84d6",
+      "testedRuleSha256": "183b57a571c9089bff8ec54cac98ce3cd14229d0e2e88730904a7bcdacac20ae",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:10.361Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
       "phases": {
         "search": "success",
         "detail": "success",
-        "toc": "error"
+        "toc": "success",
+        "content": "success"
       },
-      "contentLengths": [],
-      "reason": "IllegalArgumentException: 目录列表为空",
-      "accepted": false
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        2964,
+        2720
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "https://www.shubaoge.org/files/article/html/257/257296/",
+          "effectiveUrl": "https://www.shubaoge.org/files/article/html/257/257296/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "aa93090ad6bb56ef03289face668f13f95fb62d6b84e883e4e44f76404703cf3"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.shubaoge.org/files/article/html/257/257296/164581802.html",
+          "effectiveUrl": "https://www.shubaoge.org/files/article/html/257/257296/164581802.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "164581803.html"
+            },
+            {
+              "text": "下一页",
+              "href": "164581803.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "3b2179a22d7dcdfce92d50ffab280f688401bda700a3f6f5ff31a7d35acbe44d",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        },
+        {
+          "phase": "content",
+          "url": "https://www.shubaoge.org/files/article/html/257/257296/164581803.html",
+          "effectiveUrl": "https://www.shubaoge.org/files/article/html/257/257296/164581803.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "164581804.html"
+            },
+            {
+              "text": "下一页",
+              "href": "164581804.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "3aed2902f1452efc7168d33d51b9072e9cc465a975824d47ff9fce1ca3b56e2d",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
     },
     {
-      "name": "📂手机看书",
-      "url": "https://www.sjks88.com#",
-      "checkedAt": "2026-10-20T12:57:44.759Z",
-      "status": "failed",
+      "name": "黄易小说",
+      "url": "http://wap.aihytd.com",
+      "sourceSha256": "a74781c7248a13fe44826e7d3291b82f1d7390e09f5287daab6e63be0ffcda47",
+      "testedRuleSha256": "1ca075d18f6fe0613a5f13fe65b2a8582bf859a08fe94e690375af68d41b551e",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:13.420Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
       "phases": {
-        "search": "error"
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
       },
-      "contentLengths": [],
-      "reason": "HTTP 0, 响应体前200字: ",
-      "accepted": false
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        2475,
+        2303
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://wap.aihytd.com/168/168181/all.html",
+          "effectiveUrl": "http://wap.aihytd.com/168/168181/all.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "1f5c9b9d66dbb56e684cb7dde999a04688a40d0ec1bbe4a56fc4280ea86d0493"
+        },
+        {
+          "phase": "content",
+          "url": "http://wap.aihytd.com/168/168181/63658013.html",
+          "effectiveUrl": "http://wap.aihytd.com/168/168181/63658013.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/168/168181/63658013_2.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/168/168181/63658013_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "a458087596c5989a65bdb4a2fe0fe10e89181b657ba966ce4128bbf3dd99719f"
+        },
+        {
+          "phase": "content",
+          "url": "http://wap.aihytd.com/168/168181/63658014.html",
+          "effectiveUrl": "http://wap.aihytd.com/168/168181/63658014.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/168/168181/63658014_2.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/168/168181/63658014_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "403a01283a9017e3639352da7b7e6c3abe8e0409b0e0e84c2792a1de7c648176"
+        }
+      ],
+      "paginationFollowups": [
+        {
+          "id": "final30-1ca075d18f6fe",
+          "name": "🎉 黄易小说",
+          "phase": "content",
+          "from": "http://wap.aihytd.com/168/168181/63658013.html",
+          "url": "http://wap.aihytd.com/168/168181/63658013_2.html",
+          "httpStatus": 200,
+          "title": "末日成神：我的我的我的都是我的异能_第1章 五星差评的开局_黄易天地",
+          "chineseCharacters": 749,
+          "status": "page_fetched"
+        },
+        {
+          "id": "final30-1ca075d18f6fe",
+          "name": "🎉 黄易小说",
+          "phase": "content",
+          "from": "http://wap.aihytd.com/168/168181/63658014.html",
+          "url": "http://wap.aihytd.com/168/168181/63658014_2.html",
+          "httpStatus": 200,
+          "title": "末日成神：我的我的我的都是我的异能_第2章 离谱的数据面板_黄易天地",
+          "chineseCharacters": 633,
+          "status": "page_fetched"
+        }
+      ],
+      "issues": []
     },
     {
-      "name": "📘哔哩轻小说",
-      "url": "https://www.bilinovel.net",
-      "checkedAt": "2026-10-20T12:57:18.385Z",
-      "status": "failed",
+      "name": "夜天连看",
+      "url": "http://www.xyetianlian.com",
+      "sourceSha256": "e92f3f8484ec2df3c2ff9692b068fdfa4d15313f514b3e48283f62703b53148b",
+      "testedRuleSha256": "3838d532556f9bba41e676c1a57a21b96ab3823182da554f128a605cb23f3e7e",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:20.493Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
       "phases": {
-        "search": "error"
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
       },
-      "contentLengths": [],
-      "reason": "SelectorParseException: Could not parse query '@js:\nvar doc = org.jsoup.Jsoup.parse(result);\nif (doc.select('ol.book-ol.book-ol-normal').size() > 0) {\n  java.setContent(result);\n  java.getElement('ol.book-ol.book-ol-normal li.book-li');\n} else {\n  var n = doc.select('meta[property=og:novel:book_name]');\n  var a = doc.select('meta[property=og:novel:author]');\n  var i = doc.select('meta[property=og:description]');\n  var c = doc.select('meta[property=og:image]');\n  var k = doc.select('meta[property=og:novel:category]');\n  var name = n.size() > 0 ? n.first().attr('content') : '';\n  var author = a.size() > 0 ? a.first().attr('content') : '';\n  var intro = i.size() > 0 ? i.first().attr('content') : '';\n  var cover = c.size() > 0 ? c.first().attr('content') : '';\n  var kind = k.size() > 0 ? k.first().attr('content') : '';\n  var esc = function(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); };\n  var card = '<li class=\"book-li\"><a href=\"' + baseUrl + '\"><div class=\"book-cover\"><img data-src=\"' + esc(cover) + '\"></div><h4 class=\"book-title\">' + esc(name) + '</h4><p class=\"book-desc\">' + esc(intro) + '</p><span class=\"book-author\">作者' + esc(author) + '</span><span class=\"tag-small-group\"><em class=\"tag-small\">' + esc(kind) + '</em></span></a></li>';\n  java.setContent(card);\n  java.getElement('li.book-li');\n}': unexpected token at '@js:\nvar doc = org.jsoup.Jsoup.parse(result);\nif (doc.select('ol.book-ol.book-ol-normal').size() > 0) {\n  java.setContent(result);\n  java.getElement('ol.book-ol.book-ol-normal li.book-li');\n} else {\n  var n = doc.select('meta[property=og:novel:book_name]');\n  var a = doc.select('meta[property=og:novel:author]');\n  var i = doc.select('meta[property=og:description]');\n  var c = doc.select('meta[property=og:image]');\n  var k = doc.select('meta[property=og:novel:category]');\n  var name = n.size() > 0 ? n.first().attr('content') : '';\n  var author = a.size() > 0 ? a.first().attr('content') : '';\n  var intro = i.size() > 0 ? i.first().attr('content') : '';\n  var cover = c.size() > 0 ? c.first().attr('content') : '';\n  var kind = k.size() > 0 ? k.first().attr('content') : '';\n  var esc = function(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); };\n  var card = '<li class=\"book-li\"><a href=\"' + baseUrl + '\"><div class=\"book-cover\"><img data-src=\"' + esc(cover) + '\"></div><h4 class=\"book-title\">' + esc(name) + '</h4><p class=\"book-desc\">' + esc(intro) + '</p><span class=\"book-author\">作者' + esc(author) + '</span><span class=\"tag-small-group\"><em class=\"tag-small\">' + esc(kind) + '</em></span></a></li>';\n  java.setContent(card);\n  java.getElement('li.book-li');\n}'",
-      "accepted": false
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        2349,
+        2201
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.xyetianlian.com/yt139562/",
+          "effectiveUrl": "http://www.xyetianlian.com/yt139562/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "17c08b73167b499e2337494d4d4d015b70f006af287cda2e5f5e9d66a2961e8f"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.xyetianlian.com/yt139562/50413571.html",
+          "effectiveUrl": "http://www.xyetianlian.com/yt139562/50413571.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "01f376d64a09d3cfe7c9e4ca394c0ab679a0a52d0d276c00551c3799120cbed4"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.xyetianlian.com/yt139562/50413572.html",
+          "effectiveUrl": "http://www.xyetianlian.com/yt139562/50413572.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "bd73caf10ae46d496297ee484fd2fc7efdebe44b0960426ee10de5fd1fabfbab"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
     },
     {
-      "name": "📂白鹿书院",
-      "url": "https://s.bailushuyuan.org",
-      "checkedAt": "2026-10-20T12:57:30.545Z",
-      "status": "error",
-      "reason": "The operation was aborted due to timeout",
-      "accepted": false
+      "name": "笔趣网",
+      "url": "http://www.ibiquw.org",
+      "sourceSha256": "68c8c59ee8c3859979c0b5d97eae85331e5cc08d2c3191304c57848578515af1",
+      "testedRuleSha256": "a71952e501447ea35d6a8e30b44bc9422c0f52028f57300168c5797690278325",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:32.879Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        3328,
+        3036
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.ibiquw.org/book/210084/",
+          "effectiveUrl": "http://www.ibiquw.org/book/210084/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "fa4312cbe365e09933c1ba3522ec94294c64ab147cf2b856046ff3707d68b4ca"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.ibiquw.org/book/210084/78372552.html",
+          "effectiveUrl": "http://www.ibiquw.org/book/210084/78372552.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/book/210084/78372553.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/book/210084/78372553.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "ee7fb46cd0a972a5a7d4811d4c3e1a7a2b38217aea35a68036e7a228b59be220",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.ibiquw.org/book/210084/78372553.html",
+          "effectiveUrl": "http://www.ibiquw.org/book/210084/78372553.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/book/210084/78372554.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/book/210084/78372554.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "7e91af4a488542d7a0542742ecd0b63879b767aa693c4a93ae5fb9904ecfb224",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "穿越小说",
+      "url": "http://www.kk169.la",
+      "sourceSha256": "b36b42ce6f27395c91116ced65f53c832b62cc50ddaf4e29d7d2df163c4cd05a",
+      "testedRuleSha256": "407f17c2bd3142dbed78576487a9b034acdd215a28109d2619d4982bafda7e47",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:38.413Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        2236,
+        2088
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.kk169.la/html/812/812628/",
+          "effectiveUrl": "http://www.kk169.la/html/812/812628/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "277ccaebf6e39473877f72872543d7e2cfbdcb51dcffd90172e7a345d60a1bdd"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.kk169.la/html/812/812628/127505988.html",
+          "effectiveUrl": "http://www.kk169.la/html/812/812628/127505988.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "http://www.kk169.la/html/812/812628/127505989.html"
+            },
+            {
+              "text": "下一页",
+              "href": "http://www.kk169.la/html/812/812628/127505989.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "6e06c8a8dfc955dbe434aeeeeab47c9ee3a1db47a29a92113942bcd0bdda3bc9",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.kk169.la/html/812/812628/127505989.html",
+          "effectiveUrl": "http://www.kk169.la/html/812/812628/127505989.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "http://www.kk169.la/html/812/812628/127505990.html"
+            },
+            {
+              "text": "下一页",
+              "href": "http://www.kk169.la/html/812/812628/127505990.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "eb342a6f4c441da43f452caaab56e3e86c21102b5341b697e2725c73eeef206c",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "黑炎小说",
+      "url": "http://www.xheiyan.org",
+      "sourceSha256": "b2948f9ace8cdb4adfe4305299b5695282331c82d90ba34fe0d17843e1df44e1",
+      "testedRuleSha256": "ad5fdf1b742dc013ca61798fddd532100ec12eb4d5f9c65de84f76e9e87ec265",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:42.169Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        2236,
+        2088
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.xheiyan.org/morichengshenwodewodewodedushiwodeyineng/",
+          "effectiveUrl": "http://www.xheiyan.org/morichengshenwodewodewodedushiwodeyineng/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "71e09169aa51261fea202ae691960b7b51a8fc53834f191bbc6b48979cfefeea"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.xheiyan.org/morichengshenwodewodewodedushiwodeyineng/48737279.html",
+          "effectiveUrl": "http://www.xheiyan.org/morichengshenwodewodewodedushiwodeyineng/48737279.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "3e7130f8ffea77cfdedc68819b5e2afbe1a0221a7d50d75425f7eec8eecacc19"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.xheiyan.org/morichengshenwodewodewodedushiwodeyineng/48737280.html",
+          "effectiveUrl": "http://www.xheiyan.org/morichengshenwodewodewodedushiwodeyineng/48737280.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "10a5b6a2b26e35f4626cd2eeaf1f7ae02413ff8ab03d6fdd9fc2bcf0a666dfb2"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "阅读库",
+      "url": "http://www.yeudusk.com",
+      "sourceSha256": "8cb527875c97bd13f3d1a73ab3ab8706a095de4452521e7eabb5e9d98983d9bf",
+      "testedRuleSha256": "cd9b3985d87adcbf9145cb346dfebd0a18c9aa24c5c291420c341ba2ec8c6247",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:49.932Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        3516,
+        3200
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.yeudusk.com/html/1427/1427878/",
+          "effectiveUrl": "http://www.yeudusk.com/html/1427/1427878/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "8491af9a1e9ad193dee47e9816dfefd9bd6dff8e19042ec066ca4431c8ab804a"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.yeudusk.com/html/1427/1427878/160596599.html",
+          "effectiveUrl": "http://www.yeudusk.com/html/1427/1427878/160596599.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/html/1427/1427878/160596600.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/html/1427/1427878/160596600.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "014d803e716c974aa09c39fccfbde520c63397b9b06aa3bd8f418ac01192ade9",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.yeudusk.com/html/1427/1427878/160596600.html",
+          "effectiveUrl": "http://www.yeudusk.com/html/1427/1427878/160596600.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/html/1427/1427878/160596601.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/html/1427/1427878/160596601.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "b8f8e4c981204e3280c1b3422438fac4e89a71ad0ad73cb7e843a06f568ff0a7",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "亿软网",
+      "url": "http://www.iyruan.info",
+      "sourceSha256": "8045590aeff65b4a44d11760a4db238bb13bf04bf22181940771ed94ca2d7b7a",
+      "testedRuleSha256": "b00b672e4e8be6231fb0e7f688dbcd41ed30ec7e65f93c28203a2ea2724f6366",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:54.610Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        3302,
+        3022
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.iyruan.info/article/229194.html",
+          "effectiveUrl": "http://www.iyruan.info/article/229194.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "6eaa51985e1eb7db1559c49af425d40b983710ea945eb63f384d27c0715f71c8"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.iyruan.info/article/229194/63196823.html",
+          "effectiveUrl": "http://www.iyruan.info/article/229194/63196823.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "60aa826faa593d0154dc2321b4e21124a820beae6bbb5eb07b5741f090343dba"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.iyruan.info/article/229194/63196824.html",
+          "effectiveUrl": "http://www.iyruan.info/article/229194/63196824.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "b787c46506ae58ee62c9aa17afeaaef2740136c0e609ac1030e4086ff9157fd9"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "溜达小说",
+      "url": "http://www.liudatxt.la",
+      "sourceSha256": "6c1feba14383a7ba6300e72d1a5b907c27ba0c0827933cacfb4f5293b202735e",
+      "testedRuleSha256": "85c6c47e24a86d3f8deba3c77e2ee04750f8978b180cf2196dc98b0d672357d1",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:00:56.105Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        3578,
+        3258
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.liudatxt.la/so/167212/",
+          "effectiveUrl": "http://www.liudatxt.la/so/167212/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "5c0cf7169d2f79de0d21d04d5eee9f6e8abfa04b1962a6342b911cdf01abeb06"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.liudatxt.la/so/167212/60937310.html",
+          "effectiveUrl": "http://www.liudatxt.la/so/167212/60937310.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "fc5db154bc3003e5f12c18dbbbc9c747d2b69590b9bb17f946dc88b21bff85b8"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.liudatxt.la/so/167212/60937311.html",
+          "effectiveUrl": "http://www.liudatxt.la/so/167212/60937311.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "8d9aca2d0e4301b445b03ec8fe438bf6049c2b01f1f4d3a9b5b26e0437c01249"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "橘子小说",
+      "url": "http://www.shugelou.org",
+      "sourceSha256": "80885922b0d7720bc669c3ce48676c01432cb2e331a35093f6f210054271ac5f",
+      "testedRuleSha256": "510aea9c01972ce9636935110c5f993fee4a7c49934833640b7026c6d9db8f62",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:01:06.966Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        3515,
+        3199
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.shugelou.org/morichengshenwodewodewodedushiwodeyineng/",
+          "effectiveUrl": "http://www.shugelou.org/morichengshenwodewodewodedushiwodeyineng/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "539114e9e4a17b145c49bca84f6144fb777c94284d60e6b912c74ca018b9cf78"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.shugelou.org/morichengshenwodewodewodedushiwodeyineng/51373896.htm",
+          "effectiveUrl": "http://www.shugelou.org/morichengshenwodewodewodedushiwodeyineng/51373896.htm",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "ed74b4d0cc85efe062d2ae8a82be9e306eee33ba57a689e25eb5499eb730ecee"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.shugelou.org/morichengshenwodewodewodedushiwodeyineng/51373897.htm",
+          "effectiveUrl": "http://www.shugelou.org/morichengshenwodewodewodedushiwodeyineng/51373897.htm",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "a5f60c9b786258afb2c487b209480d4e75dc3a4d7ea77c02cc76952d3e7f4ae1"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "去读书",
+      "url": "http://www.quduwx.net",
+      "sourceSha256": "77807c6074788cf4162f1a8977c9132106d45ad0db0d2cfa8f253002af975978",
+      "testedRuleSha256": "16c2da1ebe0b33937ab7df72aedcd2611bac701f3f92050911bd0e2f3f10003b",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:01:16.502Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "元尊",
+      "chapterCount": 1501,
+      "firstTitles": [
+        "第一章 蟒雀吞龙",
+        "第二章 源纹",
+        "第三章 苏幼微",
+        "第四章 源纹的力量",
+        "第五章 齐岳，柳溪"
+      ],
+      "contentLengths": [
+        6858,
+        5303
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.quduwx.net/html/1067/1067284/",
+          "effectiveUrl": "http://www.quduwx.net/html/1067/1067284/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "bc8c7f88c93b500fe967edda05237f512037f47740cb25c7b8e24305edb8db49"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.quduwx.net/html/1067/1067284/76440046.html",
+          "effectiveUrl": "http://www.quduwx.net/html/1067/1067284/76440046.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "http://www.quduwx.net/html/1067/1067284/76440047.html"
+            },
+            {
+              "text": "下一页",
+              "href": "http://www.quduwx.net/html/1067/1067284/76440047.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "75daaaec7caa8e802ed6640c1852aebbaaa671b95ea99edfd8ea6a0496433bd2",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.quduwx.net/html/1067/1067284/76440047.html",
+          "effectiveUrl": "http://www.quduwx.net/html/1067/1067284/76440047.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "http://www.quduwx.net/html/1067/1067284/76440048.html"
+            },
+            {
+              "text": "下一页",
+              "href": "http://www.quduwx.net/html/1067/1067284/76440048.html"
+            }
+          ],
+          "hasPaginationRule": false,
+          "bodySha256": "4c8b084b0545ee2fb7587c03fe665140bb7aff1ceb2c3599941d85d5f7961167",
+          "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "猪猪书网",
+      "url": "http://www.zzs5.net",
+      "sourceSha256": "7007da67702b7789b57495551a5fe9e4c92d4943f3faa04f21132f0a3c49429b",
+      "testedRuleSha256": "8845f6ae62e01a3ecea143c45fce1e6e2fcb47b908bc66911a0ba2674a8774fc",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:01:21.656Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        3328,
+        3036
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.zzs5.net/book/152065/",
+          "effectiveUrl": "http://www.zzs5.net/book/152065/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "26ad80f82247508e26577542ebf53cf8d5bbbb17bdba5c5145ab55bedb14f3b5"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.zzs5.net/book/152065/50032255.html",
+          "effectiveUrl": "http://www.zzs5.net/book/152065/50032255.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "7e12c594c8d86ab537ec1ff8428c047f1a752ce3f410c8d43c3e0ea75c0ad6ff"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.zzs5.net/book/152065/50032256.html",
+          "effectiveUrl": "http://www.zzs5.net/book/152065/50032256.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "0825a397dab63858a565bbeb102cb48420d5146dd60b866328958191ac3996b2"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "啃书阁",
+      "url": "http://www.kenshuzw.la",
+      "sourceSha256": "c52a20b38208206fbc3fd9257e3cf9b4375cee7f69fb9fb4abf6c8b292033edf",
+      "testedRuleSha256": "cff19f7e5ac230674ab4ac81c1e25530b19d5012e7b423f508c55aaa1f542711",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:01:31.173Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        3328,
+        3036
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.kenshuzw.la/xiaoshuo/270200/0/",
+          "effectiveUrl": "http://www.kenshuzw.la/xiaoshuo/270200/0/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "61901483117cf5f9581bc7dda0afc3aaf290a6d557c002caa7c500683a7b9987"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.kenshuzw.la/xiaoshuo/270200/113696565/",
+          "effectiveUrl": "http://www.kenshuzw.la/xiaoshuo/270200/113696565/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "74a7412ca5285fd02aafd70c90860e3a50cc7330e5e1f581724c6757a5f6bf97"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.kenshuzw.la/xiaoshuo/270200/113696566/",
+          "effectiveUrl": "http://www.kenshuzw.la/xiaoshuo/270200/113696566/",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "3a869b1b032171894c75ba93caf3073a3839fe2da932326c93007b9a8620d93e"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
+    },
+    {
+      "name": "天地中文网",
+      "url": "http://www.tiandizw.com",
+      "sourceSha256": "bf444d7980d8eb4f3257e9392dedbcf9e73ddf7599891697b10cf9e748b31755",
+      "testedRuleSha256": "beda499998f0fad3e378b582e0cb5320e762a15505da5728bf6d8d0969775a2a",
+      "status": "server_sample_passed",
+      "checkedAt": "2026-10-20T14:01:42.573Z",
+      "androidVerifiedThisRound": false,
+      "historicalClientFeedback": null,
+      "engineStatus": "anonymous_candidate",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "keyword": "我的",
+      "chapterCount": 666,
+      "firstTitles": [
+        "第1章 刀子没有死！",
+        "第2章 有仇立刻报！钱一刀反杀鬼子狙击手！",
+        "第3章 形势危急！鬼子翻进二楼了！",
+        "第4章 钱一刀力挽狂澜，稳住了防线！",
+        "第5章 钱一刀面临绝境"
+      ],
+      "contentLengths": [
+        2209,
+        2109
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.tiandizw.com/newbooklist/1221124.html",
+          "effectiveUrl": "http://www.tiandizw.com/newbooklist/1221124.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "8d7b400b3a8069c186de0092cfce96b8a1296fe7fb56e24c832db00a5287cc70"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.tiandizw.com/newcontent/1221124/18693262.html",
+          "effectiveUrl": "http://www.tiandizw.com/newcontent/1221124/18693262.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "563c6f0591b6a4939986060b8cebc8f1976b84cc70c1bb9e11481b10393c6da9"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.tiandizw.com/newcontent/1221124/18693263.html",
+          "effectiveUrl": "http://www.tiandizw.com/newcontent/1221124/18693263.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "0de1f4818ffe65ce84ed5417dca13eaba2b820c2e68616ecf9926716548d2638"
+        }
+      ],
+      "paginationFollowups": [],
+      "issues": []
     }
   ],
-  "notes": [
-    "原37条用户App反馈失效源继续隔离，未重新纳入。",
-    "本轮多域名出现TLS握手失败、超时、空响应及间歇恢复；未把环境问题统一判为网站永久失效。",
-    "新源只有服务器抽样证据，目录顺序与正文样本已复查，未覆盖全部书籍。",
-    "最新8条客户端失败已从主合集移除，并提供相同书源标识的8条停用补丁。其余5条服务器待复核条目保留但未标本轮通过。"
-  ],
-  "clientFeedbackHistory": [
+  "retired": [
     {
-      "reportedDate": "2026-10-11",
-      "timezone": "Asia/Shanghai",
-      "appVersion": "3.25",
-      "source": "user_report",
-      "passed": 30,
-      "total": 30,
-      "oldSourcesDisabled": true,
-      "statement": "已停用旧源，并且新版30条已全部校验通过",
-      "appliesToSourceCommit": "659795c7f978b0edc80a7396ca38c19f5ef2cf22"
+      "name": "乡土小说",
+      "url": "https://www.xiangtxsw.com",
+      "reason": "本轮复测未完成全部验证；可能为连接、超时或空响应，暂不纳入主合集"
+    },
+    {
+      "name": "酷书阁小说网",
+      "url": "https://www.kushuge.com",
+      "reason": "本轮复测未完成全部验证；可能为连接、超时或空响应，暂不纳入主合集"
+    },
+    {
+      "name": "思兔阅读",
+      "url": "https://www.sto66.com",
+      "reason": "本轮复测未完成全部验证；可能为连接、超时或空响应，暂不纳入主合集"
+    },
+    {
+      "name": "星星小说网",
+      "url": "https://m.xiifan.com/",
+      "reason": "本轮复测未完成全部验证；可能为连接、超时或空响应，暂不纳入主合集"
+    },
+    {
+      "name": "瀚海书阁",
+      "url": "https://www.ingml.cc",
+      "reason": "本轮复测未完成全部验证；可能为连接、超时或空响应，暂不纳入主合集"
+    },
+    {
+      "name": "轻之文库",
+      "url": "https://www.linovel.net/",
+      "reason": "本轮复测未完成全部验证；可能为连接、超时或空响应，暂不纳入主合集"
+    },
+    {
+      "name": "梦阮读书",
+      "url": "https://www.kunnu8.com",
+      "reason": "本轮复测未完成全部验证；可能为连接、超时或空响应，暂不纳入主合集"
+    },
+    {
+      "name": "万象书城",
+      "url": "https://www.wwxsc.com",
+      "reason": "本轮复测未完成全部验证；可能为连接、超时或空响应，暂不纳入主合集"
+    },
+    {
+      "name": "轻说百科",
+      "url": "https://lnovel.tw",
+      "reason": "目录首两个条目为第一话的不同译本，未满足两个不同章节与顺序要求，退出主合集"
     }
   ]
 }
