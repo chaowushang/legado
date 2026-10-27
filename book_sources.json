@@ -530,56 +530,57 @@
     "concurrentRate": "1500"
   },
   {
-    "bookSourceComment": "2026-10-20本轮：服务器搜索、详情、目录、两个不同章节及网页/分页抽样检查已通过；本轮未在Android客户端重新实测，免费公开样本不代表所有书籍或付费章节。\n历史备注与作者归属：\n2026-10-20：服务器搜索、详情、目录和两个不同章节抽测通过；尚未经用户阅读App复测。来源：源仓库1315，原备注：// 26.7.18制作",
+    "bookSourceComment": "2026-10-27：搜索、详情、目录与两个不同章节服务器抽样通过，未进行本轮Android客户端实测。\n2026-10-20本轮：服务器搜索、详情、目录、两个不同章节及网页/分页抽样检查已通过；本轮未在Android客户端重新实测，免费公开样本不代表所有书籍或付费章节。\n历史备注与作者归属：\n",
     "bookSourceGroup": "💠 综合",
-    "bookSourceName": "唐人小说网",
+    "bookSourceName": "365小说网",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.trxsw.com",
-    "customButton": false,
+    "bookSourceUrl": "http://www.shukuge.com/",
     "customOrder": 13,
     "enabled": true,
-    "enabledCookieJar": true,
+    "enabledCookieJar": false,
     "enabledExplore": false,
-    "eventListener": false,
-    "exploreUrl": "[{\"title\":\"今日更新\",\"url\":\"/lastupdate/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"上架新书\",\"url\":\"/postdate/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"月点击榜\",\"url\":\"/monthvisit/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"总收藏榜\",\"url\":\"/goodnum/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"新书榜单\",\"url\":\"/goodnew/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"玄幻小说\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"奇幻小说\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠小说\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市小说\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史小说\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"军事小说\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"悬疑小说\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏小说\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻小说\",\"url\":\"/sort/9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"体育小说\",\"url\":\"/sort/10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"官场小说\",\"url\":\"/sort/11/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"古言小说\",\"url\":\"/sort/12/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"现言小说\",\"url\":\"/sort/13/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"幻言小说\",\"url\":\"/sort/14/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠小说\",\"url\":\"/sort/15/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"青春小说\",\"url\":\"/sort/16/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越小说\",\"url\":\"/sort/17/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女生小说\",\"url\":\"/sort/18/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"N次元小说\",\"url\":\"/sort/19/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}}]",
-    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"}",
-    "lastUpdateTime": 1792505098665,
-    "respondTime": 1899,
+    "exploreUrl": "玄幻::http://www.shukuge.com/i-xuanhuan/{{page}}&&言情::http://www.shukuge.com/i-yanqing/{{page}}&&穿越::http://www.shukuge.com/i-chuanyue/{{page}}&&重生::http://www.shukuge.com/i-chongsheng/{{page}}&&架空::http://www.shukuge.com/i-jiakong/{{page}}&&总裁::http://www.shukuge.com/i-zongcai/{{page}}&&武侠::http://www.shukuge.com/i-wuxia/{{page}}&&仙侠::http://www.shukuge.com/i-xianxia/{{page}}&&耽美::http://www.shukuge.com/i-danmei/{{page}}&&都市::http://www.shukuge.com/i-dushi/{{page}}&&军事::http://www.shukuge.com/i-junshi/{{page}}&&网游::http://www.shukuge.com/i-wangyou/{{page}}&&悬疑::http://www.shukuge.com/i-xuanyi/{{page}}&&文学::http://www.shukuge.com/i-wenxue/{{page}}&&科幻::http://www.shukuge.com/i-kehuan/{{page}}&&修真::http://www.shukuge.com/i-xiuzhen/{{page}}&&历史::http://www.shukuge.com/i-lishi/{{page}}&&其他::http://www.shukuge.com/i-qita/{{page}}&&短篇::http://www.shukuge.com/i-duanpian/{{page}}&&中篇::http://www.shukuge.com/i-zhongpian/{{page}}&&长篇::http://www.shukuge.com/i-changpian/{{page}}&&最新::http://www.shukuge.com/new/{{page}}",
+    "lastUpdateTime": 1793104198693,
+    "respondTime": 5860,
     "ruleBookInfo": {
-      "author": "[property=\"og:novel:author\"]@content",
-      "coverUrl": "[property=\"og:image\"]@content",
-      "intro": "[property=\"og:description\"]@content##关于.*：##",
-      "kind": "[property=\"og:novel:category\"]@content",
-      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
-      "name": "[property=\"og:novel:book_name\"]@content",
-      "tocUrl": "[property=\"og:novel:read_url\"]@content"
+      "author": ".bookdmore@p.2@a@text",
+      "coverUrl": ".bookdcover@img@src",
+      "intro": ".bookdtext@p.0@text",
+      "kind": ".bookdmore@p.0@a@text",
+      "lastChapter": ".bookdmore@p.6@a@text",
+      "name": ".bookd-title@text##TXT全集",
+      "tocUrl": ".bookdtext@p.6@a@href"
     },
     "ruleContent": {
-      "content": "#content@html",
-      "replaceRegex": "##投推荐票\\s*上一章\\s*章节目录\\s*下一章\\s*加入书签\\s*返回书架"
+      "content": "#content@textNodes##投推荐票|上一章|←|章节目录|→|下一章|加入书签",
+      "title": ".bookd-title@text##作者：[\\u4e00-\\u9fa5]+|更新时间：[\\d]{4}-[\\d]{2}-[\\d]{2}|[\\d]{2}:[\\d]{2}:[\\d]{2}"
     },
     "ruleExplore": {
-      "author": ".title span@text##作者：##",
-      "bookList": "#main #alistbox||#alistbox",
-      "bookUrl": ".title h2 a@href",
-      "coverUrl": ".pic img@src",
-      "intro": ".intro@text",
-      "name": ".title h2 a@text"
+      "author": ".sp@span.0@a@text",
+      "bookList": ".listitem",
+      "bookUrl": ".bookdesc@a@href",
+      "coverUrl": "img@src",
+      "intro": ".bookdesc@p.2@text##简介：",
+      "kind": ".sp@span.1@text##分类：",
+      "lastChapter": ".bookdesc@p.1@a@text",
+      "name": ".bookdesc@h2@text"
     },
     "ruleSearch": {
-      "author": ".title span@text##作者：##",
-      "bookList": "#main #alistbox||#alistbox",
-      "bookUrl": ".title h2 a@href",
-      "coverUrl": ".pic img@src",
-      "intro": ".intro@text",
-      "name": ".title h2 a@text"
+      "author": ".sp@span.0@text##作者：",
+      "bookList": ".listitem",
+      "bookUrl": ".bookdesc@a@href",
+      "coverUrl": "img@src",
+      "intro": ".desc.1@text##简介：",
+      "kind": ".sp@span.1@text##分类：",
+      "lastChapter": ".desc.0@text##最新章节：",
+      "name": ".bookdesc@h2@text"
     },
     "ruleToc": {
-      "chapterList": "#list dd a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterList": ".box_con@dd",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
     },
-    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"s=articlename&searchkey={{key}}&Submit=\"\n}",
+    "searchUrl": "Search?wd={{key}}",
     "weight": 0
   },
   {

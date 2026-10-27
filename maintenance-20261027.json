@@ -1,0 +1,320 @@
+{
+  "generatedAt": "2026-10-27T12:29:58.690Z",
+  "summary": {
+    "active": 30,
+    "serverSamplePassed": 30,
+    "inconclusive": 0,
+    "retained": 29,
+    "new": 1,
+    "removed": 1,
+    "candidatesTested": 3,
+    "cumulativeUserQuarantined": 45
+  },
+  "reserveChecks": [
+    {
+      "id": "weekly27-ed5566c842b32",
+      "name": "快眼看书botaodz",
+      "issues": [],
+      "chapterCount": 11,
+      "firstTitles": [
+        "第一章 败家子",
+        "第二章柠檬水",
+        "第三章人生为来",
+        "第四章王府家丁",
+        "第五章 塘源"
+      ],
+      "contentLengths": [
+        2223,
+        2091
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.xbotaodz.info/106386.html",
+          "effectiveUrl": "http://www.xbotaodz.info/106386.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "59296d0aff0bf19c1e8e9669dcb4305e7a376463917efbb58ea5e2b2a73863cb"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.xbotaodz.info/novel/106386/read_1.html",
+          "effectiveUrl": "http://www.xbotaodz.info/novel/106386/read_1.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "a74d5f41cb9099c571e26ac337422d6781e8f2a448673ceb941d8c9541503e8d"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.xbotaodz.info/novel/106386/read_2.html",
+          "effectiveUrl": "http://www.xbotaodz.info/novel/106386/read_2.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "ed0fbfd01bfd402f625fe59666eb13df89646feab409c48dc435bcdc35638606"
+        }
+      ],
+      "status": "server_sample_passed"
+    },
+    {
+      "id": "weekly27-0672163db1569",
+      "name": "不知加啥",
+      "issues": [],
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局",
+        "第2章 离谱的数据面板",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        2334,
+        2186
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/",
+          "effectiveUrl": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/morichengshenwodewodewodedushiwodeyineng/index_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "daee86f563293ba650978698d078fc5eed06c6995fb805ac916e7b051f422c78"
+        },
+        {
+          "phase": "content",
+          "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946144.html",
+          "effectiveUrl": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946144.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/morichengshenwodewodewodedushiwodeyineng/49946144_2.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/morichengshenwodewodewodedushiwodeyineng/49946144_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "c58430e49a1c196e37faf0862b9d0badcbaefe817171995dcc7d7eda5eef2af9"
+        },
+        {
+          "phase": "content",
+          "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946145.html",
+          "effectiveUrl": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946145.html",
+          "httpStatus": 200,
+          "nextPageLinks": [
+            {
+              "text": "下一页",
+              "href": "/morichengshenwodewodewodedushiwodeyineng/49946145_2.html"
+            },
+            {
+              "text": "下一页",
+              "href": "/morichengshenwodewodewodedushiwodeyineng/49946145_2.html"
+            }
+          ],
+          "hasPaginationRule": true,
+          "bodySha256": "223f7fa76c14abeb84daa5e2711bee3dd5ec5083c38b2b25762a1b152f3f639c"
+        }
+      ],
+      "status": "server_sample_passed"
+    },
+    {
+      "id": "weekly27-0386e74e6c253",
+      "name": "365小说网",
+      "issues": [],
+      "chapterCount": 69,
+      "firstTitles": [
+        "第1章 五星差评的开局   ",
+        "第2章 离谱的数据面板   ",
+        "第3章 太阳神瞳到手",
+        "第4章 真假“太阳之子”",
+        "第5章 妖兽都市"
+      ],
+      "contentLengths": [
+        2236,
+        2088
+      ],
+      "requests": [
+        {
+          "phase": "toc",
+          "url": "http://www.shukuge.com/book/180654/index.html",
+          "effectiveUrl": "http://www.shukuge.com/book/180654/index.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "e9e8ee9d28c7cd46c8b9370d22708645d947555aefc0d95f12b9fd95a2a01408"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.shukuge.com/book/180654/57555048.html",
+          "effectiveUrl": "http://www.shukuge.com/book/180654/57555048.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "fd1889ff5c680500c20c59c764e565c2842b0f4205df6c93bb91ad3c47961f60"
+        },
+        {
+          "phase": "content",
+          "url": "http://www.shukuge.com/book/180654/57555049.html",
+          "effectiveUrl": "http://www.shukuge.com/book/180654/57555049.html",
+          "httpStatus": 200,
+          "nextPageLinks": [],
+          "hasPaginationRule": false,
+          "bodySha256": "cd34ac49786cd90116aae4da4abb1161f1407750a4814285b52bdc106ee97a29"
+        }
+      ],
+      "status": "server_sample_passed"
+    }
+  ],
+  "retired": [
+    {
+      "name": "唐人小说网",
+      "url": "https://www.trxsw.com",
+      "reason": "抽查书籍《一人：我的身上纹满了十凶图》网站目录从第66章开始，前65章缺失；不是规则可恢复的分页，暂退出主合集，不认定整个网站永久失效。"
+    }
+  ],
+  "pagination": [
+    {
+      "id": "weekly27-81e6ef5208fe0",
+      "name": "梦想家文学",
+      "phase": "content",
+      "from": "http://www.mxjtedu.com/shu/106/106287/43524418.html",
+      "url": "http://www.mxjtedu.com/shu/106/106287/43524418_2.html",
+      "httpStatus": 200,
+      "title": "第1章 五星差评的开局",
+      "chineseCharacters": 899,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-81e6ef5208fe0",
+      "name": "梦想家文学",
+      "phase": "toc",
+      "from": "http://www.mxjtedu.com/shu/106/106287/",
+      "url": "http://www.mxjtedu.com/shu/106/106287/index_2.html",
+      "httpStatus": 200,
+      "title": "末日成神：我的我的我的都是我的异能",
+      "chineseCharacters": 962,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-7d46a2f282c65",
+      "name": "爱看小说",
+      "phase": "content",
+      "from": "http://m.2kk.la/ks2984/825131.html",
+      "url": "http://m.2kk.la/ks2984/825131_2.html",
+      "httpStatus": 200,
+      "title": "第一卷 笼中雀 第二章 开门_剑来_爱看小说",
+      "chineseCharacters": 1057,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-81e6ef5208fe0",
+      "name": "梦想家文学",
+      "phase": "content",
+      "from": "http://www.mxjtedu.com/shu/106/106287/43524419.html",
+      "url": "http://www.mxjtedu.com/shu/106/106287/43524419_2.html",
+      "httpStatus": 200,
+      "title": "第2章 离谱的数据面板",
+      "chineseCharacters": 783,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-a74781c7248a1",
+      "name": "黄易小说",
+      "phase": "content",
+      "from": "http://wap.aihytd.com/168/168181/63658013.html",
+      "url": "http://wap.aihytd.com/168/168181/63658013_2.html",
+      "httpStatus": 200,
+      "title": "末日成神：我的我的我的都是我的异能_第1章 五星差评的开局_黄易天地",
+      "chineseCharacters": 749,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-a74781c7248a1",
+      "name": "黄易小说",
+      "phase": "content",
+      "from": "http://wap.aihytd.com/168/168181/63658014.html",
+      "url": "http://wap.aihytd.com/168/168181/63658014_2.html",
+      "httpStatus": 200,
+      "title": "末日成神：我的我的我的都是我的异能_第2章 离谱的数据面板_黄易天地",
+      "chineseCharacters": 633,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-0672163db1569",
+      "name": "不知加啥",
+      "phase": "toc",
+      "from": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/",
+      "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/index_2.html",
+      "httpStatus": 200,
+      "title": "末日成神：我的我的我的都是我的异能",
+      "chineseCharacters": 566,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-0672163db1569",
+      "name": "不知加啥",
+      "phase": "content",
+      "from": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946144.html",
+      "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946144_2.html",
+      "httpStatus": 200,
+      "title": "第1章 五星差评的开局",
+      "chineseCharacters": 659,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-0672163db1569",
+      "name": "不知加啥",
+      "phase": "content",
+      "from": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946145.html",
+      "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946145_2.html",
+      "httpStatus": 200,
+      "title": "第2章 离谱的数据面板",
+      "chineseCharacters": 543,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-7d46a2f282c65",
+      "name": "爱看小说",
+      "phase": "content",
+      "from": "http://m.2kk.la/ks2984/825130.html",
+      "url": "http://m.2kk.la/ks2984/825130_2.html",
+      "httpStatus": 200,
+      "title": "第一卷 笼中雀 第一章 惊蛰_剑来_爱看小说",
+      "chineseCharacters": 908,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-a8d3ad31741ad",
+      "name": "笔趣阁（bqquge.org）",
+      "phase": "content",
+      "from": "https://www.bqquge.org/4704/3073524",
+      "url": "https://www.bqquge.org/4704/3073524-2",
+      "httpStatus": 200,
+      "title": "第一章 关於属性这件事",
+      "chineseCharacters": 786,
+      "status": "page_fetched"
+    },
+    {
+      "id": "weekly27-a8d3ad31741ad",
+      "name": "笔趣阁（bqquge.org）",
+      "phase": "content",
+      "from": "https://www.bqquge.org/4704/3073526",
+      "url": "https://www.bqquge.org/4704/3073526-2",
+      "httpStatus": 200,
+      "title": "第二章 魅惑法师",
+      "chineseCharacters": 574,
+      "status": "page_fetched"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "bookSourceComment": "2026-10-27：抽查书籍《一人：我的身上纹满了十凶图》网站目录从第66章开始，前65章缺失；不是规则可恢复的分页，暂退出主合集，不认定整个网站永久失效。\n2026-10-20本轮：服务器搜索、详情、目录、两个不同章节及网页/分页抽样检查已通过；本轮未在Android客户端重新实测，免费公开样本不代表所有书籍或付费章节。\n历史备注与作者归属：\n2026-10-20：服务器搜索、详情、目录和两个不同章节抽测通过；尚未经用户阅读App复测。来源：源仓库1315，原备注：// 26.7.18制作",
+    "bookSourceGroup": "💠 综合",
+    "bookSourceName": "唐人小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.trxsw.com",
+    "customButton": false,
+    "customOrder": 13,
+    "enabled": false,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "eventListener": false,
+    "exploreUrl": "[{\"title\":\"今日更新\",\"url\":\"/lastupdate/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"上架新书\",\"url\":\"/postdate/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"月点击榜\",\"url\":\"/monthvisit/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"总收藏榜\",\"url\":\"/goodnum/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"新书榜单\",\"url\":\"/goodnew/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"玄幻小说\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"奇幻小说\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠小说\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市小说\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史小说\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"军事小说\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"悬疑小说\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏小说\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻小说\",\"url\":\"/sort/9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"体育小说\",\"url\":\"/sort/10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"官场小说\",\"url\":\"/sort/11/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"古言小说\",\"url\":\"/sort/12/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"现言小说\",\"url\":\"/sort/13/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"幻言小说\",\"url\":\"/sort/14/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠小说\",\"url\":\"/sort/15/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"青春小说\",\"url\":\"/sort/16/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"穿越小说\",\"url\":\"/sort/17/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女生小说\",\"url\":\"/sort/18/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"N次元小说\",\"url\":\"/sort/19/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}}]",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"}",
+    "lastUpdateTime": 1792505098665,
+    "respondTime": 1899,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content##关于.*：##",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content"
+    },
+    "ruleContent": {
+      "content": "#content@html",
+      "replaceRegex": "##投推荐票\\s*上一章\\s*章节目录\\s*下一章\\s*加入书签\\s*返回书架"
+    },
+    "ruleExplore": {
+      "author": ".title span@text##作者：##",
+      "bookList": "#main #alistbox||#alistbox",
+      "bookUrl": ".title h2 a@href",
+      "coverUrl": ".pic img@src",
+      "intro": ".intro@text",
+      "name": ".title h2 a@text"
+    },
+    "ruleSearch": {
+      "author": ".title span@text##作者：##",
+      "bookList": "#main #alistbox||#alistbox",
+      "bookUrl": ".title h2 a@href",
+      "coverUrl": ".pic img@src",
+      "intro": ".intro@text",
+      "name": ".title h2 a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"s=articlename&searchkey={{key}}&Submit=\"\n}",
+    "weight": 0
+  }
+]

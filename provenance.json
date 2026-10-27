@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T14:04:58.663Z",
+  "generatedAt": "2026-10-27T12:29:58.690Z",
   "notice": "规则来源与原作者归属保留于原链接。本仓库整理与修订规则，不收录小说正文，不对第三方规则授予新许可。",
   "sources": [
     {
@@ -345,8 +345,10 @@
       "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1315.html",
       "originalCandidateIndex": 35,
       "originalRuleId": "oct20-new-f0e4b8b3e1ce",
-      "active": true,
-      "androidVerified": false
+      "active": false,
+      "androidVerified": false,
+      "retiredDate": "2026-10-27",
+      "reason": "抽查书籍《一人：我的身上纹满了十凶图》网站目录从第66章开始，前65章缺失；不是规则可恢复的分页，暂退出主合集，不认定整个网站永久失效。"
     },
     {
       "name": "四零二零",
@@ -551,6 +553,16 @@
       "ruleId": "final30-beda499998f0f",
       "canonicalChanged": false,
       "fix": "本轮重新完整校验"
+    },
+    {
+      "name": "365小说网",
+      "url": "http://www.shukuge.com/",
+      "active": true,
+      "origin": "yck-1316",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1316.html",
+      "originalCandidateIndex": 30,
+      "checkedAt": "2026-10-27T12:29:58.690Z",
+      "reason": "本轮候选复测通过后替补目录缺失源"
     }
   ],
   "additionalRepositoriesReviewed": [
