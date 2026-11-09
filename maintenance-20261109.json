@@ -1,0 +1,1120 @@
+{
+  "generatedAt": "2026-11-09T12:07:58.132Z",
+  "summary": {
+    "active": 30,
+    "serverSamplePassed": 18,
+    "inconclusive": 12,
+    "new": 0,
+    "removed": 0,
+    "candidatesTested": 2,
+    "cumulativeUserQuarantined": 45
+  },
+  "attempts": [
+    {
+      "id": "biweekly1109-bd363f3ff6027",
+      "name": "话本·公开章节",
+      "url": "https://www.ihuaben.com",
+      "checkedAt": "2026-11-09T12:02:10.931Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-a7b06ffee58a4",
+      "name": "逐浪小说",
+      "url": "https://m.zhulang.com",
+      "checkedAt": "2026-11-09T12:02:11.264Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-9ee82b6161eae",
+      "name": "阅友小说",
+      "url": "http://m.yueyouxs.com",
+      "checkedAt": "2026-11-09T12:02:11.192Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-1f4bb17b1046b",
+      "name": "云起书院",
+      "url": "https://yunqi.qq.com#🎃",
+      "checkedAt": "2026-11-09T12:02:11.337Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-7f01ccb3692f9",
+      "name": "夜伴书屋",
+      "url": "https://www.yybsw.com#🎃",
+      "checkedAt": "2026-11-09T12:02:31.658Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-df36a24bfe868",
+      "name": "爱下电子（繁）",
+      "url": "https://ixdzs.tw/",
+      "checkedAt": "2026-11-09T12:02:39.857Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-7d46a2f282c65",
+      "name": "爱看小说",
+      "url": "http://m.2kk.la#",
+      "checkedAt": "2026-11-09T12:02:38.932Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-a8d3ad31741ad",
+      "name": "笔趣阁（bqquge.org）",
+      "url": "https://www.bqquge.org",
+      "checkedAt": "2026-11-09T12:02:37.910Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-0c1be22526f45",
+      "name": "全本小说网",
+      "url": "https://www.quanben.io",
+      "checkedAt": "2026-11-09T12:03:01.704Z",
+      "status": "anonymous_candidate",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-8bb5d8816f9cf",
+      "name": "九九藏书",
+      "url": "https://www.sangshixs.com",
+      "checkedAt": "2026-11-09T12:03:06.542Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-048fde324cdc7",
+      "name": "企鹅阅读",
+      "url": "https://ubook.reader.qq.com",
+      "checkedAt": "2026-11-09T12:03:08.421Z",
+      "status": "anonymous_candidate",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-a67a078e31155",
+      "name": "365小说网",
+      "url": "http://www.shukuge.com/",
+      "checkedAt": "2026-11-09T12:03:22.197Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-eee902a6b29c4",
+      "name": "四零二零",
+      "url": "http://www.4020xs.com",
+      "checkedAt": "2026-11-09T12:03:26.344Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-0aaa5bdeee918",
+      "name": "就爱文学",
+      "url": "http://www.92xs.info",
+      "checkedAt": "2026-11-09T12:03:27.293Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-81e6ef5208fe0",
+      "name": "梦想家文学",
+      "url": "http://www.mxjtedu.com/",
+      "checkedAt": "2026-11-09T12:03:19.385Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-63005e57ee925",
+      "name": "笔趣阁⑥⑧",
+      "url": "https://www.shubaoge.org",
+      "checkedAt": "2026-11-09T12:03:37.072Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-a74781c7248a1",
+      "name": "黄易小说",
+      "url": "http://wap.aihytd.com",
+      "checkedAt": "2026-11-09T12:03:38.707Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-68c8c59ee8c38",
+      "name": "笔趣网",
+      "url": "http://www.ibiquw.org",
+      "checkedAt": "2026-11-09T12:03:48.067Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-f7b338793aa7a",
+      "name": "爱下书小说网",
+      "url": "http://www.aixiashu.la",
+      "checkedAt": "2026-11-09T12:03:26.483Z",
+      "status": "failed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "error"
+      },
+      "reason": "IllegalArgumentException: 内容为空"
+    },
+    {
+      "id": "biweekly1109-e92f3f8484ec2",
+      "name": "夜天连看",
+      "url": "http://www.xyetianlian.com",
+      "checkedAt": "2026-11-09T12:03:47.820Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-b2948f9ace8cd",
+      "name": "黑炎小说",
+      "url": "http://www.xheiyan.org",
+      "checkedAt": "2026-11-09T12:04:01.653Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-b36b42ce6f273",
+      "name": "穿越小说",
+      "url": "http://www.kk169.la",
+      "checkedAt": "2026-11-09T12:03:49.020Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-8cb527875c97b",
+      "name": "阅读库",
+      "url": "http://www.yeudusk.com",
+      "checkedAt": "2026-11-09T12:04:01.944Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-6c1feba14383a",
+      "name": "溜达小说",
+      "url": "http://www.liudatxt.la",
+      "checkedAt": "2026-11-09T12:04:11.324Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 301, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-8045590aeff65",
+      "name": "亿软网",
+      "url": "http://www.iyruan.info",
+      "checkedAt": "2026-11-09T12:04:10.637Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-80885922b0d77",
+      "name": "橘子小说",
+      "url": "http://www.shugelou.org",
+      "checkedAt": "2026-11-09T12:04:11.971Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-7007da67702b7",
+      "name": "猪猪书网",
+      "url": "http://www.zzs5.net",
+      "checkedAt": "2026-11-09T12:04:21.440Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-77807c6074788",
+      "name": "去读书",
+      "url": "http://www.quduwx.net",
+      "checkedAt": "2026-11-09T12:04:13.332Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-bf444d7980d8e",
+      "name": "天地中文网",
+      "url": "http://www.tiandizw.com",
+      "checkedAt": "2026-11-09T12:04:22.712Z",
+      "status": "anonymous_candidate",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-c52a20b382082",
+      "name": "啃书阁",
+      "url": "http://www.kenshuzw.la",
+      "checkedAt": "2026-11-09T12:04:21.726Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-0672163db1569",
+      "name": "不知加啥",
+      "url": "http://m.rulianshi.cc",
+      "checkedAt": "2026-11-09T12:04:29.765Z",
+      "status": "failed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "error"
+      },
+      "reason": "IllegalArgumentException: 目录列表为空"
+    },
+    {
+      "id": "biweekly1109-ed5566c842b32",
+      "name": "快眼看书botaodz",
+      "url": "http://www.xbotaodz.info",
+      "checkedAt": "2026-11-09T12:04:36.209Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-eee902a6b29c4-retry",
+      "name": "四零二零",
+      "url": "http://www.4020xs.com",
+      "checkedAt": "2026-11-09T12:05:30.194Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-a67a078e31155-retry",
+      "name": "365小说网",
+      "url": "http://www.shukuge.com/",
+      "checkedAt": "2026-11-09T12:05:30.122Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-0aaa5bdeee918-retry",
+      "name": "就爱文学",
+      "url": "http://www.92xs.info",
+      "checkedAt": "2026-11-09T12:05:30.326Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-63005e57ee925-retry",
+      "name": "笔趣阁⑥⑧",
+      "url": "https://www.shubaoge.org",
+      "checkedAt": "2026-11-09T12:05:40.286Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-a74781c7248a1-retry",
+      "name": "黄易小说",
+      "url": "http://wap.aihytd.com",
+      "checkedAt": "2026-11-09T12:05:41.508Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-68c8c59ee8c38-retry",
+      "name": "笔趣网",
+      "url": "http://www.ibiquw.org",
+      "checkedAt": "2026-11-09T12:05:42.954Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-f7b338793aa7a-retry",
+      "name": "爱下书小说网",
+      "url": "http://www.aixiashu.la",
+      "checkedAt": "2026-11-09T12:05:30.262Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    },
+    {
+      "id": "biweekly1109-8cb527875c97b-retry",
+      "name": "阅读库",
+      "url": "http://www.yeudusk.com",
+      "checkedAt": "2026-11-09T12:05:51.525Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-b2948f9ace8cd-retry",
+      "name": "黑炎小说",
+      "url": "http://www.xheiyan.org",
+      "checkedAt": "2026-11-09T12:05:50.747Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-6c1feba14383a-retry",
+      "name": "溜达小说",
+      "url": "http://www.liudatxt.la",
+      "checkedAt": "2026-11-09T12:05:57.949Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 301, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-8045590aeff65-retry",
+      "name": "亿软网",
+      "url": "http://www.iyruan.info",
+      "checkedAt": "2026-11-09T12:05:55.339Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-80885922b0d77-retry",
+      "name": "橘子小说",
+      "url": "http://www.shugelou.org",
+      "checkedAt": "2026-11-09T12:05:59.728Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-7007da67702b7-retry",
+      "name": "猪猪书网",
+      "url": "http://www.zzs5.net",
+      "checkedAt": "2026-11-09T12:06:00.189Z",
+      "status": "failed",
+      "phases": {
+        "search": "error"
+      },
+      "reason": "HTTP 0, 响应体前200字: "
+    },
+    {
+      "id": "biweekly1109-0672163db1569-retry",
+      "name": "不知加啥",
+      "url": "http://m.rulianshi.cc",
+      "checkedAt": "2026-11-09T12:06:05.798Z",
+      "status": "passed",
+      "phases": {
+        "search": "success",
+        "detail": "success",
+        "toc": "success",
+        "content": "success"
+      },
+      "reason": null
+    }
+  ],
+  "dns": [
+    {
+      "name": "www.shukuge.com",
+      "source": "365小说网",
+      "system": [
+        "0.0.0.0"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.shukuge.com.",
+          "type": 1,
+          "TTL": 7200,
+          "data": "178.107.204.185"
+        }
+      ]
+    },
+    {
+      "name": "www.4020xs.com",
+      "source": "四零二零",
+      "system": [
+        "178.107.151.115"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.4020xs.com.",
+          "type": 5,
+          "TTL": 515,
+          "data": "iwurexs.net.wulincdn.com."
+        },
+        {
+          "name": "iwurexs.net.wulincdn.com.",
+          "type": 1,
+          "TTL": 515,
+          "data": "178.107.151.115"
+        }
+      ]
+    },
+    {
+      "name": "www.92xs.info",
+      "source": "就爱文学",
+      "system": [
+        "178.107.154.99"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.92xs.info.",
+          "type": 5,
+          "TTL": 600,
+          "data": "92wx.la.zhenfacloud.com."
+        },
+        {
+          "name": "92wx.la.zhenfacloud.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "178.107.154.99"
+        }
+      ]
+    },
+    {
+      "name": "www.shubaoge.org",
+      "source": "笔趣阁⑥⑧",
+      "system": [
+        "23.225.36.25"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.shubaoge.org.",
+          "type": 5,
+          "TTL": 476,
+          "data": "ishubao.org.feibajiasu.com."
+        },
+        {
+          "name": "ishubao.org.feibajiasu.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "23.225.36.25"
+        }
+      ]
+    },
+    {
+      "name": "wap.aihytd.com",
+      "source": "黄易小说",
+      "system": [
+        "172.247.225.51"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "wap.aihytd.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "172.247.225.51"
+        }
+      ]
+    },
+    {
+      "name": "www.ibiquw.org",
+      "source": "笔趣网",
+      "system": [
+        "178.107.151.179",
+        "178.107.151.133"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.ibiquw.org.",
+          "type": 5,
+          "TTL": 234,
+          "data": "biquw.info.cijiasu.com."
+        },
+        {
+          "name": "biquw.info.cijiasu.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "178.107.151.179"
+        },
+        {
+          "name": "biquw.info.cijiasu.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "178.107.151.133"
+        }
+      ]
+    },
+    {
+      "name": "www.aixiashu.la",
+      "source": "爱下书小说网",
+      "system": [
+        "23.225.147.148"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.aixiashu.la.",
+          "type": 1,
+          "TTL": 600,
+          "data": "23.225.147.148"
+        }
+      ]
+    },
+    {
+      "name": "www.xheiyan.org",
+      "source": "黑炎小说",
+      "system": [
+        "178.107.151.85"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.xheiyan.org.",
+          "type": 5,
+          "TTL": 256,
+          "data": "xheiyan.info.sudajiasu.com."
+        },
+        {
+          "name": "xheiyan.info.sudajiasu.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "178.107.151.85"
+        }
+      ]
+    },
+    {
+      "name": "www.yeudusk.com",
+      "source": "阅读库",
+      "system": [
+        "23.225.143.73"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.yeudusk.com.",
+          "type": 5,
+          "TTL": 600,
+          "data": "yuedsk.com.haijiasu.com."
+        },
+        {
+          "name": "yuedsk.com.haijiasu.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "23.225.143.73"
+        }
+      ]
+    },
+    {
+      "name": "www.liudatxt.la",
+      "source": "溜达小说",
+      "system": [
+        "172.247.243.184"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.liudatxt.la.",
+          "type": 1,
+          "TTL": 1729,
+          "data": "172.247.243.184"
+        }
+      ]
+    },
+    {
+      "name": "www.iyruan.info",
+      "source": "亿软网",
+      "system": [
+        "178.107.154.53",
+        "178.107.155.69"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.iyruan.info.",
+          "type": 5,
+          "TTL": 600,
+          "data": "yruan.la.fuyunjiasu.com."
+        },
+        {
+          "name": "yruan.la.fuyunjiasu.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "178.107.154.53"
+        },
+        {
+          "name": "yruan.la.fuyunjiasu.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "178.107.155.69"
+        }
+      ]
+    },
+    {
+      "name": "www.shugelou.org",
+      "source": "橘子小说",
+      "system": [
+        "178.107.204.92"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.shugelou.org.",
+          "type": 1,
+          "TTL": 3600,
+          "data": "178.107.204.92"
+        }
+      ]
+    },
+    {
+      "name": "www.zzs5.net",
+      "source": "猪猪书网",
+      "system": [
+        "178.107.154.8"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "www.zzs5.net.",
+          "type": 5,
+          "TTL": 600,
+          "data": "zzs5.info.kaitiancloud.com."
+        },
+        {
+          "name": "zzs5.info.kaitiancloud.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "178.107.154.8"
+        }
+      ]
+    },
+    {
+      "name": "m.rulianshi.cc",
+      "source": "不知加啥",
+      "system": [
+        "23.225.164.226"
+      ],
+      "publicStatus": 0,
+      "publicAnswers": [
+        {
+          "name": "m.rulianshi.cc.",
+          "type": 5,
+          "TTL": 600,
+          "data": "rulianshi.net.wajiasu.com."
+        },
+        {
+          "name": "rulianshi.net.wajiasu.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "23.225.164.226"
+        }
+      ]
+    }
+  ],
+  "pagination": [
+    {
+      "id": "biweekly1109-7d46a2f282c65",
+      "name": "爱看小说",
+      "phase": "content",
+      "from": "http://m.2kk.la/ks2984/825131.html",
+      "url": "http://m.2kk.la/ks2984/825131_2.html",
+      "httpStatus": 200,
+      "title": "第一卷 笼中雀 第二章 开门_剑来_爱看小说",
+      "chineseCharacters": 1057,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-7d46a2f282c65",
+      "name": "爱看小说",
+      "phase": "content",
+      "from": "http://m.2kk.la/ks2984/825130.html",
+      "url": "http://m.2kk.la/ks2984/825130_2.html",
+      "httpStatus": 200,
+      "title": "第一卷 笼中雀 第一章 惊蛰_剑来_爱看小说",
+      "chineseCharacters": 908,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-81e6ef5208fe0",
+      "name": "梦想家文学",
+      "phase": "toc",
+      "from": "http://www.mxjtedu.com/shu/106/106287/",
+      "url": "http://www.mxjtedu.com/shu/106/106287/index_2.html",
+      "httpStatus": 200,
+      "title": "末日成神：我的我的我的都是我的异能",
+      "chineseCharacters": 962,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-a8d3ad31741ad",
+      "name": "笔趣阁（bqquge.org）",
+      "phase": "content",
+      "from": "https://www.bqquge.org/4704/3073526",
+      "url": "https://www.bqquge.org/4704/3073526-2",
+      "httpStatus": 200,
+      "title": "第二章 魅惑法师",
+      "chineseCharacters": 574,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-a8d3ad31741ad",
+      "name": "笔趣阁（bqquge.org）",
+      "phase": "content",
+      "from": "https://www.bqquge.org/4704/3073524",
+      "url": "https://www.bqquge.org/4704/3073524-2",
+      "httpStatus": 200,
+      "title": "第一章 关於属性这件事",
+      "chineseCharacters": 786,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-81e6ef5208fe0",
+      "name": "梦想家文学",
+      "phase": "content",
+      "from": "http://www.mxjtedu.com/shu/106/106287/43524418.html",
+      "url": "http://www.mxjtedu.com/shu/106/106287/43524418_2.html",
+      "httpStatus": 200,
+      "title": "第1章 五星差评的开局",
+      "chineseCharacters": 899,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-81e6ef5208fe0",
+      "name": "梦想家文学",
+      "phase": "content",
+      "from": "http://www.mxjtedu.com/shu/106/106287/43524419.html",
+      "url": "http://www.mxjtedu.com/shu/106/106287/43524419_2.html",
+      "httpStatus": 200,
+      "title": "第2章 离谱的数据面板",
+      "chineseCharacters": 783,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-0672163db1569-retry",
+      "name": "不知加啥",
+      "phase": "toc",
+      "from": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/",
+      "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/index_2.html",
+      "httpStatus": 200,
+      "title": "末日成神：我的我的我的都是我的异能",
+      "chineseCharacters": 566,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-0672163db1569-retry",
+      "name": "不知加啥",
+      "phase": "content",
+      "from": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946144.html",
+      "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946144_2.html",
+      "httpStatus": 200,
+      "title": "第1章 五星差评的开局",
+      "chineseCharacters": 659,
+      "status": "page_fetched"
+    },
+    {
+      "id": "biweekly1109-0672163db1569-retry",
+      "name": "不知加啥",
+      "phase": "content",
+      "from": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946145.html",
+      "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946145_2.html",
+      "httpStatus": 200,
+      "title": "第2章 离谱的数据面板",
+      "chineseCharacters": 543,
+      "status": "page_fetched"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "不知加啥",
+      "url": "http://m.rulianshi.cc",
+      "checkedAt": "2026-11-09T12:06:05.798Z",
+      "quality": {
+        "id": "biweekly1109-0672163db1569-retry",
+        "name": "不知加啥",
+        "issues": [],
+        "chapterCount": 69,
+        "firstTitles": [
+          "第1章 五星差评的开局",
+          "第2章 离谱的数据面板",
+          "第3章 太阳神瞳到手",
+          "第4章 真假“太阳之子”",
+          "第5章 妖兽都市"
+        ],
+        "contentLengths": [
+          2334,
+          2186
+        ],
+        "requests": [
+          {
+            "phase": "toc",
+            "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/",
+            "effectiveUrl": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/",
+            "httpStatus": 200,
+            "nextPageLinks": [
+              {
+                "text": "下一页",
+                "href": "/morichengshenwodewodewodedushiwodeyineng/index_2.html"
+              }
+            ],
+            "hasPaginationRule": true,
+            "bodySha256": "daee86f563293ba650978698d078fc5eed06c6995fb805ac916e7b051f422c78"
+          },
+          {
+            "phase": "content",
+            "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946144.html",
+            "effectiveUrl": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946144.html",
+            "httpStatus": 200,
+            "nextPageLinks": [
+              {
+                "text": "下一页",
+                "href": "/morichengshenwodewodewodedushiwodeyineng/49946144_2.html"
+              },
+              {
+                "text": "下一页",
+                "href": "/morichengshenwodewodewodedushiwodeyineng/49946144_2.html"
+              }
+            ],
+            "hasPaginationRule": true,
+            "bodySha256": "c58430e49a1c196e37faf0862b9d0badcbaefe817171995dcc7d7eda5eef2af9"
+          },
+          {
+            "phase": "content",
+            "url": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946145.html",
+            "effectiveUrl": "http://m.rulianshi.cc/morichengshenwodewodewodedushiwodeyineng/49946145.html",
+            "httpStatus": 200,
+            "nextPageLinks": [
+              {
+                "text": "下一页",
+                "href": "/morichengshenwodewodewodedushiwodeyineng/49946145_2.html"
+              },
+              {
+                "text": "下一页",
+                "href": "/morichengshenwodewodewodedushiwodeyineng/49946145_2.html"
+              }
+            ],
+            "hasPaginationRule": true,
+            "bodySha256": "223f7fa76c14abeb84daa5e2711bee3dd5ec5083c38b2b25762a1b152f3f639c"
+          }
+        ],
+        "status": "server_sample_passed"
+      }
+    },
+    {
+      "name": "快眼看书botaodz",
+      "url": "http://www.xbotaodz.info",
+      "checkedAt": "2026-11-09T12:04:36.209Z",
+      "quality": {
+        "id": "biweekly1109-ed5566c842b32",
+        "name": "快眼看书botaodz",
+        "issues": [],
+        "chapterCount": 11,
+        "firstTitles": [
+          "第一章 败家子",
+          "第二章柠檬水",
+          "第三章人生为来",
+          "第四章王府家丁",
+          "第五章 塘源"
+        ],
+        "contentLengths": [
+          2223,
+          2091
+        ],
+        "requests": [
+          {
+            "phase": "toc",
+            "url": "http://www.xbotaodz.info/106386.html",
+            "effectiveUrl": "http://www.xbotaodz.info/106386.html",
+            "httpStatus": 200,
+            "nextPageLinks": [],
+            "hasPaginationRule": false,
+            "bodySha256": "59296d0aff0bf19c1e8e9669dcb4305e7a376463917efbb58ea5e2b2a73863cb"
+          },
+          {
+            "phase": "content",
+            "url": "http://www.xbotaodz.info/novel/106386/read_1.html",
+            "effectiveUrl": "http://www.xbotaodz.info/novel/106386/read_1.html",
+            "httpStatus": 200,
+            "nextPageLinks": [],
+            "hasPaginationRule": false,
+            "bodySha256": "a74d5f41cb9099c571e26ac337422d6781e8f2a448673ceb941d8c9541503e8d"
+          },
+          {
+            "phase": "content",
+            "url": "http://www.xbotaodz.info/novel/106386/read_2.html",
+            "effectiveUrl": "http://www.xbotaodz.info/novel/106386/read_2.html",
+            "httpStatus": 200,
+            "nextPageLinks": [],
+            "hasPaginationRule": false,
+            "bodySha256": "ed0fbfd01bfd402f625fe59666eb13df89646feab409c48dc435bcdc35638606"
+          }
+        ],
+        "status": "server_sample_passed"
+      }
+    }
+  ]
+}
