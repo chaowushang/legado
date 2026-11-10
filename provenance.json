@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T12:29:58.690Z",
+  "generatedAt": "2026-11-10T13:36:24.711Z",
   "notice": "规则来源与原作者归属保留于原链接。本仓库整理与修订规则，不收录小说正文，不对第三方规则授予新许可。",
   "sources": [
     {
@@ -353,14 +353,16 @@
     {
       "name": "四零二零",
       "url": "http://www.4020xs.com",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 233,
       "originalSourceUrl": "https://www.iwurexs.com",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-bb1f77f06ca72",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "爱下书小说网",
@@ -377,38 +379,44 @@
     {
       "name": "就爱文学",
       "url": "http://www.92xs.info",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 95,
       "originalSourceUrl": "http://www.92xs.info",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-90a13e0d668a8",
       "canonicalChanged": false,
-      "fix": "本轮重新完整校验"
+      "fix": "本轮重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "笔趣阁⑥⑧",
       "url": "https://www.shubaoge.org",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 303,
       "originalSourceUrl": "http://www.39txt.com",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-183b57a571c90",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "黄易小说",
       "url": "http://wap.aihytd.com",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 395,
       "originalSourceUrl": "http://m.xhytd.com",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-1ca075d18f6fe",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "夜天连看",
@@ -425,14 +433,16 @@
     {
       "name": "笔趣网",
       "url": "http://www.ibiquw.org",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 631,
       "originalSourceUrl": "http://www.biquw.com/",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-a71952e501447",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "穿越小说",
@@ -449,86 +459,100 @@
     {
       "name": "黑炎小说",
       "url": "http://www.xheiyan.org",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 749,
       "originalSourceUrl": "http://www.heiyan.info/",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-ad5fdf1b742dc",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "阅读库",
       "url": "http://www.yeudusk.com",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 764,
       "originalSourceUrl": "http://www.yuedsk.com",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-cd9b3985d87ad",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "亿软网",
       "url": "http://www.iyruan.info",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 783,
       "originalSourceUrl": "http://www.yruan.com/",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-b00b672e4e8be",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "溜达小说",
       "url": "http://www.liudatxt.la",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 884,
       "originalSourceUrl": "http://www.txtshuku.org",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-85c6c47e24a86",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "橘子小说",
       "url": "http://www.shugelou.org",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 918,
       "originalSourceUrl": "http://www.xinshuge.net/",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-510aea9c01972",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "去读书",
       "url": "http://www.quduwx.net",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 949,
       "originalSourceUrl": "http://www.qudushu.org/",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-16c2da1ebe0b3",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "猪猪书网",
       "url": "http://www.zzs5.net",
-      "active": true,
+      "active": false,
       "origin": "historical-candidate",
       "originalCandidateIndex": 945,
       "originalSourceUrl": "http://www.zzs5.info/",
       "upstream": "https://github.com/aoaostar/legado",
       "ruleId": "final30-8845f6ae62e01",
       "canonicalChanged": true,
-      "fix": "使用本轮实际访问入口，修改入口后重新完整校验"
+      "fix": "使用本轮实际访问入口，修改入口后重新完整校验",
+      "retiredDate": "2026-11-10",
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果"
     },
     {
       "name": "啃书阁",
@@ -557,12 +581,31 @@
     {
       "name": "365小说网",
       "url": "http://www.shukuge.com/",
-      "active": true,
+      "active": false,
       "origin": "yck-1316",
       "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1316.html",
       "originalCandidateIndex": 30,
       "checkedAt": "2026-10-27T12:29:58.690Z",
-      "reason": "本轮候选复测通过后替补目录缺失源"
+      "reason": "用户App失败截图，服务器通过不得覆盖客户端结果",
+      "retiredDate": "2026-11-10"
+    },
+    {
+      "name": "不知加啥",
+      "url": "http://m.rulianshi.cc",
+      "active": true,
+      "origin": "existing_verified_candidate",
+      "upstream": "https://github.com/aoaostar/legado",
+      "checkedAt": "2026-11-10T13:33:28.550Z",
+      "originalCommentsPreserved": true
+    },
+    {
+      "name": "快眼看书botaodz",
+      "url": "http://www.xbotaodz.info",
+      "active": true,
+      "origin": "existing_verified_candidate",
+      "upstream": "https://www.yckceo.com/yuedu/shuyuans/content/id/1316.html",
+      "checkedAt": "2026-11-10T13:33:36.399Z",
+      "originalCommentsPreserved": true
     }
   ],
   "additionalRepositoriesReviewed": [

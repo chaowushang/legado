@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T13:17:21.847Z",
-  "count": 45,
+  "generatedAt": "2026-11-10T13:36:24.711Z",
+  "count": 58,
   "appVersion": "3.25",
   "network": "未确认，截图显示Wi-Fi图标",
   "policy": "用户App失败反馈优先。服务器通过不得自动解除隔离；需要明确修复与App复测。",
@@ -10,7 +10,8 @@
     "2kzw.la",
     "wap.pingshuku.com",
     "biquge.info",
-    "8xiaoshuo.net"
+    "8xiaoshuo.net",
+    "txtshuku.info"
   ],
   "sources": [
     {
@@ -1258,6 +1259,789 @@
       "evidence": "timeout",
       "elapsedSeconds": 30.504,
       "reason": "当前App校验失败，覆盖历史用户通过反馈；未断定网站永久关闭。"
+    },
+    {
+      "name": "365小说网",
+      "url": "http://www.shukuge.com/",
+      "seconds": 3.455,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "365小说网",
+        "url": "http://www.shukuge.com/",
+        "sourceSha256": "a67a078e311553e67041aa954d5a3fa6ec7ae44362ad16768c229445982a3c90",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:30.122Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:25:33.771Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.shukuge.com",
+          "source": "365小说网",
+          "system": [
+            "0.0.0.0"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.shukuge.com.",
+              "type": 1,
+              "TTL": 7200,
+              "data": "178.107.204.185"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "四零二零",
+      "url": "http://www.4020xs.com",
+      "seconds": 3.474,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "四零二零",
+        "url": "http://www.4020xs.com",
+        "sourceSha256": "eee902a6b29c4be21b66a0d2d67235289251a0ff8dbc0cd9247e4760995934ae",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:30.194Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:23:35.295Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.4020xs.com",
+          "source": "四零二零",
+          "system": [
+            "178.107.151.115"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.4020xs.com.",
+              "type": 5,
+              "TTL": 515,
+              "data": "iwurexs.net.wulincdn.com."
+            },
+            {
+              "name": "iwurexs.net.wulincdn.com.",
+              "type": 1,
+              "TTL": 515,
+              "data": "178.107.151.115"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "就爱文学",
+      "url": "http://www.92xs.info",
+      "seconds": 3.957,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "就爱文学",
+        "url": "http://www.92xs.info",
+        "sourceSha256": "0aaa5bdeee918e7228e1b522505fdf9869e811c80d4037ae81fc876b553512be",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:30.326Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:23:49.299Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.92xs.info",
+          "source": "就爱文学",
+          "system": [
+            "178.107.154.99"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.92xs.info.",
+              "type": 5,
+              "TTL": 600,
+              "data": "92wx.la.zhenfacloud.com."
+            },
+            {
+              "name": "92wx.la.zhenfacloud.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "178.107.154.99"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "笔趣阁⑥⑧",
+      "url": "https://www.shubaoge.org",
+      "seconds": 6.758,
+      "error": "connection closed",
+      "errorTruncated": false,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "笔趣阁⑥⑧",
+        "url": "https://www.shubaoge.org",
+        "sourceSha256": "63005e57ee92554ae080c785469c513fe26e02b407285b7c01e73a9c8d3b84d6",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:40.286Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:23:58.720Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.shubaoge.org",
+          "source": "笔趣阁⑥⑧",
+          "system": [
+            "23.225.36.25"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.shubaoge.org.",
+              "type": 5,
+              "TTL": 476,
+              "data": "ishubao.org.feibajiasu.com."
+            },
+            {
+              "name": "ishubao.org.feibajiasu.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "23.225.36.25"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "黄易小说",
+      "url": "http://wap.aihytd.com",
+      "seconds": 3.593,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "黄易小说",
+        "url": "http://wap.aihytd.com",
+        "sourceSha256": "a74781c7248a13fe44826e7d3291b82f1d7390e09f5287daab6e63be0ffcda47",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:41.508Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:23:59.915Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "wap.aihytd.com",
+          "source": "黄易小说",
+          "system": [
+            "172.247.225.51"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "wap.aihytd.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "172.247.225.51"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "笔趣网",
+      "url": "http://www.ibiquw.org",
+      "seconds": 12.897,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "笔趣网",
+        "url": "http://www.ibiquw.org",
+        "sourceSha256": "68c8c59ee8c3859979c0b5d97eae85331e5cc08d2c3191304c57848578515af1",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:42.954Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:24:13.597Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.ibiquw.org",
+          "source": "笔趣网",
+          "system": [
+            "178.107.151.179",
+            "178.107.151.133"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.ibiquw.org.",
+              "type": 5,
+              "TTL": 234,
+              "data": "biquw.info.cijiasu.com."
+            },
+            {
+              "name": "biquw.info.cijiasu.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "178.107.151.179"
+            },
+            {
+              "name": "biquw.info.cijiasu.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "178.107.151.133"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "黑炎小说",
+      "url": "http://www.xheiyan.org",
+      "seconds": 3.514,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "黑炎小说",
+        "url": "http://www.xheiyan.org",
+        "sourceSha256": "b2948f9ace8cdb4adfe4305299b5695282331c82d90ba34fe0d17843e1df44e1",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:50.747Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:24:29.161Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.xheiyan.org",
+          "source": "黑炎小说",
+          "system": [
+            "178.107.151.85"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.xheiyan.org.",
+              "type": 5,
+              "TTL": 256,
+              "data": "xheiyan.info.sudajiasu.com."
+            },
+            {
+              "name": "xheiyan.info.sudajiasu.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "178.107.151.85"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "阅读库",
+      "url": "http://www.yeudusk.com",
+      "seconds": 3.402,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "阅读库",
+        "url": "http://www.yeudusk.com",
+        "sourceSha256": "8cb527875c97bd13f3d1a73ab3ab8706a095de4452521e7eabb5e9d98983d9bf",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:51.525Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:24:29.681Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.yeudusk.com",
+          "source": "阅读库",
+          "system": [
+            "23.225.143.73"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.yeudusk.com.",
+              "type": 5,
+              "TTL": 600,
+              "data": "yuedsk.com.haijiasu.com."
+            },
+            {
+              "name": "yuedsk.com.haijiasu.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "23.225.143.73"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "亿软网",
+      "url": "http://www.iyruan.info",
+      "seconds": 14.279,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "亿软网",
+        "url": "http://www.iyruan.info",
+        "sourceSha256": "8045590aeff65b4a44d11760a4db238bb13bf04bf22181940771ed94ca2d7b7a",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:55.339Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:24:34.564Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.iyruan.info",
+          "source": "亿软网",
+          "system": [
+            "178.107.154.53",
+            "178.107.155.69"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.iyruan.info.",
+              "type": 5,
+              "TTL": 600,
+              "data": "yruan.la.fuyunjiasu.com."
+            },
+            {
+              "name": "yruan.la.fuyunjiasu.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "178.107.154.53"
+            },
+            {
+              "name": "yruan.la.fuyunjiasu.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "178.107.155.69"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "溜达小说",
+      "url": "http://www.liudatxt.la",
+      "seconds": 5.496,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "溜达小说",
+        "url": "http://www.liudatxt.la",
+        "sourceSha256": "6c1feba14383a7ba6300e72d1a5b907c27ba0c0827933cacfb4f5293b202735e",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:57.949Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:24:43.470Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 301, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.liudatxt.la",
+          "source": "溜达小说",
+          "system": [
+            "172.247.243.184"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.liudatxt.la.",
+              "type": 1,
+              "TTL": 1729,
+              "data": "172.247.243.184"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "橘子小说",
+      "url": "http://www.shugelou.org",
+      "seconds": 3.451,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "橘子小说",
+        "url": "http://www.shugelou.org",
+        "sourceSha256": "80885922b0d7720bc669c3ce48676c01432cb2e331a35093f6f210054271ac5f",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:05:59.728Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:24:56.103Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.shugelou.org",
+          "source": "橘子小说",
+          "system": [
+            "178.107.204.92"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.shugelou.org.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "178.107.204.92"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "去读书",
+      "url": "http://www.quduwx.net",
+      "seconds": 5.496,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "去读书",
+        "url": "http://www.quduwx.net",
+        "sourceSha256": "77807c6074788cf4162f1a8977c9132106d45ad0db0d2cfa8f253002af975978",
+        "status": "server_sample_passed",
+        "checkedAt": "2026-11-09T12:04:13.332Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-11-09T12:04:13.332Z",
+        "engineStatus": "passed",
+        "phases": {
+          "search": "success",
+          "detail": "success",
+          "toc": "success",
+          "content": "success"
+        },
+        "reason": null,
+        "classification": "full_chain_sample_passed",
+        "keyword": "元尊",
+        "chapterCount": 1501,
+        "firstTitles": [
+          "第一章 蟒雀吞龙",
+          "第二章 源纹",
+          "第三章 苏幼微",
+          "第四章 源纹的力量",
+          "第五章 齐岳，柳溪"
+        ],
+        "contentLengths": [
+          6858,
+          5303
+        ],
+        "requests": [
+          {
+            "phase": "toc",
+            "url": "http://www.quduwx.net/html/1067/1067284/",
+            "effectiveUrl": "http://www.quduwx.net/html/1067/1067284/",
+            "httpStatus": 200,
+            "nextPageLinks": [],
+            "hasPaginationRule": false,
+            "bodySha256": "bc8c7f88c93b500fe967edda05237f512037f47740cb25c7b8e24305edb8db49"
+          },
+          {
+            "phase": "content",
+            "url": "http://www.quduwx.net/html/1067/1067284/76440046.html",
+            "effectiveUrl": "http://www.quduwx.net/html/1067/1067284/76440046.html",
+            "httpStatus": 200,
+            "nextPageLinks": [
+              {
+                "text": "下一页",
+                "href": "http://www.quduwx.net/html/1067/1067284/76440047.html"
+              },
+              {
+                "text": "下一页",
+                "href": "http://www.quduwx.net/html/1067/1067284/76440047.html"
+              }
+            ],
+            "hasPaginationRule": false,
+            "bodySha256": "75daaaec7caa8e802ed6640c1852aebbaaa671b95ea99edfd8ea6a0496433bd2",
+            "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+          },
+          {
+            "phase": "content",
+            "url": "http://www.quduwx.net/html/1067/1067284/76440047.html",
+            "effectiveUrl": "http://www.quduwx.net/html/1067/1067284/76440047.html",
+            "httpStatus": 200,
+            "nextPageLinks": [
+              {
+                "text": "下一页",
+                "href": "http://www.quduwx.net/html/1067/1067284/76440048.html"
+              },
+              {
+                "text": "下一页",
+                "href": "http://www.quduwx.net/html/1067/1067284/76440048.html"
+              }
+            ],
+            "hasPaginationRule": false,
+            "bodySha256": "4c8b084b0545ee2fb7587c03fe665140bb7aff1ceb2c3599941d85d5f7961167",
+            "paginationNote": "下一页链接实际指向目录中的下一章，不应拼接"
+          }
+        ],
+        "paginationFollowups": [],
+        "dns": null
+      }
+    },
+    {
+      "name": "猪猪书网",
+      "url": "http://www.zzs5.net",
+      "seconds": 3.702,
+      "error": "unexpected end of stream on htt…",
+      "errorTruncated": true,
+      "reportedDate": "2026-11-10",
+      "evidence": "用户提供两张App失效列表截图，合计13条；错误后半段被截断时不补全",
+      "reason": "用户App校验失败",
+      "appVersion": "用户此前报告3.25，本次未重新确认版本",
+      "network": "截图显示5G标识，运营商及具体路由未确认",
+      "androidVerified": false,
+      "status": "quarantined_app_report",
+      "previousServerCheck": {
+        "name": "猪猪书网",
+        "url": "http://www.zzs5.net",
+        "sourceSha256": "7007da67702b7789b57495551a5fe9e4c92d4943f3faa04f21132f0a3c49429b",
+        "status": "inconclusive",
+        "checkedAt": "2026-11-09T12:06:00.189Z",
+        "androidVerifiedThisRound": false,
+        "historicalClientFeedback": null,
+        "lastCompleteServerCheck": "2026-10-27T12:25:04.003Z",
+        "engineStatus": "failed",
+        "phases": {
+          "search": "error"
+        },
+        "reason": "HTTP 0, 响应体前200字: ",
+        "classification": "network_or_redirect_unresolved",
+        "keyword": "我的",
+        "chapterCount": null,
+        "firstTitles": [],
+        "contentLengths": [],
+        "requests": [],
+        "paginationFollowups": [],
+        "dns": {
+          "name": "www.zzs5.net",
+          "source": "猪猪书网",
+          "system": [
+            "178.107.154.8"
+          ],
+          "publicStatus": 0,
+          "publicAnswers": [
+            {
+              "name": "www.zzs5.net.",
+              "type": 5,
+              "TTL": 600,
+              "data": "zzs5.info.kaitiancloud.com."
+            },
+            {
+              "name": "zzs5.info.kaitiancloud.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "178.107.154.8"
+            }
+          ]
+        }
+      }
     }
   ],
   "screenshotSupplement": [
@@ -1279,5 +2063,12 @@
     "completeExportProvided": false,
     "appBuildInScreenshot": false,
     "networkComparisonProvided": false
+  },
+  "latestFeedback": {
+    "reportedDate": "2026-11-10",
+    "type": "two_user_screenshots",
+    "visibleUniqueCount": 13,
+    "reportedSelectionCount": 13,
+    "remainingSourcesPassed": null
   }
 }
